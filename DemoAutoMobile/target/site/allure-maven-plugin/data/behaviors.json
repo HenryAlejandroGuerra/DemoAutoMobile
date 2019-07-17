@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Just enter the app",
+    "children" : [ {
+      "name" : "inPage()",
+      "uid" : "9e01cf710dbe55fa",
+      "parentUid" : "9f8396878725c745f8fcd28a795a6b8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563395572269,
+        "stop" : 1563395622839,
+        "duration" : 50570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9f8396878725c745f8fcd28a795a6b8d"
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page",
+    "children" : [ {
+      "name" : "inPage",
+      "uid" : "9e01cf710dbe55fa",
+      "parentUid" : "6104ad5b7648f741771f25b29ede0ede",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563395572269,
+        "stop" : 1563395622839,
+        "duration" : 50570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page"
+  } ]
+}
