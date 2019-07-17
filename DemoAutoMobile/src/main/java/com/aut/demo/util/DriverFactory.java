@@ -13,6 +13,7 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -27,6 +28,8 @@ public class DriverFactory {
     public static String app;
     public static String appPackage;
     public static String appActivity;
+    public static String browserName;
+    public static String url_tigo;
     public static String new_command_timeout;
     public static String appium_host_url;
     public static String pathEnv = System.getProperty("user.dir");
@@ -84,6 +87,26 @@ public class DriverFactory {
         System.out.println("Created Session Succesful");
     }
     
+    public void setUpTigoBrowser() throws MalformedURLException {
+        getProperties();
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, device_name);
+        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, platform_name);
+        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, platform_version);
+        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, automation_name);
+        cap.setCapability(MobileCapabilityType.BROWSER_NAME, browserName);
+//        cap.setCapability(MobileCapabilityType.NO_RESET, true);
+//        cap.setCapability("autoGrantPermissions", true);
+        URL url = new URL(appium_host_url);
+        
+        driver = new AndroidDriver<WebElement>(url, cap);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        
+        factory.init();
+        driver.get(url_tigo);
+        System.out.println("Created Session Succesful");
+    }
+    
     public static WebDriver getDriver() {
         return driver;
     }
@@ -105,6 +128,8 @@ public class DriverFactory {
             app = pathEnv+prop.getProperty("APP");
             appPackage = prop.getProperty("APP_PACKAGE");
             appActivity = prop.getProperty("APP_ACTIVITY");
+            browserName = prop.getProperty("BROWSER_NAME");
+            url_tigo = prop.getProperty("URL_TIGO");
             new_command_timeout = prop.getProperty("NEW_COMMAND_TIMEOUT");
             appium_host_url = prop.getProperty("APPIUM_HOST_URL");
 
