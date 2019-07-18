@@ -12,8 +12,9 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -89,21 +90,24 @@ public class DriverFactory {
     
     public void setUpTigoBrowser() throws MalformedURLException {
         getProperties();
+        
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability(MobileCapabilityType.DEVICE_NAME, device_name);
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME, platform_name);
         cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, platform_version);
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, automation_name);
         cap.setCapability(MobileCapabilityType.BROWSER_NAME, browserName);
+//        cap.setCapability("appPackage", "com.android.chrome");
+//        cap.setCapability("appActivity", "org.chromium.chrome.browser.document.ChromeLauncherActivity");
 //        cap.setCapability(MobileCapabilityType.NO_RESET, true);
-//        cap.setCapability("autoGrantPermissions", true);
+//        cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, new_command_timeout);
         URL url = new URL(appium_host_url);
         
-        driver = new AndroidDriver<WebElement>(url, cap);
+        driver = new AndroidDriver<MobileElement>(url, cap);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
-        factory.init();
         driver.get(url_tigo);
+
         System.out.println("Created Session Succesful");
     }
     

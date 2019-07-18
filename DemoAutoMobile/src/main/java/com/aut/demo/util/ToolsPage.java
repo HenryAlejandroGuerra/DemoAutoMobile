@@ -6,6 +6,7 @@ import static io.appium.java_client.touch.offset.PointOption.point;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 
 public class ToolsPage extends BasePage {
     
@@ -50,6 +51,14 @@ public class ToolsPage extends BasePage {
             return false;
         }
         return true;
+    }
+    
+    public void setText(By by, String text){
+        driver.findElement(by).sendKeys(text);
+    }
+    
+    public void setKeyboard(By by, Keys key){
+        driver.findElement(by).sendKeys(key);
     }
     
 }
