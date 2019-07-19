@@ -12,8 +12,6 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -96,14 +94,17 @@ public class DriverFactory {
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME, platform_name);
         cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, platform_version);
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, automation_name);
-        cap.setCapability(MobileCapabilityType.BROWSER_NAME, browserName);
+        cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+        cap.setCapability("chromedriverDisableBuildCheck", true);
+        cap.setCapability(MobileCapabilityType.AUTO_WEBVIEW, true);
 //        cap.setCapability("appPackage", "com.android.chrome");
 //        cap.setCapability("appActivity", "org.chromium.chrome.browser.document.ChromeLauncherActivity");
 //        cap.setCapability(MobileCapabilityType.NO_RESET, true);
 //        cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, new_command_timeout);
+//        cap.setCapability("chromeOptions", "{args: ['--disable-popup-blocking']}");
         URL url = new URL(appium_host_url);
         
-        driver = new AndroidDriver<MobileElement>(url, cap);
+        driver = new RemoteWebDriver(url, cap);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
         driver.get(url_tigo);
