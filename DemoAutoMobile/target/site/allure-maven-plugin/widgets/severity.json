@@ -1,0 +1,21 @@
+[ {
+  "uid" : "dd8e76303603d114",
+  "name" : "inPage()",
+  "time" : {
+    "start" : 1563494409785,
+    "stop" : 1563494455802,
+    "duration" : 46017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62c3cf1083c67e8",
+  "name" : "showShoppingOffers01()",
+  "time" : {
+    "start" : 1563492685716,
+    "stop" : 1563492758010,
+    "duration" : 72294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

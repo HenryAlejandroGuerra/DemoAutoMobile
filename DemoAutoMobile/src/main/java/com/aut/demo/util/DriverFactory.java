@@ -13,6 +13,7 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -28,6 +29,7 @@ public class DriverFactory {
     public static String appPackage;
     public static String appActivity;
     public static String browserName;
+    public static String chromedriver;
     public static String url_tigo;
     public static String new_command_timeout;
     public static String appium_host_url;
@@ -95,16 +97,11 @@ public class DriverFactory {
         cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, platform_version);
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, automation_name);
         cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
-        cap.setCapability("chromedriverDisableBuildCheck", true);
-        cap.setCapability(MobileCapabilityType.AUTO_WEBVIEW, true);
-//        cap.setCapability("appPackage", "com.android.chrome");
-//        cap.setCapability("appActivity", "org.chromium.chrome.browser.document.ChromeLauncherActivity");
-//        cap.setCapability(MobileCapabilityType.NO_RESET, true);
-//        cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, new_command_timeout);
-//        cap.setCapability("chromeOptions", "{args: ['--disable-popup-blocking']}");
+        cap.setCapability("chromedriverExecutable", chromedriver);
+//        cap.setCapability("chromedriverUseSystemExecutable", true);
         URL url = new URL(appium_host_url);
         
-        driver = new RemoteWebDriver(url, cap);
+        driver = new AndroidDriver<WebElement>(url, cap);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
         driver.get(url_tigo);
@@ -134,6 +131,7 @@ public class DriverFactory {
             appPackage = prop.getProperty("APP_PACKAGE");
             appActivity = prop.getProperty("APP_ACTIVITY");
             browserName = prop.getProperty("BROWSER_NAME");
+            chromedriver = pathEnv+prop.getProperty("CHROMEDRIVER");
             url_tigo = prop.getProperty("URL_TIGO");
             new_command_timeout = prop.getProperty("NEW_COMMAND_TIMEOUT");
             appium_host_url = prop.getProperty("APPIUM_HOST_URL");

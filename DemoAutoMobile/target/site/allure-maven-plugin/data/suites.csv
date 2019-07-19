@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 18 18:00:09 CST 2019","Thu Jul 18 18:00:55 CST 2019","46017","","com.aut.demo.tigoBrowser.specs.CU_001_Login_Page","","com.aut.demo.tigoBrowser.specs.CU_001_Login_Page","inPage","inPage()","Just enter the app"
+"passed","Thu Jul 18 17:31:25 CST 2019","Thu Jul 18 17:32:38 CST 2019","72294","","com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab","","com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab","showShoppingOffers01","showShoppingOffers01()","Show the user information from the profile tab"

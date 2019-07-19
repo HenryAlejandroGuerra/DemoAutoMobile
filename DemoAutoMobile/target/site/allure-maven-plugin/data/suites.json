@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab",
+    "children" : [ {
+      "name" : "showShoppingOffers01()",
+      "uid" : "62c3cf1083c67e8",
+      "parentUid" : "3713cd66bf9ed5f5b534f81375535a83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563492685716,
+        "stop" : 1563492758010,
+        "duration" : 72294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3713cd66bf9ed5f5b534f81375535a83"
+  }, {
+    "name" : "com.aut.demo.tigoBrowser.specs.CU_001_Login_Page",
+    "children" : [ {
+      "name" : "inPage()",
+      "uid" : "dd8e76303603d114",
+      "parentUid" : "5384f9e9dd067acfddb1a24f678e7ee0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563494409785,
+        "stop" : 1563494455802,
+        "duration" : 46017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5384f9e9dd067acfddb1a24f678e7ee0"
+  } ]
+}

@@ -1,0 +1,230 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-K4LOO3N",
+    "children" : [ {
+      "name" : "10560@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "189d98897db65cd5",
+        "parentUid" : "130b8b3610f4ff7c6f03007d1f7e928b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563493495408,
+          "stop" : 1563493504314,
+          "duration" : 8906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "130b8b3610f4ff7c6f03007d1f7e928b"
+    }, {
+      "name" : "10756@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "22b735e183e00bc8",
+        "parentUid" : "cc49b8af8c5f1e6615d4ca98eb250988",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563493286337,
+          "stop" : 1563493336125,
+          "duration" : 49788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc49b8af8c5f1e6615d4ca98eb250988"
+    }, {
+      "name" : "10188@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "showShoppingOffers01()",
+        "uid" : "62c3cf1083c67e8",
+        "parentUid" : "42c9b5ec39ec8c4936f196be98131794",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563492685716,
+          "stop" : 1563492758010,
+          "duration" : 72294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42c9b5ec39ec8c4936f196be98131794"
+    }, {
+      "name" : "9724@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "f602c063d9ed78e",
+        "parentUid" : "fcc5945a16c728f3ace422f26fb40179",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563494306557,
+          "stop" : 1563494316134,
+          "duration" : 9577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcc5945a16c728f3ace422f26fb40179"
+    }, {
+      "name" : "12952@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "edaa184a66384954",
+        "parentUid" : "13bb207c41e1ab4cf1f139b26566c029",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563492449002,
+          "stop" : 1563492468640,
+          "duration" : 19638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13bb207c41e1ab4cf1f139b26566c029"
+    }, {
+      "name" : "5188@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "9cb6abb5539cfe48",
+        "parentUid" : "103685aa53458d3ec6fea2d6c01b7a6e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563494216593,
+          "stop" : 1563494217834,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "103685aa53458d3ec6fea2d6c01b7a6e"
+    }, {
+      "name" : "13264@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "dd8e76303603d114",
+        "parentUid" : "d24c3263011d3b5c8e9712c6e90ab036",
+        "status" : "passed",
+        "time" : {
+          "start" : 1563494409785,
+          "stop" : 1563494455802,
+          "duration" : 46017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d24c3263011d3b5c8e9712c6e90ab036"
+    }, {
+      "name" : "12556@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "ddf3775ba4fecb3e",
+        "parentUid" : "4f24dab7979f40310df934b6ba048af3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563492504888,
+          "stop" : 1563492522780,
+          "duration" : 17892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f24dab7979f40310df934b6ba048af3"
+    }, {
+      "name" : "11500@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "bb31f188780bfa8b",
+        "parentUid" : "8106bce4863784cddf11cb33e3b507dd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563492605524,
+          "stop" : 1563492623549,
+          "duration" : 18025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8106bce4863784cddf11cb33e3b507dd"
+    }, {
+      "name" : "13068@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "6f13d06f58a19fb1",
+        "parentUid" : "78e051786d09b3ce95ccb91ee4a6d1a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563493551297,
+          "stop" : 1563493552505,
+          "duration" : 1208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78e051786d09b3ce95ccb91ee4a6d1a3"
+    }, {
+      "name" : "2012@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "255b9413262d0857",
+        "parentUid" : "8556d6207bb044569fb5ac18003d838b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563493435572,
+          "stop" : 1563493439971,
+          "duration" : 4399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8556d6207bb044569fb5ac18003d838b"
+    }, {
+      "name" : "8748@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "66a1715141f7ad50",
+        "parentUid" : "d5a3fd9502b952ffed228a756c9b1ff9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563493599009,
+          "stop" : 1563493603021,
+          "duration" : 4012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5a3fd9502b952ffed228a756c9b1ff9"
+    }, {
+      "name" : "10660@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "inPage()",
+        "uid" : "f60f13a2072c749d",
+        "parentUid" : "87bc8c7c06d3959889eb3a60be3d541c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1563493871954,
+          "stop" : 1563493880720,
+          "duration" : 8766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87bc8c7c06d3959889eb3a60be3d541c"
+    } ],
+    "uid" : "2a20e0824447a93c48f1426f075c56da"
+  } ]
+}

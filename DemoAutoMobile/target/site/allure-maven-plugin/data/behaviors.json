@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Show information in Perfil Tab",
+    "children" : [ {
+      "name" : "showShoppingOffers01()",
+      "uid" : "62c3cf1083c67e8",
+      "parentUid" : "81c76922c5bf75b37c74c9a70dbd76c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563492685716,
+        "stop" : 1563492758010,
+        "duration" : 72294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "81c76922c5bf75b37c74c9a70dbd76c5"
+  }, {
+    "name" : "Just enter the app",
+    "children" : [ {
+      "name" : "inPage()",
+      "uid" : "dd8e76303603d114",
+      "parentUid" : "9f8396878725c745f8fcd28a795a6b8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563494409785,
+        "stop" : 1563494455802,
+        "duration" : 46017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9f8396878725c745f8fcd28a795a6b8d"
+  } ]
+}
