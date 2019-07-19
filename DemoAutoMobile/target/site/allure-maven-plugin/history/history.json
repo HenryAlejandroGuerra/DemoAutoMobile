@@ -1,4 +1,23 @@
 {
+  "421658b91171aa4fcf6240d049f5670" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e86ce6b8c25d523",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563568046876,
+        "stop" : 1563568104432,
+        "duration" : 57556
+      }
+    } ]
+  },
   "e219d05d10af23d7a3e1bffea7352e54" : {
     "statistic" : {
       "failed" : 0,
@@ -9,12 +28,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd8e76303603d114",
+      "uid" : "805114cf59282286",
       "status" : "passed",
       "time" : {
-        "start" : 1563494409785,
-        "stop" : 1563494455802,
-        "duration" : 46017
+        "start" : 1563559028099,
+        "stop" : 1563559068830,
+        "duration" : 40731
+      }
+    } ]
+  },
+  "6315a11f2954792607b9980e2aa6079e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eda6c5077f58be87",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View\"}\n  (Session info: chrome=69.0.3497.100)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.10240 x86_64)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\\Users\\HTC\\Desktop\\GitKra..., databaseEnabled: false, desired: {automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\\Users\\HTC\\Desktop\\GitKra..., deviceName: pixel, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: cf4b3be4-0458-4f0c-a9a6-27010c5ce115\n*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View}",
+      "time" : {
+        "start" : 1563579122266,
+        "stop" : 1563579184950,
+        "duration" : 62684
+      }
+    } ]
+  },
+  "f8a1bf960637cd267f2bddb45ae0f5e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c9969696e19c642",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563568252824,
+        "stop" : 1563568377691,
+        "duration" : 124867
       }
     } ]
   },
@@ -28,12 +86,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "62c3cf1083c67e8",
+      "uid" : "914fcbd5888eda19",
       "status" : "passed",
       "time" : {
         "start" : 1563492685716,
         "stop" : 1563492758010,
         "duration" : 72294
+      }
+    } ]
+  },
+  "34b6b6719dbee1e2544f05c2b6aa59bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76a530f71a72f7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563568378241,
+        "stop" : 1563568448110,
+        "duration" : 69869
       }
     } ]
   }

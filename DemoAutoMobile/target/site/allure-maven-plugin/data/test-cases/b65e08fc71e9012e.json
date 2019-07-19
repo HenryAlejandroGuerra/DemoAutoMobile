@@ -1,12 +1,12 @@
 {
-  "uid" : "ddf3775ba4fecb3e",
+  "uid" : "b65e08fc71e9012e",
   "name" : "inPage()",
   "fullName" : "com.aut.demo.tigoBrowser.specs.CU_001_Login_Page.inPage",
   "historyId" : "e219d05d10af23d7a3e1bffea7352e54",
   "time" : {
-    "start" : 1563492504888,
-    "stop" : 1563492522780,
-    "duration" : 17892
+    "start" : 1563492449002,
+    "stop" : 1563492468640,
+    "duration" : 19638
   },
   "description" : "Just enter the app",
   "descriptionHtml" : "<p>Just enter the app</p>\n",
@@ -24,9 +24,9 @@
     "steps" : [ {
       "name" : "Login to Tigo Web",
       "time" : {
-        "start" : 1563492504960,
-        "stop" : 1563492512755,
-        "duration" : 7795
+        "start" : 1563492449079,
+        "stop" : 1563492458580,
+        "duration" : 9501
       },
       "status" : "passed",
       "steps" : [ ],
@@ -39,9 +39,9 @@
     }, {
       "name" : "Just enter the app",
       "time" : {
-        "start" : 1563492512756,
-        "stop" : 1563492522761,
-        "duration" : 10005
+        "start" : 1563492458581,
+        "stop" : 1563492468596,
+        "duration" : 10015
       },
       "status" : "broken",
       "statusMessage" : "java.lang.NullPointerException",
@@ -70,7 +70,7 @@
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "12556@DESKTOP-K4LOO3N.main(1)"
+    "value" : "12952@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -101,6 +101,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ddf3775ba4fecb3e.json",
+  "source" : "b65e08fc71e9012e.json",
   "parameterValues" : [ ]
 }

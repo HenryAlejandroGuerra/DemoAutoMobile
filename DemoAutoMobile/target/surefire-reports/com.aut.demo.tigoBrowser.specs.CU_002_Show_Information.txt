@@ -1,8 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 64.715 s <<< FAILURE! - in com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
-showInformation01  Time elapsed: 64.521 s  <<< ERROR!
-java.lang.NullPointerException
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 63.4 s <<< FAILURE! - in com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
+showInformation01  Time elapsed: 63.186 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.10240 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\Users\HTC\Desktop\GitKra..., databaseEnabled: false, desired: {automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\Users\HTC\Desktop\GitKra..., deviceName: pixel, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: cf4b3be4-0458-4f0c-a9a6-27010c5ce115
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View}
 	at com.aut.demo.tigoBrowser.specs.CU_002_Show_Information.showInformation01(CU_002_Show_Information.java:25)
 

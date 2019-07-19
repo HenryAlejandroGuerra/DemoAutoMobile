@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class MenuPage extends ToolsPage {
     
-    private static final By menu = By.id("mobile-menu-btn");
+    private static final By menu = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View");
     private static final By home =  By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View/android.widget.ListView/android.view.View[1]/android.view.View");
     private static final By pospago = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.webkit.WebView/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View/android.widget.ListView/android.view.View[2]/android.view.View");
 
@@ -18,8 +18,6 @@ public class MenuPage extends ToolsPage {
     }
     
     public void menuTab(String menuTab){
-        timeWait(10);
-        System.out.println("Llegó aquí");
         click(menu);
         timeWait(5);
         switch(menuTab){
@@ -29,11 +27,13 @@ public class MenuPage extends ToolsPage {
     }
     
     public HomePage homeTab(){
+        timeWait(10);
         menuTab("Home");
         return new HomePage();
     }
     
     public PospagoPage pospagoTab(){
+        timeWait(10);
         menuTab("Pospago");
         return new PospagoPage();
     }

@@ -1,5 +1,5 @@
 {
-  "uid" : "189d98897db65cd5",
+  "uid" : "cb89f41cee0bce8f",
   "name" : "inPage()",
   "fullName" : "com.aut.demo.tigoBrowser.specs.CU_001_Login_Page.inPage",
   "historyId" : "e219d05d10af23d7a3e1bffea7352e54",
@@ -86,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "189d98897db65cd5.json",
+  "source" : "cb89f41cee0bce8f.json",
   "parameterValues" : [ ]
 }

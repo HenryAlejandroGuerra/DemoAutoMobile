@@ -101,10 +101,11 @@ public class DriverFactory {
 //        cap.setCapability("chromedriverUseSystemExecutable", true);
         URL url = new URL(appium_host_url);
         
-        driver = new AndroidDriver<WebElement>(url, cap);
+        driver = new AndroidDriver<MobileElement>(url, cap);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
         driver.get(url_tigo);
+        factory.init();
 
         System.out.println("Created Session Succesful");
     }

@@ -1,12 +1,12 @@
 {
-  "uid" : "dd8e76303603d114",
+  "uid" : "805114cf59282286",
   "name" : "inPage()",
   "fullName" : "com.aut.demo.tigoBrowser.specs.CU_001_Login_Page.inPage",
   "historyId" : "e219d05d10af23d7a3e1bffea7352e54",
   "time" : {
-    "start" : 1563494409785,
-    "stop" : 1563494455802,
-    "duration" : 46017
+    "start" : 1563559028099,
+    "stop" : 1563559068830,
+    "duration" : 40731
   },
   "description" : "Just enter the app",
   "descriptionHtml" : "<p>Just enter the app</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Login to Tigo Web",
       "time" : {
-        "start" : 1563494409867,
-        "stop" : 1563494445254,
-        "duration" : 35387
+        "start" : 1563559028183,
+        "stop" : 1563559058482,
+        "duration" : 30299
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,9 +35,9 @@
     }, {
       "name" : "Just enter the app",
       "time" : {
-        "start" : 1563494445255,
-        "stop" : 1563494455255,
-        "duration" : 10000
+        "start" : 1563559058482,
+        "stop" : 1563559068483,
+        "duration" : 10001
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,9 +50,9 @@
     }, {
       "name" : "Finished Tigo Web",
       "time" : {
-        "start" : 1563494455255,
-        "stop" : 1563494455795,
-        "duration" : 540
+        "start" : 1563559068483,
+        "stop" : 1563559068819,
+        "duration" : 336
       },
       "status" : "passed",
       "steps" : [ ],
@@ -79,7 +79,7 @@
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "13264@DESKTOP-K4LOO3N.main(1)"
+    "value" : "10928@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -109,7 +109,50 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "f602c063d9ed78e",
+      "uid" : "795983a7c4373fb2",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 75\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: A new session could not be created. Details: session not created: This version of ChromeDriver only supports Chrome version 75\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1563558710095,
+        "stop" : 1563558732763,
+        "duration" : 22668
+      }
+    }, {
+      "uid" : "1adbefce082b11dc",
+      "status" : "broken",
+      "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Trying to use a chromedriver binary at the path \\chromedriver\\chromedriver.exe, but it doesn't exist!\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to use a chromedriver binary at the path \\chromedriver\\chromedriver.exe, but it doesn't exist!\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1563557886253,
+        "stop" : 1563557895601,
+        "duration" : 9348
+      }
+    }, {
+      "uid" : "6e5b59bda2be720c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563552009193,
+        "stop" : 1563552053753,
+        "duration" : 44560
+      }
+    }, {
+      "uid" : "aeede114b15ae4ec",
+      "status" : "broken",
+      "statusDetails" : "No such context found.\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver\nremote stacktrace: NoSuchContextError: No such context found.\n    at AndroidUiautomator2Driver.setContext (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\context.js:55:11)",
+      "time" : {
+        "start" : 1563551939801,
+        "stop" : 1563551980511,
+        "duration" : 40710
+      }
+    }, {
+      "uid" : "138a1e64c4fe7673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563494409785,
+        "stop" : 1563494455802,
+        "duration" : 46017
+      }
+    }, {
+      "uid" : "5e29c0095e075fba",
       "status" : "broken",
       "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: invalid argument: cannot parse capability: chromeOptions\nfrom invalid argument: unrecognized chrome option: 0\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: invalid argument: cannot parse capability: chromeOptions\nfrom invalid argument: unrecognized chrome option: 0\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
       "time" : {
@@ -118,7 +161,7 @@
         "duration" : 9577
       }
     }, {
-      "uid" : "9cb6abb5539cfe48",
+      "uid" : "1bab26987244f29c",
       "status" : "broken",
       "statusDetails" : "'chromedriverArgs' must be of type object\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver\nremote stacktrace: InvalidArgumentError: 'chromedriverArgs' must be of type object\n    at validateCaps (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\capabilities.js:52:11)\n    at validateCaps (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\capabilities.js:154:20)\n    at parseCaps (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\capabilities.js:199:43)\n    at AndroidUiautomator2Driver.createSession (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\session.js:37:14)\n    at AndroidUiautomator2Driver.createSession (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-driver\\lib\\driver.js:150:43)\n    at AppiumDriver.createSession (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:362:43)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
       "time" : {
@@ -127,7 +170,7 @@
         "duration" : 1241
       }
     }, {
-      "uid" : "f60f13a2072c749d",
+      "uid" : "96ac0ccacab70574",
       "status" : "broken",
       "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: An unknown server-side error occurred while processing the command. Original error: unknown error: org.chromium.chrome.shell is not installed on device emulator-5554\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: An unknown server-side error occurred while processing the command. Original error: unknown error: org.chromium.chrome.shell is not installed on device emulator-5554\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
       "time" : {
@@ -136,7 +179,7 @@
         "duration" : 8766
       }
     }, {
-      "uid" : "66a1715141f7ad50",
+      "uid" : "296e7e0b7de303ac",
       "status" : "broken",
       "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: 'app' option is required for reinstall\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: RemoteWebDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'app' option is required for reinstall\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)",
       "time" : {
@@ -145,7 +188,7 @@
         "duration" : 4012
       }
     }, {
-      "uid" : "6f13d06f58a19fb1",
+      "uid" : "4ed8884b8792019b",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The desired capabilities must include either an app, appPackage or browserName\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The desired capabilities must include either an app, appPackage or browserName\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver",
       "time" : {
@@ -154,7 +197,7 @@
         "duration" : 1208
       }
     }, {
-      "uid" : "189d98897db65cd5",
+      "uid" : "cb89f41cee0bce8f",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: An unknown server-side error occurred while processing the command. Original error: unknown error: org.chromium.chrome.shell is not installed on device emulator-5554\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to start Chromedriver session: An unknown server-side error occurred while processing the command. Original error: unknown error: org.chromium.chrome.shell is not installed on device emulator-5554\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Windows NT 10.0.10240 x86_64)\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver",
       "time" : {
@@ -163,7 +206,7 @@
         "duration" : 8906
       }
     }, {
-      "uid" : "255b9413262d0857",
+      "uid" : "6fe5e6010386cca9",
       "status" : "broken",
       "statusDetails" : "Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: 'app' option is required for reinstall\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'app' option is required for reinstall\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:826:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:447:37)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver",
       "time" : {
@@ -172,7 +215,7 @@
         "duration" : 4399
       }
     }, {
-      "uid" : "22b735e183e00bc8",
+      "uid" : "d46747edf587858d",
       "status" : "passed",
       "time" : {
         "start" : 1563493286337,
@@ -180,7 +223,7 @@
         "duration" : 49788
       }
     }, {
-      "uid" : "bb31f188780bfa8b",
+      "uid" : "5cbe4e146614aa20",
       "status" : "broken",
       "statusDetails" : "java.lang.NullPointerException",
       "time" : {
@@ -189,7 +232,7 @@
         "duration" : 18025
       }
     }, {
-      "uid" : "ddf3775ba4fecb3e",
+      "uid" : "cf3c0242acdd439e",
       "status" : "broken",
       "statusDetails" : "java.lang.NullPointerException",
       "time" : {
@@ -198,7 +241,7 @@
         "duration" : 17892
       }
     }, {
-      "uid" : "edaa184a66384954",
+      "uid" : "b65e08fc71e9012e",
       "status" : "broken",
       "statusDetails" : "java.lang.NullPointerException",
       "time" : {
@@ -210,6 +253,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dd8e76303603d114.json",
+  "source" : "805114cf59282286.json",
   "parameterValues" : [ ]
 }
