@@ -44,6 +44,18 @@ public class ToolsPage extends BasePage {
                 .release().perform();
     }
     
+    public void scrollUp(int y){
+        Dimension size = driver.manage().window().getSize();
+        int anchor = (int) (size.width / 2);
+        // Swipe up to scroll down
+        int endPoint = (int) (size.height - 10);
+        int startPoint = (int) (endPoint - y);
+    
+        TouchAction action = new TouchAction((PerformsTouchActions) driver);
+        action.longPress(point(anchor, startPoint)).moveTo(point(anchor, endPoint))
+                .release().perform();
+    }
+    
     public boolean exists(By by) {
         try {
             driver.findElement(by);

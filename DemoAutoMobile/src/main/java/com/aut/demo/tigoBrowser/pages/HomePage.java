@@ -7,9 +7,4 @@ public class HomePage extends ToolsPage {
     public HomePage() {
     }
     
-    public HomePage inHome(){
-        timeWait(10);
-        return this;
-    }
-    
 }

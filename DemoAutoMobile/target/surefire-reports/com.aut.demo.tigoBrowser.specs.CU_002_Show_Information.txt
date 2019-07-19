@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 64.715 s <<< FAILURE! - in com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
+showInformation01  Time elapsed: 64.521 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.aut.demo.tigoBrowser.specs.CU_002_Show_Information.showInformation01(CU_002_Show_Information.java:25)
+

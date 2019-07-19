@@ -5,12 +5,12 @@ import com.aut.demo.util.DriverFactory;
 import io.qameta.allure.Step;
 import java.net.MalformedURLException;
 
-public class HomeSteps {
+public class MenuSteps {
     
     DriverFactory factory = new DriverFactory();
     MenuPage menu = new MenuPage();
 
-    public HomeSteps() {
+    public MenuSteps() {
     }
     
     @Step("Login to Tigo Web")
@@ -27,9 +27,9 @@ public class HomeSteps {
         factory.tearDown();
     }
     
-    @Step("Just enter the app")
-    public void inHome(){
-        menu.inHome();
+    @Step("Browse the Tigo menu")
+    public void navigateMenu(){
+        menu.pospagoTab().scrollTest();
     }
     
 }

@@ -114,9 +114,7 @@ public class DriverFactory {
     }
     
     public void getProperties(){
-        try {
-            InputStream input = new FileInputStream(pathEnv+"/env/default/appium.properties");
-
+        try (InputStream input = new FileInputStream(pathEnv+"/env/default/appium.properties")) {
             Properties prop = new Properties();
 
             // load a properties file
