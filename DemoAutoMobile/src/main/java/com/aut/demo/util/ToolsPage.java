@@ -36,7 +36,7 @@ public class ToolsPage extends BasePage {
         Dimension size = driver.manage().window().getSize();
         int anchor = (int) (size.width / 2);
         // Swipe up to scroll down
-        int startPoint = (int) (size.height - 10);
+        int startPoint = (int) (size.height - 15);
         int endPoint = (int) (startPoint - y);
 
         TouchAction action = new TouchAction((PerformsTouchActions) driver);
@@ -48,7 +48,7 @@ public class ToolsPage extends BasePage {
         Dimension size = driver.manage().window().getSize();
         int anchor = (int) (size.width / 2);
         // Swipe up to scroll down
-        int endPoint = (int) (size.height - 10);
+        int endPoint = (int) (size.height - 15);
         int startPoint = (int) (endPoint - y);
 
         TouchAction action = new TouchAction((PerformsTouchActions) driver);
@@ -87,7 +87,7 @@ public class ToolsPage extends BasePage {
         // Swipe up to scroll down
         int startPoint = (int) (size.height - 190);
         int endPoint = (int) (startPoint - y);
-        System.out.println("Scroll: "+anchor+","+startPoint+","+endPoint);
+
         TouchAction action = new TouchAction((PerformsTouchActions) driver);
         action.longPress(point(anchor, startPoint)).moveTo(point(anchor, endPoint))
                 .release().perform();
