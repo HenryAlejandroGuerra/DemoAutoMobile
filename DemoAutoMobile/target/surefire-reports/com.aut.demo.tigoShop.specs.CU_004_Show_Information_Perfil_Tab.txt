@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.828 s - in com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 36.78 s <<< FAILURE! - in com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab
+showShoppingOffers01  Time elapsed: 36.537 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+A session is either terminated or not started
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\HTC\Desktop\GitKra..., appPackage: com.juvomobileinc.tigoshop.sv, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\HTC\Desktop\GitKra..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: pixel, newCommandTimeout: 15, noReset: true, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 48896e8f-b604-4a69-b71c-4b151a7ee889
+*** Element info: {Using=id, value=com.juvomobileinc.tigoshop.sv:id/tbar_profile_icon}
+	at com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab.showShoppingOffers01(CU_004_Show_Information_Perfil_Tab.java:25)
+

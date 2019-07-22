@@ -33,6 +33,7 @@ public class BalancesPage extends ToolsPage {
         printAllInternet();
         scroll(1200);
         printAllCalls();
+        scrollUp(1200);
         return this;
     }
     
