@@ -33,47 +33,55 @@ public class BalancesPage extends ToolsPage {
         printAllInternet();
         scroll(1200);
         printAllCalls();
-        scrollUp(1200);
+        scrollUp(1000);
         return this;
     }
     
     public void printAllInternet(){
-        int cont = 1;
-        while (exists(By.xpath(internetDetails+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView"))) {
-            String available = getText(By.xpath(internetDetails+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView"));
-            String info = getText(By.xpath(internetInfo+"["+cont+"]/android.widget.TextView[2]"));
-            System.out.println("Usted posee "+available+" de Internet con "+info);
-            cont++;
+        try {
+            int cont = 1;
+            while (exists(By.xpath(internetDetails+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView"))) {
+                String available = getText(By.xpath(internetDetails+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView"));
+                String info = getText(By.xpath(internetInfo+"["+cont+"]/android.widget.TextView[2]"));
+                System.out.println("Usted posee "+available+" de Internet con "+info);
+                cont++;
+            }
+        } catch (Exception e) {
+            System.out.println("Información de internet no disponible");
         }
     }
     
     public void printAllCalls(){
-        int cont = 1;
-        while (exists(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout"))) {
-            String detailsHours;
-            String detailsMinutes;
-            String details;
-            String[] detailsHour;
-            String[] detailsMinute;
-            
-            if(exists(By.xpath(callsDetailsHour+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[1]")) && exists(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[2]"))){
-                detailsHours = getText(By.xpath(callsDetailsHour+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[1]"));
-                detailsMinutes = getText(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[2]"));
-                
-                detailsHour = detailsHours.replaceAll("\\r", "").split("\\n");
-                detailsMinute = detailsMinutes.replaceAll("\\r", "").split("\\n");
-                
-                details = detailsHour[0]+" "+detailsHour[1]+ " con "+detailsMinute[0]+" "+detailsMinute[1];
-            } else {
-                detailsMinutes = getText(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView"));
-                detailsMinute = detailsMinutes.replaceAll("\\r", "").split("\\n");
-                details = detailsMinute[0]+" "+detailsMinute[1];
+        try {
+            int cont = 1;
+            while (exists(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout"))) {
+                String detailsHours;
+                String detailsMinutes;
+                String details;
+                String[] detailsHour;
+                String[] detailsMinute;
+
+                if(exists(By.xpath(callsDetailsHour+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[1]")) && exists(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[2]"))){
+                    detailsHours = getText(By.xpath(callsDetailsHour+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[1]"));
+                    detailsMinutes = getText(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView[2]"));
+
+                    detailsHour = detailsHours.replaceAll("\\r", "").split("\\n");
+                    detailsMinute = detailsMinutes.replaceAll("\\r", "").split("\\n");
+
+                    details = detailsHour[0]+" "+detailsHour[1]+ " con "+detailsMinute[0]+" "+detailsMinute[1];
+                } else {
+                    detailsMinutes = getText(By.xpath(callsDetailsMinutes+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView"));
+                    detailsMinute = detailsMinutes.replaceAll("\\r", "").split("\\n");
+                    details = detailsMinute[0]+" "+detailsMinute[1];
+                }
+
+                String info = getText(By.xpath(callsInfo+"["+cont+"]/android.widget.TextView[1]"));
+                String available = getText(By.xpath(callsValidity+"["+cont+"]/android.widget.TextView[2]"));
+                System.out.println("Usted posee "+details+" en llamadas para "+info+" con "+available);
+                cont++;
             }
-            
-            String info = getText(By.xpath(callsInfo+"["+cont+"]/android.widget.TextView[1]"));
-            String available = getText(By.xpath(callsValidity+"["+cont+"]/android.widget.TextView[2]"));
-            System.out.println("Usted posee "+details+" en llamadas para "+info+" con "+available);
-            cont++;
+        } catch (Exception e) {
+            System.out.println("Información de llamadas no disponible");
         }
     }
     

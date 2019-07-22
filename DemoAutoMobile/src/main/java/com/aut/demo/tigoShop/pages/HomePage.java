@@ -10,24 +10,25 @@ public class HomePage extends ToolsPage {
     private static final By perfilPage = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_profile_icon");
     private static final By helpPage = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_help_icon");
     private static final By errorNotification = By.id("com.juvomobileinc.tigoshop.sv:id/error_notification_text");
+    private static final By mainBalance = By.id("com.juvomobileinc.tigoshop.sv:id/core_balance_internet_card_core_balance_text");
     
     public HomePage(){  
     }
     
     public HomePage inHome(){
-        timeWait(20);
+        timeWait(15);
         verifyError();
         return this;
     }
     
     public BalancesPage balancesPage(){
-        timeWait(20);
+        timeWait(15);
         verifyError();
         return new BalancesPage();
     }
     
     public ShopPage shopPage(){
-        timeWait(20);
+        timeWait(15);
         verifyError();
         click(shopPage);
         timeWait(10);
@@ -35,7 +36,7 @@ public class HomePage extends ToolsPage {
     }
     
     public PerfilPage perfilPage(){
-        timeWait(20);
+        timeWait(15);
         verifyError();
         click(perfilPage);
         timeWait(10);
@@ -43,7 +44,7 @@ public class HomePage extends ToolsPage {
     }
     
     public HelpPage helpPage(){
-        timeWait(20);
+        timeWait(15);
         verifyError();
         click(helpPage);
         timeWait(10);
@@ -51,13 +52,18 @@ public class HomePage extends ToolsPage {
     }
     
     public void verifyError(){
-        try {
+        if(exists(errorNotification)){
             String error = getText(errorNotification);
             System.out.println(error);
             click(refresh);
             timeWait(15);
-        } catch (Exception e) {
         }
+    
+        if(getText(mainBalance).equals("Actualiza para ver tu saldo principal")){
+            System.out.println(getText(mainBalance));
+            click(refresh);
+            timeWait(15);
+        }            
     }
     
 }

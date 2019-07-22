@@ -1,10 +1,8 @@
 package com.aut.demo.tigoBrowser.pages;
 
-import com.aut.demo.util.ToolsPage;
+public class PrepagoPage {
 
-public class HomePage extends ToolsPage {
-    
-    public HomePage() {
+    public PrepagoPage() {
     }
     
     public MenuPage MenuTab(){

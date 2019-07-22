@@ -27,7 +27,7 @@ public class CU_002_Show_Balances {
     
     @Description("Show the information available in the shopping tab")
     @Story("Show balance information in Shopping Tab")
-//    @Test
+    @Test
     void showBalances02(){
         balance.showBalanceInStoreTab();
     }

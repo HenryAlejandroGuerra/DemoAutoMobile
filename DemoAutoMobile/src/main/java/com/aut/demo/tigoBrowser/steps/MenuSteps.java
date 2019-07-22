@@ -29,7 +29,7 @@ public class MenuSteps {
     
     @Step("Browse the Tigo menu")
     public void navigateMenu(){
-        menu.homeTab().scrollTest();
+        menu.homeTab().MenuTab().pospagoTab().MenuTab().prepagoTab().MenuTab().paquetigosTab();
     }
     
 }

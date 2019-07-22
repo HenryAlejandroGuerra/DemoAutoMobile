@@ -10,6 +10,10 @@ public class PospagoPage extends ToolsPage {
     public PospagoPage() {
     }
     
+    public MenuPage MenuTab(){
+        return new MenuPage();
+    }
+    
     public void closeModal(){
         timeWait(30);
         click(btnCloseModal);
