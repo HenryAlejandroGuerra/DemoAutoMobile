@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 248.203 s - in com.aut.demo.tigoBrowser.specs.CU_002_Show_Information

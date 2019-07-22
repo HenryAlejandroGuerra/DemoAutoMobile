@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.aut.demo.tigoShop.specs.CU_001_Login_Page
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.125 s - in com.aut.demo.tigoShop.specs.CU_001_Login_Page
