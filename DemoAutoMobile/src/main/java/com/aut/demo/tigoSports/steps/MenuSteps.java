@@ -29,7 +29,12 @@ public class MenuSteps {
     
     @Step("Browse the entire menu")
     public void browseMenu(){
-        menu.homeTab().menuTab().calendarTab().menuTab().videosTab();
+        menu.homeTab().menuTab().calendarTab().menuTab().videosTab().menuTab().noticeTab();
+    }
+    
+    @Step("Show a random news")
+    public void showRandomNews(){
+        menu.noticeTab().showNewsRandom();
     }
     
 }
