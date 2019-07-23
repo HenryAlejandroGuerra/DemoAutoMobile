@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 184.199 s <<< FAILURE! - in com.aut.demo.tigoBrowser.specs.CU_002_Show_Information
+showInformation01  Time elapsed: 184.032 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: unknown error: Element <div class="mobile-btn-wrapper">...</div> is not clickable at point (53, 23). Other element would receive the click: <iframe id="kampyleForm15742" title="Feedback Survey" src="https://nebula-cdn.kampyle.com/wu/253980/forms/15742/form1561365298833.html?formId=15742&amp;type=live&amp;referrer=https%3A%2F%2Fwww.tigo.com.sv%2Ftigo%2Fprepago&amp;region=prodUsOregon&amp;displayType=lightbox" origin="https://nebula-cdn.kampyle.com" style="border: 0px !important; height: 100% !important; max-height: 100% !important; min-height: 100% !important; width: 100% !important; max-width: 100% !important; min-width: 100% !important; display: block !important; position: fixed !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.10240 x86_64)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\Users\HTC\Desktop\GitKra..., databaseEnabled: false, desired: {automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\Users\HTC\Desktop\GitKra..., deviceName: pixel, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a3bb5938-6ca1-4905-bd9a-4c9aba666a52
+	at com.aut.demo.tigoBrowser.specs.CU_002_Show_Information.showInformation01(CU_002_Show_Information.java:25)
+

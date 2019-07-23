@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Jul 23 10:19:44 CST 2019","Tue Jul 23 10:20:51 CST 2019","67720","","com.aut.demo.tigoSports.specs.CU_003_News","","com.aut.demo.tigoSports.specs.CU_003_News","news01","news01()","Show a random news in Tigo Sports"
+"passed","Tue Jul 23 15:33:05 CST 2019","Tue Jul 23 15:34:13 CST 2019","67467","","com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab","","com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab","showShoppingOffers01","showShoppingOffers01()","Show the user information from the profile tab"

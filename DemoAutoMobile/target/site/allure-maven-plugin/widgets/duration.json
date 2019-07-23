@@ -1,10 +1,10 @@
 [ {
-  "uid" : "4885df06e24972fe",
-  "name" : "news01()",
+  "uid" : "e78ee97128945030",
+  "name" : "showShoppingOffers01()",
   "time" : {
-    "start" : 1563898784067,
-    "stop" : 1563898851787,
-    "duration" : 67720
+    "start" : 1563917585967,
+    "stop" : 1563917653434,
+    "duration" : 67467
   },
   "status" : "passed",
   "severity" : "normal"
