@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "DESKTOP-K4LOO3N",
     "children" : [ {
-      "name" : "5320@DESKTOP-K4LOO3N.main(1)",
+      "name" : "7296@DESKTOP-K4LOO3N.main(1)",
       "children" : [ {
         "name" : "showShoppingOffers01()",
-        "uid" : "e78ee97128945030",
-        "parentUid" : "3921cb3dfde5255f9571f988e61e634f",
+        "uid" : "b6cb614fab495021",
+        "parentUid" : "4f422aebc8d477eb40e6e5531039ec98",
         "status" : "passed",
         "time" : {
-          "start" : 1563917585967,
-          "stop" : 1563917653434,
-          "duration" : 67467
+          "start" : 1563920664339,
+          "stop" : 1563920739602,
+          "duration" : 75263
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3921cb3dfde5255f9571f988e61e634f"
+      "uid" : "4f422aebc8d477eb40e6e5531039ec98"
     } ],
     "uid" : "2a20e0824447a93c48f1426f075c56da"
   } ]

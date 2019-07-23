@@ -1,12 +1,12 @@
 {
-  "uid" : "e78ee97128945030",
+  "uid" : "b6cb614fab495021",
   "name" : "showShoppingOffers01()",
   "fullName" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab.showShoppingOffers01",
   "historyId" : "a4354ec2f9ef0cec826d1e376bd2028",
   "time" : {
-    "start" : 1563917585967,
-    "stop" : 1563917653434,
-    "duration" : 67467
+    "start" : 1563920664339,
+    "stop" : 1563920739602,
+    "duration" : 75263
   },
   "description" : "Show the user information from the profile tab",
   "descriptionHtml" : "<p>Show the user information from the profile tab</p>\n",
@@ -20,55 +20,55 @@
     "steps" : [ {
       "name" : "Login to Tigo Shop",
       "time" : {
-        "start" : 1563917586008,
-        "stop" : 1563917597642,
-        "duration" : 11634
+        "start" : 1563920664432,
+        "stop" : 1563920683316,
+        "duration" : 18884
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Show information in Perfil Tab",
       "time" : {
-        "start" : 1563917597644,
-        "stop" : 1563917652992,
-        "duration" : 55348
+        "start" : 1563920683319,
+        "stop" : 1563920739080,
+        "duration" : 55761
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Finished Tigo Shop",
       "time" : {
-        "start" : 1563917653002,
-        "stop" : 1563917653420,
-        "duration" : 418
+        "start" : 1563920739087,
+        "stop" : 1563920739588,
+        "duration" : 501
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 3,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -79,7 +79,7 @@
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "5320@DESKTOP-K4LOO3N.main(1)"
+    "value" : "7296@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e78ee97128945030.json",
+  "source" : "b6cb614fab495021.json",
   "parameterValues" : [ ]
 }

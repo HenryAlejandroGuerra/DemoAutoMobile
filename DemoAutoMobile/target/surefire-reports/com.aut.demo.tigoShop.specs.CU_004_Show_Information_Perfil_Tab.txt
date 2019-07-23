@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.958 s - in com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.235 s - in com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab

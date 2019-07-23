@@ -26,8 +26,8 @@ public class PerfilPage extends ToolsPage {
         System.out.println("Su número es "+number);
         System.out.println("Subscripciones:");
         if(exists(SUBS_EMPTY)){
-             String empty = getText(SUBS_EMPTY);
-             System.out.println(empty);
+            String empty = getText(SUBS_EMPTY);
+            System.out.println(empty);
         } else {
             String subs = getText(SUBS_DETAILS);
             System.out.println(subs);

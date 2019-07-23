@@ -5,13 +5,13 @@
     "name" : "Show information in Perfil Tab",
     "children" : [ {
       "name" : "showShoppingOffers01()",
-      "uid" : "e78ee97128945030",
+      "uid" : "b6cb614fab495021",
       "parentUid" : "81c76922c5bf75b37c74c9a70dbd76c5",
       "status" : "passed",
       "time" : {
-        "start" : 1563917585967,
-        "stop" : 1563917653434,
-        "duration" : 67467
+        "start" : 1563920664339,
+        "stop" : 1563920739602,
+        "duration" : 75263
       },
       "flaky" : false,
       "newFailed" : false,
