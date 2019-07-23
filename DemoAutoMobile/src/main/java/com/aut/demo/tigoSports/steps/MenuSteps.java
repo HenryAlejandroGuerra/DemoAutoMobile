@@ -37,4 +37,9 @@ public class MenuSteps {
         menu.noticeTab().showNewsRandom();
     }
     
+    @Step("Show a random news in the Home")
+    public void showRandomNewsHome(){
+        menu.homeTab().showRandomNews();
+    }
+    
 }

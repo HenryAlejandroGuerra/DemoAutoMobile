@@ -25,6 +25,13 @@ public class CU_003_News {
         menu.showRandomNews();
     }
     
+    @Description("Show a random news in home of Tigo Sports")
+    @Story("Show a random news in the Home")
+    @Test
+    void news02(){
+        menu.showRandomNewsHome();
+    }
+    
     @AfterEach
     @Description("Close Tigo Sports app")
     @Story("Logout Tigo Sports")
