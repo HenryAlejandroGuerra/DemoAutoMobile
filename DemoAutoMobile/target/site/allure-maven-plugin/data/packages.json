@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.aut.demo.tigoSports.specs.CU_003_News",
+    "children" : [ {
+      "name" : "news01",
+      "uid" : "4885df06e24972fe",
+      "parentUid" : "f08da40a8f8440592c1c6f82932393c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563898784067,
+        "stop" : 1563898851787,
+        "duration" : 67720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.aut.demo.tigoSports.specs.CU_003_News"
+  } ]
+}

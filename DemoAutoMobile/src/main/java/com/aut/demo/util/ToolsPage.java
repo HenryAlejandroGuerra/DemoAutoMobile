@@ -3,6 +3,7 @@ package com.aut.demo.util;
 import io.appium.java_client.PerformsTouchActions;
 import io.appium.java_client.TouchAction;
 import static io.appium.java_client.touch.offset.PointOption.point;
+import java.util.Random;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
@@ -103,6 +104,11 @@ public class ToolsPage extends BasePage {
         TouchAction action = new TouchAction((PerformsTouchActions) driver);
         action.longPress(point(anchor, startPoint)).moveTo(point(anchor, endPoint))
                 .release().perform();
+    }
+    
+    public int getRandomNumberInRange(int min, int max) {
+        Random r = new Random();
+	return r.ints(min, (max + 1)).limit(1).findFirst().getAsInt();
     }
     
 }

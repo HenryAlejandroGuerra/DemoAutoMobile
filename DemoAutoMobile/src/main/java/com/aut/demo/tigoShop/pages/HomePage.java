@@ -5,12 +5,12 @@ import org.openqa.selenium.By;
 
 public class HomePage extends ToolsPage {
     
-    private static final By refresh = By.id("com.juvomobileinc.tigoshop.sv:id/main_balance_header_refresh_icon");
-    private static final By shopPage = By.id("com.juvomobileinc.tigoshop.sv:id/home_store_floating_button");
-    private static final By perfilPage = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_profile_icon");
-    private static final By helpPage = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_help_icon");
-    private static final By errorNotification = By.id("com.juvomobileinc.tigoshop.sv:id/error_notification_text");
-    private static final By mainBalance = By.id("com.juvomobileinc.tigoshop.sv:id/core_balance_internet_card_core_balance_text");
+    private static final By REFRESH = By.id("com.juvomobileinc.tigoshop.sv:id/main_balance_header_refresh_icon");
+    private static final By STORE_BTN = By.id("com.juvomobileinc.tigoshop.sv:id/home_store_floating_button");
+    private static final By PERFIL_BTN = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_profile_icon");
+    private static final By HELP_BTN = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_help_icon");
+    private static final By ERROR_NOTIFICATION = By.id("com.juvomobileinc.tigoshop.sv:id/error_notification_text");
+    private static final By MAIN_BALANCE = By.id("com.juvomobileinc.tigoshop.sv:id/core_balance_internet_card_core_balance_text");
     
     public HomePage(){  
     }
@@ -30,7 +30,7 @@ public class HomePage extends ToolsPage {
     public ShopPage shopPage(){
         timeWait(15);
         verifyError();
-        click(shopPage);
+        click(STORE_BTN);
         timeWait(10);
         return new ShopPage();
     }
@@ -38,7 +38,7 @@ public class HomePage extends ToolsPage {
     public PerfilPage perfilPage(){
         timeWait(15);
         verifyError();
-        click(perfilPage);
+        click(PERFIL_BTN);
         timeWait(10);
         return new PerfilPage();
     }
@@ -46,22 +46,22 @@ public class HomePage extends ToolsPage {
     public HelpPage helpPage(){
         timeWait(15);
         verifyError();
-        click(helpPage);
+        click(HELP_BTN);
         timeWait(10);
         return new HelpPage();
     }
     
     public void verifyError(){
-        if(exists(errorNotification)){
-            String error = getText(errorNotification);
+        if(exists(ERROR_NOTIFICATION)){
+            String error = getText(ERROR_NOTIFICATION);
             System.out.println(error);
-            click(refresh);
+            click(REFRESH);
             timeWait(15);
         }
     
-        if(getText(mainBalance).equals("Actualiza para ver tu saldo principal")){
-            System.out.println(getText(mainBalance));
-            click(refresh);
+        if(getText(MAIN_BALANCE).equals("Actualiza para ver tu saldo principal")){
+            System.out.println(getText(MAIN_BALANCE));
+            click(REFRESH);
             timeWait(15);
         }            
     }

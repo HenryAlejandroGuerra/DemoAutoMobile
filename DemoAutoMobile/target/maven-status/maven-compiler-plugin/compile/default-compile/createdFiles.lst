@@ -14,6 +14,7 @@ com\aut\demo\util\DriverFactory.class
 com\aut\demo\tigoShop\pages\BalancesPage.class
 com\aut\demo\tigoSports\pages\HomePage.class
 com\aut\demo\tigoBrowser\pages\PrepagoPage.class
+com\aut\demo\tigoSports\pages\NewsPage.class
 com\aut\demo\tigoBrowser\pages\MenuPage.class
 com\aut\demo\tigoSports\pages\CalendarPage.class
 com\aut\demo\tigoShop\steps\HomeSteps.class

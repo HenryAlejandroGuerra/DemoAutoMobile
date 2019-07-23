@@ -5,15 +5,15 @@ import org.openqa.selenium.By;
 
 public class PerfilPage extends ToolsPage {
     
-    private static final By back = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_back_icon");
-    private static final By myNumber = By.id("com.juvomobileinc.tigoshop.sv:id/profile_number");
-    private static final By subscriptionDetails = By.id("com.juvomobileinc.tigoshop.sv:id/profile_content_layout");
+    private static final By BACK = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_back_icon");
+    private static final By MY_NUMBER = By.id("com.juvomobileinc.tigoshop.sv:id/profile_number");
+    private static final By SUBS_DETAILS = By.id("com.juvomobileinc.tigoshop.sv:id/profile_content_layout");
 
     public PerfilPage() {
     }
     
     public HomePage backHome(){
-        click(back);
+        click(BACK);
         timeWait(10);
         return new HomePage();
     }
@@ -21,9 +21,9 @@ public class PerfilPage extends ToolsPage {
     public PerfilPage printInfo(){
         System.out.println("--- TIGO ---");
         System.out.println("Su información de Perfil es:");
-        String number = getText(myNumber);
+        String number = getText(MY_NUMBER);
         System.out.println("Su número es "+number);
-        String subs = getText(subscriptionDetails);
+        String subs = getText(SUBS_DETAILS);
         System.out.println("Sus subscripciones:");
         System.out.println(subs);
         return this;

@@ -5,11 +5,11 @@ import org.openqa.selenium.By;
 
 public class MenuPage extends ToolsPage {
     
-    private static final By menu = By.cssSelector("#block-block-3 > div > div > div.mobile-btn-wrapper");
-    private static final By home =  By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[1]");
-    private static final By pospago = By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[2]");
-    private static final By prepago = By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[3]");
-    private static final By paquetigos = By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[4]");
+    private static final By MENU = By.cssSelector("#block-block-3 > div > div > div.mobile-btn-wrapper");
+    private static final By HOME =  By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[1]");
+    private static final By POSPAGO = By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[2]");
+    private static final By PREPAGO = By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[3]");
+    private static final By PAQUETIGOS = By.xpath("//*[@id=\"block-menu-menu-main-menu-mobile\"]/div/div/ul/li[4]");
 
     public MenuPage() {
     }
@@ -20,13 +20,13 @@ public class MenuPage extends ToolsPage {
     }
     
     public void menuTab(String menuTab){
-        click(menu);
+        click(MENU);
         timeWait(5);
         switch(menuTab){
-            case "Home": click(home); break;
-            case "Pospago": click(pospago); break;
-            case "Prepago": click(prepago); break;
-            case "Paquetigos": click(paquetigos); break;
+            case "Home": click(HOME); break;
+            case "Pospago": click(POSPAGO); break;
+            case "Prepago": click(PREPAGO); break;
+            case "Paquetigos": click(PAQUETIGOS); break;
         }
     }
     

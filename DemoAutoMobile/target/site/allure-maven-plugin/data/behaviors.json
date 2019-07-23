@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Show a random news",
+    "children" : [ {
+      "name" : "news01()",
+      "uid" : "4885df06e24972fe",
+      "parentUid" : "413a3fee774e58430601ac9ae014e5cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563898784067,
+        "stop" : 1563898851787,
+        "duration" : 67720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "413a3fee774e58430601ac9ae014e5cf"
+  } ]
+}

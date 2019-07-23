@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class PospagoPage extends ToolsPage {
     
-    private static final By btnCloseModal = By.xpath("//*[@id=\"liveForm\"]/div/div[2]/neb-form-footer/div/div[1]/div/div/div/div/button[1]");
+    private static final By CLOSE_MODAL = By.xpath("//*[@id=\"liveForm\"]/div/div[2]/neb-form-footer/div/div[1]/div/div/div/div/button[1]");
 
     public PospagoPage() {
     }
@@ -16,7 +16,7 @@ public class PospagoPage extends ToolsPage {
     
     public void closeModal(){
         timeWait(30);
-        click(btnCloseModal);
+        click(CLOSE_MODAL);
         timeWait(5);
     }
     

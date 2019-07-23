@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4885df06e24972fe",
+  "name" : "news01()",
+  "time" : {
+    "start" : 1563898784067,
+    "stop" : 1563898851787,
+    "duration" : 67720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
