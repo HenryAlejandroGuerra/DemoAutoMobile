@@ -5,8 +5,13 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Flaky;
 import io.qameta.allure.Story;
 
+@Epic("CU 002 - Show Balances")
+@Feature("Show customer balance information")
 public class CU_002_Show_Balances {
     
     BalancesSteps balance = new BalancesSteps();
@@ -18,16 +23,18 @@ public class CU_002_Show_Balances {
         balance.start();
     }
     
+    @Test
     @Description("Show all balance information")
     @Story("Show balance information")
-    @Test
+    @Flaky
     void showBalances01(){
         balance.intoBalancesAndShowInformation();
     }
     
+    @Test
     @Description("Show the information available in the shopping tab")
     @Story("Show balance information in Shopping Tab")
-    @Test
+    @Flaky
     void showBalances02(){
         balance.showBalanceInStoreTab();
     }
