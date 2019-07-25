@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "2511a518579f94f60e7cf43e8e2bf0aa",
+    "name" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "6aef608a75c4a4b72db3b8cbd394499c",
+    "name" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6cf33aabfe2c8adbc92739c35ca4813d",
+    "name" : "com.aut.demo.tigoShop.specs.CU_003_Show_Shopping_Offers",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
