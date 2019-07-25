@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f568e876ce874f24",
+  "name" : "showBalances02()",
+  "time" : {
+    "start" : 1564095740222,
+    "stop" : 1564095804794,
+    "duration" : 64572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f42aa3780955a825",
+  "name" : "showBalances01()",
+  "time" : {
+    "start" : 1564095649051,
+    "stop" : 1564095739882,
+    "duration" : 90831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

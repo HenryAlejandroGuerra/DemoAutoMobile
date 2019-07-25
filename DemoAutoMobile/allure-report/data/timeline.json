@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-K4LOO3N",
+    "children" : [ {
+      "name" : "7892@DESKTOP-K4LOO3N.main(1)",
+      "children" : [ {
+        "name" : "showBalances01()",
+        "uid" : "f42aa3780955a825",
+        "parentUid" : "d78df3c964a7b93af35f5927c619cede",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564095649051,
+          "stop" : 1564095739882,
+          "duration" : 90831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "showBalances02()",
+        "uid" : "f568e876ce874f24",
+        "parentUid" : "d78df3c964a7b93af35f5927c619cede",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564095740222,
+          "stop" : 1564095804794,
+          "duration" : 64572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d78df3c964a7b93af35f5927c619cede"
+    } ],
+    "uid" : "2a20e0824447a93c48f1426f075c56da"
+  } ]
+}

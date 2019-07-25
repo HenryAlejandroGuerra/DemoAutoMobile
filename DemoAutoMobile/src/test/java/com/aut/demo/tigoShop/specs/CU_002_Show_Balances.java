@@ -1,22 +1,30 @@
 package com.aut.demo.tigoShop.specs;
 
 import com.aut.demo.tigoShop.steps.BalancesSteps;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import com.aut.demo.util.AllureReportCreation;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
-import io.qameta.allure.Flaky;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 @Epic("CU 002 - Show Balances")
 @Feature("Show customer balance information")
 public class CU_002_Show_Balances {
     
+    static AllureReportCreation allure = new AllureReportCreation();
     BalancesSteps balance = new BalancesSteps();
+    
+    @BeforeAll
+    static void clean(){
+        allure.mvnClean();
+    }
     
     @BeforeEach
     @Story("Login to Tigo Shop")
@@ -29,7 +37,6 @@ public class CU_002_Show_Balances {
     @Test
     @Story("Show balance information")
     @Description("Show all balance information")
-    @Flaky
     void showBalances01(){
         balance.intoBalancesAndShowInformation();
     }
@@ -37,7 +44,6 @@ public class CU_002_Show_Balances {
     @Test
     @Story("Show balance information in Shopping Tab")
     @Description("Show the information available in the shopping tab")
-    @Flaky
     void showBalances02(){
         balance.showBalanceInStoreTab();
     }
@@ -48,6 +54,11 @@ public class CU_002_Show_Balances {
     @Severity(SeverityLevel.CRITICAL)
     void end(){
         balance.end();
+    }
+    
+    @AfterAll
+    static void generateReport(){
+        allure.mvnGenerateReport();
     }
     
 }

@@ -13,7 +13,6 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -33,7 +32,7 @@ public class DriverFactory {
     public static String url_tigo;
     public static String new_command_timeout;
     public static String appium_host_url;
-    public static String pathEnv = System.getProperty("user.dir");
+    public static String pathProject = System.getProperty("user.dir");
     
     public DriverFactory(){
     }
@@ -115,7 +114,7 @@ public class DriverFactory {
     }
     
     public void getProperties(){
-        try (InputStream input = new FileInputStream(pathEnv+"/env/default/appium.properties")) {
+        try (InputStream input = new FileInputStream(pathProject+"/env/default/appium.properties")) {
             Properties prop = new Properties();
 
             // load a properties file
@@ -126,11 +125,11 @@ public class DriverFactory {
             platform_name = prop.getProperty("PLATFORM_NAME");
             platform_version = prop.getProperty("PLATFORM_VERSION");
             automation_name = prop.getProperty("AUTOMATION_NAME");
-            app = pathEnv+prop.getProperty("APP");
+            app = pathProject+prop.getProperty("APP");
             appPackage = prop.getProperty("APP_PACKAGE");
             appActivity = prop.getProperty("APP_ACTIVITY");
             browserName = prop.getProperty("BROWSER_NAME");
-            chromedriver = pathEnv+prop.getProperty("CHROMEDRIVER");
+            chromedriver = pathProject+prop.getProperty("CHROMEDRIVER");
             url_tigo = prop.getProperty("URL_TIGO");
             new_command_timeout = prop.getProperty("NEW_COMMAND_TIMEOUT");
             appium_host_url = prop.getProperty("APPIUM_HOST_URL");

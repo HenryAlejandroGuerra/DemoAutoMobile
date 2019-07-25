@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 import io.qameta.allure.Step;
 
 public class HomeSteps {
-    
+
     DriverFactory factory = new DriverFactory();
     HomePage home = new HomePage();
     
@@ -19,7 +19,6 @@ public class HomeSteps {
             factory.setUpTigoShop();
         } catch (MalformedURLException ex) {
             System.out.println("Error MalformedURLException: "+ex);
-            //throw new MalformedURLException("Error al iniciar Appium");
         }
     }
     

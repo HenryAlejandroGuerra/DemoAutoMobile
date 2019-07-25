@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "CU 002 - Show Balances",
+    "children" : [ {
+      "name" : "Show customer balance information",
+      "children" : [ {
+        "name" : "Show balance information",
+        "children" : [ {
+          "name" : "showBalances01()",
+          "uid" : "f42aa3780955a825",
+          "parentUid" : "45c9c79a4e326f9288d96dc876f6fc86",
+          "status" : "passed",
+          "time" : {
+            "start" : 1564095649051,
+            "stop" : 1564095739882,
+            "duration" : 90831
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "45c9c79a4e326f9288d96dc876f6fc86"
+      }, {
+        "name" : "Show balance information in Shopping Tab",
+        "children" : [ {
+          "name" : "showBalances02()",
+          "uid" : "f568e876ce874f24",
+          "parentUid" : "6003d9e4346e2900330ecd8ee23075ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1564095740222,
+            "stop" : 1564095804794,
+            "duration" : 64572
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6003d9e4346e2900330ecd8ee23075ec"
+      } ],
+      "uid" : "650e814a9de4e88b0b272ae7036d9db7"
+    } ],
+    "uid" : "8dfa3577057de8eabd597bdd1176bd04"
+  } ]
+}
