@@ -1,91 +1,91 @@
 {
-  "uid" : "f42aa3780955a825",
-  "name" : "showBalances01()",
-  "fullName" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances.showBalances01",
-  "historyId" : "f8a1bf960637cd267f2bddb45ae0f5e5",
+  "uid" : "6c71967867e42b35",
+  "name" : "inPage()",
+  "fullName" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page.inPage",
+  "historyId" : "421658b91171aa4fcf6240d049f5670",
   "time" : {
-    "start" : 1564095649051,
-    "stop" : 1564095739882,
-    "duration" : 90831
+    "start" : 1564098123802,
+    "stop" : 1564098169994,
+    "duration" : 46192
   },
-  "description" : "Show all balance information",
-  "descriptionHtml" : "<p>Show all balance information</p>\n",
+  "description" : "Just enter the app",
+  "descriptionHtml" : "<p>Just enter the app</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Show all balance information",
+    "description" : "Just enter the app",
     "status" : "passed",
     "steps" : [ {
       "name" : "Login to Tigo Shop",
       "time" : {
-        "start" : 1564095649088,
-        "stop" : 1564095658858,
-        "duration" : 9770
+        "start" : 1564098123840,
+        "stop" : 1564098134504,
+        "duration" : 10664
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Into balance and Show all balance information",
+      "name" : "Just enter the app",
       "time" : {
-        "start" : 1564095658860,
-        "stop" : 1564095739445,
-        "duration" : 80585
+        "start" : 1564098134505,
+        "stop" : 1564098169615,
+        "duration" : 35110
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "Finished Tigo Shop",
       "time" : {
-        "start" : 1564095739448,
-        "stop" : 1564095739868,
-        "duration" : 420
+        "start" : 1564098169616,
+        "stop" : 1564098169982,
+        "duration" : 366
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
-    "hasContent" : true,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "CU 002 - Show Balances"
-  }, {
     "name" : "feature",
-    "value" : "Show customer balance information"
+    "value" : "Just enter the app"
+  }, {
+    "name" : "epic",
+    "value" : "CU 001 - Login Page"
   }, {
     "name" : "story",
-    "value" : "Show balance information"
+    "value" : "Just enter the app"
   }, {
     "name" : "host",
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "7892@DESKTOP-K4LOO3N.main(1)"
+    "value" : "2060@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -94,16 +94,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
+    "value" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page"
   }, {
     "name" : "testClass",
-    "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
+    "value" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page"
   }, {
     "name" : "testMethod",
-    "value" : "showBalances01"
+    "value" : "inPage"
   }, {
     "name" : "suite",
-    "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
+    "value" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -118,6 +118,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f42aa3780955a825.json",
+  "source" : "6c71967867e42b35.json",
   "parameterValues" : [ ]
 }

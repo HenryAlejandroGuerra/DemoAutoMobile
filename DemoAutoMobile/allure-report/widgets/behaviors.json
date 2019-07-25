@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "8dfa3577057de8eabd597bdd1176bd04",
-    "name" : "CU 002 - Show Balances",
+    "uid" : "75ad1697bdac77ac7e0ba36fdc034876",
+    "name" : "CU 001 - Login Page",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

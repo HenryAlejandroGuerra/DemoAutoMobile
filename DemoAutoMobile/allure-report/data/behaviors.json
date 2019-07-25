@@ -2,46 +2,29 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "CU 002 - Show Balances",
+    "name" : "CU 001 - Login Page",
     "children" : [ {
-      "name" : "Show customer balance information",
+      "name" : "Just enter the app",
       "children" : [ {
-        "name" : "Show balance information",
+        "name" : "Just enter the app",
         "children" : [ {
-          "name" : "showBalances01()",
-          "uid" : "f42aa3780955a825",
-          "parentUid" : "45c9c79a4e326f9288d96dc876f6fc86",
+          "name" : "inPage()",
+          "uid" : "6c71967867e42b35",
+          "parentUid" : "1a90190f47ea251286fe5dcf06fd22fc",
           "status" : "passed",
           "time" : {
-            "start" : 1564095649051,
-            "stop" : 1564095739882,
-            "duration" : 90831
+            "start" : 1564098123802,
+            "stop" : 1564098169994,
+            "duration" : 46192
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "45c9c79a4e326f9288d96dc876f6fc86"
-      }, {
-        "name" : "Show balance information in Shopping Tab",
-        "children" : [ {
-          "name" : "showBalances02()",
-          "uid" : "f568e876ce874f24",
-          "parentUid" : "6003d9e4346e2900330ecd8ee23075ec",
-          "status" : "passed",
-          "time" : {
-            "start" : 1564095740222,
-            "stop" : 1564095804794,
-            "duration" : 64572
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "6003d9e4346e2900330ecd8ee23075ec"
+        "uid" : "1a90190f47ea251286fe5dcf06fd22fc"
       } ],
-      "uid" : "650e814a9de4e88b0b272ae7036d9db7"
+      "uid" : "455c6ed6f56517b2f4b2b882072dadec"
     } ],
-    "uid" : "8dfa3577057de8eabd597bdd1176bd04"
+    "uid" : "75ad1697bdac77ac7e0ba36fdc034876"
   } ]
 }
