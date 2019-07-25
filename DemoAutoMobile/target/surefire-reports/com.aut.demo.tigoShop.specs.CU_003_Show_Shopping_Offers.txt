@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.aut.demo.tigoShop.specs.CU_003_Show_Shopping_Offers
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 107.701 s - in com.aut.demo.tigoShop.specs.CU_003_Show_Shopping_Offers
