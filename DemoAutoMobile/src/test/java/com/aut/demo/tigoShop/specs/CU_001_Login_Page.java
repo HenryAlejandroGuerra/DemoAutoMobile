@@ -35,7 +35,7 @@ public class CU_001_Login_Page {
     
     @AfterAll
     static void generateReport(){
-        allure.mvnGenerateReport();
+        allure.mvnGenerateReport("Tigo Shop El Salvador");
     }
 
 }

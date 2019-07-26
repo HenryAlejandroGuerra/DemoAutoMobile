@@ -2,29 +2,38 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "CU 004 - Show Information Perfil Tab",
+    "name" : "Show a random news",
     "children" : [ {
-      "name" : "Show customer Perfil Information Tab",
-      "children" : [ {
-        "name" : "Show information in Perfil Tab",
-        "children" : [ {
-          "name" : "showShoppingOffers01()",
-          "uid" : "8b63a60a6a341da1",
-          "parentUid" : "0a22b3421acee1e928be716561e4b5b4",
-          "status" : "passed",
-          "time" : {
-            "start" : 1564163912052,
-            "stop" : 1564163981989,
-            "duration" : 69937
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "0a22b3421acee1e928be716561e4b5b4"
-      } ],
-      "uid" : "037d495fb9b081d37a49cbf1a8b8e7ad"
+      "name" : "news01()",
+      "uid" : "6f2fe43b0b371eda",
+      "parentUid" : "413a3fee774e58430601ac9ae014e5cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564174440566,
+        "stop" : 1564174509289,
+        "duration" : 68723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "a13e9ee1dcf2840086e5c026185376bf"
+    "uid" : "413a3fee774e58430601ac9ae014e5cf"
+  }, {
+    "name" : "Show a random news in the Home",
+    "children" : [ {
+      "name" : "news02()",
+      "uid" : "580e119f18d39405",
+      "parentUid" : "ce6542510103b5f67e824650817cb89e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564174509649,
+        "stop" : 1564174575156,
+        "duration" : 65507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ce6542510103b5f67e824650817cb89e"
   } ]
 }

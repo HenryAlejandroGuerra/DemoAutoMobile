@@ -43,7 +43,7 @@ public class CU_002_Show_Information {
     
     @AfterAll
     static void generateReport(){
-        allure.mvnGenerateReport();
+        allure.mvnGenerateReport("Tigo Web El Salvador");
     }
     
 }

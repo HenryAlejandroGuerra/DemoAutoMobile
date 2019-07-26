@@ -1,10 +1,20 @@
 [ {
-  "uid" : "8b63a60a6a341da1",
-  "name" : "showShoppingOffers01()",
+  "uid" : "6f2fe43b0b371eda",
+  "name" : "news01()",
   "time" : {
-    "start" : 1564163912052,
-    "stop" : 1564163981989,
-    "duration" : 69937
+    "start" : 1564174440566,
+    "stop" : 1564174509289,
+    "duration" : 68723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "580e119f18d39405",
+  "name" : "news02()",
+  "time" : {
+    "start" : 1564174509649,
+    "stop" : 1564174575156,
+    "duration" : 65507
   },
   "status" : "passed",
   "severity" : "normal"

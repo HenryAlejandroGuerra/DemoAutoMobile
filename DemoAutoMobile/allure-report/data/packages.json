@@ -2,21 +2,34 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab",
+    "name" : "com.aut.demo.tigoSports.specs.CU_003_News",
     "children" : [ {
-      "name" : "showShoppingOffers01",
-      "uid" : "8b63a60a6a341da1",
-      "parentUid" : "b9ba1183db5639003e68537bf76be667",
+      "name" : "news01",
+      "uid" : "6f2fe43b0b371eda",
+      "parentUid" : "f08da40a8f8440592c1c6f82932393c4",
       "status" : "passed",
       "time" : {
-        "start" : 1564163912052,
-        "stop" : 1564163981989,
-        "duration" : 69937
+        "start" : 1564174440566,
+        "stop" : 1564174509289,
+        "duration" : 68723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "news02",
+      "uid" : "580e119f18d39405",
+      "parentUid" : "f08da40a8f8440592c1c6f82932393c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564174509649,
+        "stop" : 1564174575156,
+        "duration" : 65507
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab"
+    "uid" : "com.aut.demo.tigoSports.specs.CU_003_News"
   } ]
 }

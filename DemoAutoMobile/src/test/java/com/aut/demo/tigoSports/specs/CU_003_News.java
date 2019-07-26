@@ -50,7 +50,7 @@ public class CU_003_News {
     
     @AfterAll
     static void generateReport(){
-        allure.mvnGenerateReport();
+        allure.mvnGenerateReport("Tigo Sports El Salvador");
     }
     
 }

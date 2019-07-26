@@ -47,7 +47,7 @@ public class CU_003_Show_Shopping_Offers {
     
     @AfterAll
     static void generateReport(){
-        allure.mvnGenerateReport();
+        allure.mvnGenerateReport("Tigo Shop El Salvador");
     }
     
 }

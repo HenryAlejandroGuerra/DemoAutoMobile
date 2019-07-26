@@ -12,7 +12,6 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -44,9 +43,9 @@ public class AllureReportCreation {
 
     }
     
-    public void mvnGenerateReport() {
+    public void mvnGenerateReport(String app) {
         try {
-            setAllureEnvironment();
+            setAllureEnvironment(app);
             ProcessBuilder builder = new ProcessBuilder(
                     "cmd.exe", "/c", "cd "+pathProject+" && mvn allure:report");
             builder.redirectErrorStream(true);
@@ -66,7 +65,7 @@ public class AllureReportCreation {
 
     }
     
-    public void setAllureEnvironment() {
+    public void setAllureEnvironment(String app) {
         try {
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
@@ -74,7 +73,7 @@ public class AllureReportCreation {
  
             // root element
             Element root = document.createElement("environment");
-            root.appendChild(agregateParameter(document, "App", "Tigo Shop El Salvador"));
+            root.appendChild(agregateParameter(document, "App", app));
             root.appendChild(agregateParameter(document, "Appium", "Server v.1.14.0"));
             root.appendChild(agregateParameter(document, "Android Emulator", "Android Virtual Devices of Android Studio"));
             root.appendChild(agregateParameter(document, "Appium Java Client", "7.1.0"));

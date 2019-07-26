@@ -47,7 +47,7 @@ public class CU_004_Show_Information_Perfil_Tab {
     
     @AfterAll
     static void generateReport(){
-        allure.mvnGenerateReport();
+        allure.mvnGenerateReport("Tigo Shop El Salvador");
     }
     
 }

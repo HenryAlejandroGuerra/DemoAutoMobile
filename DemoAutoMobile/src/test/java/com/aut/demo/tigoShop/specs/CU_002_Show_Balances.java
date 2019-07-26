@@ -54,7 +54,7 @@ public class CU_002_Show_Balances {
     
     @AfterAll
     static void generateReport(){
-        allure.mvnGenerateReport();
+        allure.mvnGenerateReport("Tigo Shop El Salvador");
     }
     
 }

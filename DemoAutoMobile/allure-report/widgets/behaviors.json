@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "a13e9ee1dcf2840086e5c026185376bf",
-    "name" : "CU 004 - Show Information Perfil Tab",
+    "uid" : "413a3fee774e58430601ac9ae014e5cf",
+    "name" : "Show a random news",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ce6542510103b5f67e824650817cb89e",
+    "name" : "Show a random news in the Home",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

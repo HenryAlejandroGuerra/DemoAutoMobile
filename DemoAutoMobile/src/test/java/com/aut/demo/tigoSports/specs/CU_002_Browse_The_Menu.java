@@ -43,7 +43,7 @@ public class CU_002_Browse_The_Menu {
     
     @AfterAll
     static void generateReport(){
-        allure.mvnGenerateReport();
+        allure.mvnGenerateReport("Tigo Sports El Salvador");
     }
     
 }
