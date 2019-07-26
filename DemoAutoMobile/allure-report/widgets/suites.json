@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "6aef608a75c4a4b72db3b8cbd394499c",
-    "name" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page",
+    "uid" : "3713cd66bf9ed5f5b534f81375535a83",
+    "name" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

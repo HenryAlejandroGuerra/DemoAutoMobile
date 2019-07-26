@@ -1,0 +1,123 @@
+{
+  "uid" : "8b63a60a6a341da1",
+  "name" : "showShoppingOffers01()",
+  "fullName" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab.showShoppingOffers01",
+  "historyId" : "a4354ec2f9ef0cec826d1e376bd2028",
+  "time" : {
+    "start" : 1564163912052,
+    "stop" : 1564163981989,
+    "duration" : 69937
+  },
+  "description" : "Show the user information from the profile tab",
+  "descriptionHtml" : "<p>Show the user information from the profile tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Show the user information from the profile tab",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login to Tigo Shop",
+      "time" : {
+        "start" : 1564163912125,
+        "stop" : 1564163925917,
+        "duration" : 13792
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Show information in Perfil Tab",
+      "time" : {
+        "start" : 1564163925919,
+        "stop" : 1564163981442,
+        "duration" : 55523
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Finished Tigo Shop",
+      "time" : {
+        "start" : 1564163981444,
+        "stop" : 1564163981979,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Show customer Perfil Information Tab"
+  }, {
+    "name" : "epic",
+    "value" : "CU 004 - Show Information Perfil Tab"
+  }, {
+    "name" : "story",
+    "value" : "Show information in Perfil Tab"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K4LOO3N"
+  }, {
+    "name" : "thread",
+    "value" : "7228@DESKTOP-K4LOO3N.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab"
+  }, {
+    "name" : "testClass",
+    "value" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "showShoppingOffers01"
+  }, {
+    "name" : "suite",
+    "value" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b63a60a6a341da1.json",
+  "parameterValues" : [ ]
+}

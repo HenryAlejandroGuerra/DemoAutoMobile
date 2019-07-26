@@ -2,21 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page",
+    "name" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab",
     "children" : [ {
-      "name" : "inPage",
-      "uid" : "6c71967867e42b35",
-      "parentUid" : "6104ad5b7648f741771f25b29ede0ede",
+      "name" : "showShoppingOffers01",
+      "uid" : "8b63a60a6a341da1",
+      "parentUid" : "b9ba1183db5639003e68537bf76be667",
       "status" : "passed",
       "time" : {
-        "start" : 1564098123802,
-        "stop" : 1564098169994,
-        "duration" : 46192
+        "start" : 1564163912052,
+        "stop" : 1564163981989,
+        "duration" : 69937
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "com.aut.demo.tigoShop.specs.CU_001_Login_Page"
+    "uid" : "com.aut.demo.tigoShop.specs.CU_004_Show_Information_Perfil_Tab"
   } ]
 }

@@ -5,8 +5,6 @@ import com.aut.demo.util.AllureReportCreation;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -29,7 +27,6 @@ public class CU_004_Show_Information_Perfil_Tab {
     @BeforeEach
     @Story("Login to Tigo Shop")
     @Description("Open the Tigo Shop app and start a test")
-    @Severity(SeverityLevel.BLOCKER)
     void start(){
         perfil.start();
     }
@@ -44,7 +41,6 @@ public class CU_004_Show_Information_Perfil_Tab {
     @AfterEach
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
-    @Severity(SeverityLevel.CRITICAL)
     void end(){
         perfil.end();
     }

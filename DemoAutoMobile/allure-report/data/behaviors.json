@@ -2,29 +2,29 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "CU 001 - Login Page",
+    "name" : "CU 004 - Show Information Perfil Tab",
     "children" : [ {
-      "name" : "Just enter the app",
+      "name" : "Show customer Perfil Information Tab",
       "children" : [ {
-        "name" : "Just enter the app",
+        "name" : "Show information in Perfil Tab",
         "children" : [ {
-          "name" : "inPage()",
-          "uid" : "6c71967867e42b35",
-          "parentUid" : "1a90190f47ea251286fe5dcf06fd22fc",
+          "name" : "showShoppingOffers01()",
+          "uid" : "8b63a60a6a341da1",
+          "parentUid" : "0a22b3421acee1e928be716561e4b5b4",
           "status" : "passed",
           "time" : {
-            "start" : 1564098123802,
-            "stop" : 1564098169994,
-            "duration" : 46192
+            "start" : 1564163912052,
+            "stop" : 1564163981989,
+            "duration" : 69937
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "1a90190f47ea251286fe5dcf06fd22fc"
+        "uid" : "0a22b3421acee1e928be716561e4b5b4"
       } ],
-      "uid" : "455c6ed6f56517b2f4b2b882072dadec"
+      "uid" : "037d495fb9b081d37a49cbf1a8b8e7ad"
     } ],
-    "uid" : "75ad1697bdac77ac7e0ba36fdc034876"
+    "uid" : "a13e9ee1dcf2840086e5c026185376bf"
   } ]
 }

@@ -1,10 +1,10 @@
 [ {
-  "uid" : "6c71967867e42b35",
-  "name" : "inPage()",
+  "uid" : "8b63a60a6a341da1",
+  "name" : "showShoppingOffers01()",
   "time" : {
-    "start" : 1564098123802,
-    "stop" : 1564098169994,
-    "duration" : 46192
+    "start" : 1564163912052,
+    "stop" : 1564163981989,
+    "duration" : 69937
   },
   "status" : "passed",
   "severity" : "normal"
