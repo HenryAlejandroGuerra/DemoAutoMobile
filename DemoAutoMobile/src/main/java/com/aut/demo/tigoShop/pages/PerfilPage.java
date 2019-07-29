@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class PerfilPage extends ToolsPage {
     
     private static final By BACK = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_back_icon");
-    private static final By MY_NUMBER = By.id("com.juvomobileinc.tigoshop.sv:id/profile_number");
+    private static final By MY_NUMBER = By.id("com.juvomobileinc.tigoshop.sv:id/profile_number_2");
     private static final By SUBS_DETAILS = By.id("com.juvomobileinc.tigoshop.sv:id/profile_content_layout");
     private static final By SUBS_EMPTY = By.id("com.juvomobileinc.tigoshop.sv:id/empty_title");
 

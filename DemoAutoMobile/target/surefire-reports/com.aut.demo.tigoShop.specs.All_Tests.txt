@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.aut.demo.tigoShop.specs.All_Tests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 137.49 s <<< FAILURE! - in com.aut.demo.tigoShop.specs.All_Tests
+showBalances01  Time elapsed: 0.327 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/aut/demo/util/DriverFactory
+	at com.aut.demo.tigoShop.specs.All_Tests.<init>(All_Tests.java:26)
+Caused by: java.lang.ClassNotFoundException: com.aut.demo.util.DriverFactory
+	at com.aut.demo.tigoShop.specs.All_Tests.<init>(All_Tests.java:26)
+
+showBalances02  Time elapsed: 0.148 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/aut/demo/util/DriverFactory
+	at com.aut.demo.tigoShop.specs.All_Tests.<init>(All_Tests.java:26)
+
+showInformationPerfil01  Time elapsed: 0.023 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/aut/demo/util/DriverFactory
+	at com.aut.demo.tigoShop.specs.All_Tests.<init>(All_Tests.java:26)
+
+showShoppingOffers01  Time elapsed: 0.053 s  <<< ERROR!
+java.lang.NoClassDefFoundError: com/aut/demo/util/DriverFactory
+	at com.aut.demo.tigoShop.specs.All_Tests.<init>(All_Tests.java:26)
+

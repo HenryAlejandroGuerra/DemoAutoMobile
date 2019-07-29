@@ -34,7 +34,7 @@ public class CU_004_Show_Information_Perfil_Tab {
     @Test
     @Story("Show information in Perfil Tab")
     @Description("Show the user information from the profile tab")
-    void showShoppingOffers01(){
+    void showInformationPerfil01(){
         perfil.showInformation();
     }
 
