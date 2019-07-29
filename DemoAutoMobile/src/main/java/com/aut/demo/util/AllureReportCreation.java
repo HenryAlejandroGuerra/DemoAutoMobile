@@ -76,7 +76,6 @@ public class AllureReportCreation {
             root.appendChild(agregateParameter(document, "App", app));
             root.appendChild(agregateParameter(document, "Appium", "Server v.1.14.0"));
             root.appendChild(agregateParameter(document, "Android Emulator", "Android Virtual Devices of Android Studio"));
-            root.appendChild(agregateParameter(document, "Appium Java Client", "7.1.0"));
             root.appendChild(agregateParameter(document, "Allure Report", "2.12.1"));
 
             document.appendChild(root);

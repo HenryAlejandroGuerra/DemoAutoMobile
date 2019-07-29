@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 
 public class ToolsPage extends BasePage {
     
@@ -109,6 +110,10 @@ public class ToolsPage extends BasePage {
     public int getRandomNumberInRange(int min, int max) {
         Random r = new Random();
 	return r.ints(min, (max + 1)).limit(1).findFirst().getAsInt();
+    }
+    
+    public void androidBack(){
+        driver.navigate().back();
     }
     
 }

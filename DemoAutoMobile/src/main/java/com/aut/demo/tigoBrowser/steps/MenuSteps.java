@@ -27,7 +27,7 @@ public class MenuSteps {
         factory.tearDown();
     }
     
-    @Step("Browse the Tigo menu")
+    @Step("Browse the Tigo menu in all Tab")
     public void navigateMenu(){
         menu.homeTab().MenuTab().pospagoTab().MenuTab().prepagoTab().MenuTab().paquetigosTab();
     }

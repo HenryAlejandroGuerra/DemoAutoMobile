@@ -2,34 +2,21 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "com.aut.demo.tigoSports.specs.CU_003_News",
+    "name" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill",
     "children" : [ {
-      "name" : "news01()",
-      "uid" : "6f2fe43b0b371eda",
-      "parentUid" : "a8f43cacfe18d7064816b7bbffcbfbff",
+      "name" : "payBills01()",
+      "uid" : "117289b35ac2c99b",
+      "parentUid" : "c98591d61ee3a6df1d2036c788876a78",
       "status" : "passed",
       "time" : {
-        "start" : 1564174440566,
-        "stop" : 1564174509289,
-        "duration" : 68723
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "news02()",
-      "uid" : "580e119f18d39405",
-      "parentUid" : "a8f43cacfe18d7064816b7bbffcbfbff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564174509649,
-        "stop" : 1564174575156,
-        "duration" : 65507
+        "start" : 1564433937799,
+        "stop" : 1564434057174,
+        "duration" : 119375
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "a8f43cacfe18d7064816b7bbffcbfbff"
+    "uid" : "c98591d61ee3a6df1d2036c788876a78"
   } ]
 }

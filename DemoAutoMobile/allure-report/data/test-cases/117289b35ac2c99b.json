@@ -1,85 +1,85 @@
 {
-  "uid" : "6f2fe43b0b371eda",
-  "name" : "news01()",
-  "fullName" : "com.aut.demo.tigoSports.specs.CU_003_News.news01",
-  "historyId" : "6c6f99a1cc5e88c1441b5718ae3bd2ec",
+  "uid" : "117289b35ac2c99b",
+  "name" : "payBills01()",
+  "fullName" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill.payBills01",
+  "historyId" : "c54ae3f4ba1d702b78944073fef27016",
   "time" : {
-    "start" : 1564174440566,
-    "stop" : 1564174509289,
-    "duration" : 68723
+    "start" : 1564433937799,
+    "stop" : 1564434057174,
+    "duration" : 119375
   },
-  "description" : "Show a random news in Tigo Sports",
-  "descriptionHtml" : "<p>Show a random news in Tigo Sports</p>\n",
+  "description" : "Pay bills and enter mail",
+  "descriptionHtml" : "<p>Pay bills and enter mail</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Show a random news in Tigo Sports",
+    "description" : "Pay bills and enter mail",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Login to Tigo Sports",
+      "name" : "Login to Tigo Web",
       "time" : {
-        "start" : 1564174440619,
-        "stop" : 1564174453155,
-        "duration" : 12536
+        "start" : 1564433937847,
+        "stop" : 1564433962006,
+        "duration" : 24159
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Show a random news",
+      "name" : "Pay bills and enter mail",
       "time" : {
-        "start" : 1564174453157,
-        "stop" : 1564174508408,
-        "duration" : 55251
+        "start" : 1564433962008,
+        "stop" : 1564434056729,
+        "duration" : 94721
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "Finished Tigo Sports",
+      "name" : "Finished Tigo Web",
       "time" : {
-        "start" : 1564174508410,
-        "stop" : 1564174509279,
-        "duration" : 869
+        "start" : 1564434056735,
+        "stop" : 1564434057163,
+        "duration" : 428
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 3,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "hasContent" : true,
+    "stepsCount" : 3
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "story",
-    "value" : "Show a random news"
+    "value" : "Pay the bills"
   }, {
     "name" : "host",
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "220@DESKTOP-K4LOO3N.main(1)"
+    "value" : "4772@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -88,16 +88,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "com.aut.demo.tigoSports.specs.CU_003_News"
+    "value" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill"
   }, {
     "name" : "testClass",
-    "value" : "com.aut.demo.tigoSports.specs.CU_003_News"
+    "value" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill"
   }, {
     "name" : "testMethod",
-    "value" : "news01"
+    "value" : "payBills01"
   }, {
     "name" : "suite",
-    "value" : "com.aut.demo.tigoSports.specs.CU_003_News"
+    "value" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6f2fe43b0b371eda.json",
+  "source" : "117289b35ac2c99b.json",
   "parameterValues" : [ ]
 }

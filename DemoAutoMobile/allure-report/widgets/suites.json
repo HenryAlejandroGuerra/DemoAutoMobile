@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "a8f43cacfe18d7064816b7bbffcbfbff",
-    "name" : "com.aut.demo.tigoSports.specs.CU_003_News",
+    "uid" : "c98591d61ee3a6df1d2036c788876a78",
+    "name" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     }
   } ]
 }
