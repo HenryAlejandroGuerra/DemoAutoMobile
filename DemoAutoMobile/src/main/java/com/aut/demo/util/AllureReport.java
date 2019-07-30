@@ -1,10 +1,15 @@
 package com.aut.demo.util;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -114,6 +119,16 @@ public class AllureReport {
     @Attachment(value = "Page screenshot", type = "image/png")
     public byte[] saveFailureScreenShot(WebDriver driver) {
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+    }
+    
+    public void attachmentFile(String File) {
+        System.out.println("File: "+pathProject+File);
+        Path content = Paths.get(pathProject+File);
+        try (InputStream is = Files.newInputStream(content)) {
+            Allure.addAttachment("JSON Information", is);
+        } catch (IOException ex) {
+            System.out.println("Error attachmentFile: "+ex);
+        }
     }
 
 }

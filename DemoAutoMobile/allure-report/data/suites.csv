@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Tue Jul 30 15:51:17 CST 2019","Tue Jul 30 15:54:07 CST 2019","170410","","com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill","","com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill","payBills01","01 - Pay the bills","Pay bills and enter mail"
+"passed","Tue Jul 30 17:52:40 CST 2019","Tue Jul 30 17:55:21 CST 2019","160598","","com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill","","com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill","payBills01","01 - Pay the bills","Pay bills and enter mail"

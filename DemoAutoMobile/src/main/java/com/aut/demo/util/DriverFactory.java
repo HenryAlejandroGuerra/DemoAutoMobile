@@ -57,7 +57,7 @@ public class DriverFactory {
         for (String contextName : contextNames) {
            System.out.println(contextName);
         }
-        System.out.println("Created Session Succesful");
+        System.out.println("Successful session creation");
     }
     
     public void setUpTigoSports() throws MalformedURLException {
@@ -83,7 +83,7 @@ public class DriverFactory {
         for (String contextName : contextNames) {
            System.out.println(contextName);
         }
-        System.out.println("Created Session Succesful");
+        System.out.println("Successful session creation");
     }
     
     public void setUpTigoBrowser() throws MalformedURLException {
@@ -105,7 +105,7 @@ public class DriverFactory {
         driver.get(url_tigo);
         factory.init();
 
-        System.out.println("Created Session Succesful");
+        System.out.println("Successful session creation");
     }
     
     public static WebDriver getDriver() {

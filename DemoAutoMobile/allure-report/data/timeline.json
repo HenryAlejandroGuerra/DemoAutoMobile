@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "DESKTOP-K4LOO3N",
     "children" : [ {
-      "name" : "6272@DESKTOP-K4LOO3N.main(1)",
+      "name" : "24824@DESKTOP-K4LOO3N.main(1)",
       "children" : [ {
         "name" : "01 - Pay the bills",
-        "uid" : "12ae9919de4912d7",
-        "parentUid" : "0c41857a01ef00750911ab278bad6a81",
-        "status" : "broken",
+        "uid" : "ae4de8beb51ee995",
+        "parentUid" : "d665351622cd0bdddab28a17395562e5",
+        "status" : "passed",
         "time" : {
-          "start" : 1564523477449,
-          "stop" : 1564523647859,
-          "duration" : 170410
+          "start" : 1564530760848,
+          "stop" : 1564530921446,
+          "duration" : 160598
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0c41857a01ef00750911ab278bad6a81"
+      "uid" : "d665351622cd0bdddab28a17395562e5"
     } ],
     "uid" : "2a20e0824447a93c48f1426f075c56da"
   } ]

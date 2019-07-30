@@ -2,25 +2,24 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Successful tests",
     "children" : [ {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#block-block-3 > div > div > div.mobile-btn-wrapper\"}\n  (Session info: chrome=69.0.3497.100)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.10240 x86_64)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\\Users\\HTC\\Desktop\\GitKra..., databaseEnabled: false, desired: {automationName: UiAutomator2, browserName: Chrome, chromedriverExecutable: C:\\Users\\HTC\\Desktop\\GitKra..., deviceName: pixel, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 5120d754-50e1-44d5-be8e-15b6da40f769\n*** Element info: {Using=css selector, value=#block-block-3 > div > div > div.mobile-btn-wrapper}",
       "children" : [ {
         "name" : "01 - Pay the bills",
-        "uid" : "12ae9919de4912d7",
-        "parentUid" : "c22a8aaf088615c6eeadcdb66c218190",
-        "status" : "broken",
+        "uid" : "ae4de8beb51ee995",
+        "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
+        "status" : "passed",
         "time" : {
-          "start" : 1564523477449,
-          "stop" : 1564523647859,
-          "duration" : 170410
+          "start" : 1564530760848,
+          "stop" : 1564530921446,
+          "duration" : 160598
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c22a8aaf088615c6eeadcdb66c218190"
+      "uid" : "008d1cab635699c32c891b417d9dbe0d"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "4d58f2092a36f75e4e1b4b34167f1c50"
   } ]
 }

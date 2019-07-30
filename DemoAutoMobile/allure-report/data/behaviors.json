@@ -9,13 +9,13 @@
         "name" : "Pay the bills",
         "children" : [ {
           "name" : "01 - Pay the bills",
-          "uid" : "12ae9919de4912d7",
+          "uid" : "ae4de8beb51ee995",
           "parentUid" : "a9d39d8693605240f5095dc9322bd993",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1564523477449,
-            "stop" : 1564523647859,
-            "duration" : 170410
+            "start" : 1564530760848,
+            "stop" : 1564530921446,
+            "duration" : 160598
           },
           "flaky" : false,
           "newFailed" : false,

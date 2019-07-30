@@ -1,11 +1,11 @@
 [ {
-  "uid" : "12ae9919de4912d7",
+  "uid" : "ae4de8beb51ee995",
   "name" : "01 - Pay the bills",
   "time" : {
-    "start" : 1564523477449,
-    "stop" : 1564523647859,
-    "duration" : 170410
+    "start" : 1564530760848,
+    "stop" : 1564530921446,
+    "duration" : 160598
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

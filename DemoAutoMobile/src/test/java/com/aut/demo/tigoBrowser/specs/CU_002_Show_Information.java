@@ -2,7 +2,6 @@ package com.aut.demo.tigoBrowser.specs;
 
 import com.aut.demo.tigoBrowser.steps.MenuSteps;
 import com.aut.demo.util.AllureReport;
-import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -45,7 +44,6 @@ public class CU_002_Show_Information {
     @Story("Logout Tigo Web")
     @Description("Close Tigo Web app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
         menu.end();
     }
     

@@ -2,10 +2,10 @@ package com.aut.demo.tigoBrowser.specs;
 
 import com.aut.demo.tigoBrowser.steps.HomeSteps;
 import com.aut.demo.util.AllureReport;
-import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Flaky;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -37,15 +37,16 @@ public class CU_003_Pay_Bill {
     @DisplayName(value = "01 - Pay the bills")
     @Story("Pay the bills")
     @Description("Pay bills and enter mail")
+    @Flaky
     void payBills01(){
         home.payInvoice("example@gmail.com");
+        allure.attachmentFile("\\src\\test\\resources\\allure-json-file.json");
     }
     
     @AfterEach
     @Story("Logout Tigo Web")
     @Description("Close Tigo Web app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
         home.end();
     }
     
