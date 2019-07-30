@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Jul 29 17:37:28 CST 2019","Mon Jul 29 17:37:28 CST 2019","2","","com.aut.demo.tigoShop.specs.All_Tests","","com.aut.demo.tigoShop.specs.All_Tests","showInformationPerfil01","showInformationPerfil01()","Show the user information from the profile tab"
+"broken","Mon Jul 29 17:37:28 CST 2019","Mon Jul 29 17:37:28 CST 2019","1","","com.aut.demo.tigoShop.specs.All_Tests","","com.aut.demo.tigoShop.specs.All_Tests","showShoppingOffers01","showShoppingOffers01()","Show offers and promotions for calls, messages and internet"
+"broken","Mon Jul 29 17:37:28 CST 2019","Mon Jul 29 17:37:28 CST 2019","1","","com.aut.demo.tigoShop.specs.All_Tests","","com.aut.demo.tigoShop.specs.All_Tests","showBalances02","showBalances02()","Show the information available in the shopping tab"
+"broken","Mon Jul 29 17:37:28 CST 2019","Mon Jul 29 17:37:28 CST 2019","29","","com.aut.demo.tigoShop.specs.All_Tests","","com.aut.demo.tigoShop.specs.All_Tests","showBalances01","showBalances01()","Show all balance information"

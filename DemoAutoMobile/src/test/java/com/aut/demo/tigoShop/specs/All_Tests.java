@@ -1,9 +1,7 @@
 package com.aut.demo.tigoShop.specs;
 
-import com.aut.demo.tigoShop.steps.BalancesSteps;
-import com.aut.demo.tigoShop.steps.PerfilSteps;
-import com.aut.demo.tigoShop.steps.ShopSteps;
-import com.aut.demo.util.AllureReportCreation;
+import com.aut.demo.tigoShop.steps.*;
+import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -22,7 +20,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Show all test")
 public class All_Tests {
     
-    static AllureReportCreation allure = new AllureReportCreation();
+    static AllureReport allure = new AllureReport();
     BalancesSteps balance = new BalancesSteps();
     ShopSteps shop = new ShopSteps();
     PerfilSteps perfil = new PerfilSteps();

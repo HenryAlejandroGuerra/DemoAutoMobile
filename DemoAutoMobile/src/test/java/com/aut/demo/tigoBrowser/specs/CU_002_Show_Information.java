@@ -1,7 +1,7 @@
 package com.aut.demo.tigoBrowser.specs;
 
 import com.aut.demo.tigoBrowser.steps.MenuSteps;
-import com.aut.demo.util.AllureReportCreation;
+import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Open the Tigo Web app and Show all information")
 public class CU_002_Show_Information {
     
-    static AllureReportCreation allure = new AllureReportCreation();
+    static AllureReport allure = new AllureReport();
     MenuSteps menu = new MenuSteps();
     
     @BeforeAll

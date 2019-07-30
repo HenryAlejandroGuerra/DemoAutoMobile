@@ -1,7 +1,7 @@
 package com.aut.demo.tigoShop.specs;
 
 import com.aut.demo.tigoShop.steps.BalancesSteps;
-import com.aut.demo.util.AllureReportCreation;
+import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Show customer balance information")
 public class CU_002_Show_Balances {
     
-    static AllureReportCreation allure = new AllureReportCreation();
+    static AllureReport allure = new AllureReport();
     BalancesSteps balance = new BalancesSteps();
     
     @BeforeAll

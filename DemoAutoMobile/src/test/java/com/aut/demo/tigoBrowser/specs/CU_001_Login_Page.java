@@ -1,7 +1,7 @@
 package com.aut.demo.tigoBrowser.specs;
 
 import com.aut.demo.tigoBrowser.steps.HomeSteps;
-import com.aut.demo.util.AllureReportCreation;
+import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Just enter the app")
 public class CU_001_Login_Page {
 
-    static AllureReportCreation allure = new AllureReportCreation();
+    static AllureReport allure = new AllureReport();
     HomeSteps step = new HomeSteps();
     
     @BeforeAll

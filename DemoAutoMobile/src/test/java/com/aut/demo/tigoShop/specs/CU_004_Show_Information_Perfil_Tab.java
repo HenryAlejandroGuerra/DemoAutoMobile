@@ -1,7 +1,7 @@
 package com.aut.demo.tigoShop.specs;
 
 import com.aut.demo.tigoShop.steps.PerfilSteps;
-import com.aut.demo.util.AllureReportCreation;
+import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Show customer Perfil Information Tab")
 public class CU_004_Show_Information_Perfil_Tab {
 
-    static AllureReportCreation allure = new AllureReportCreation();
+    static AllureReport allure = new AllureReport();
     PerfilSteps perfil = new PerfilSteps();
     
     @BeforeAll

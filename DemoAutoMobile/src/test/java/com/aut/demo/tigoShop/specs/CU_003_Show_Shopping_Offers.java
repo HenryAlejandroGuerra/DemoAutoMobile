@@ -1,7 +1,7 @@
 package com.aut.demo.tigoShop.specs;
 
 import com.aut.demo.tigoShop.steps.ShopSteps;
-import com.aut.demo.util.AllureReportCreation;
+import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Show customer Shopping Offers")
 public class CU_003_Show_Shopping_Offers {
 
-    static AllureReportCreation allure = new AllureReportCreation();
+    static AllureReport allure = new AllureReport();
     ShopSteps shop = new ShopSteps();
     
     @BeforeAll

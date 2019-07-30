@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "All Tests",
+    "children" : [ {
+      "name" : "Show all test",
+      "children" : [ {
+        "name" : "Show balance information",
+        "children" : [ {
+          "name" : "showBalances01()",
+          "uid" : "7a589628131c2298",
+          "parentUid" : "963006d4c052a4df5435006cc75f216c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564443448595,
+            "stop" : 1564443448624,
+            "duration" : 29
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "963006d4c052a4df5435006cc75f216c"
+      }, {
+        "name" : "Show balance information in Shopping Tab",
+        "children" : [ {
+          "name" : "showBalances02()",
+          "uid" : "eec71839c96960e4",
+          "parentUid" : "3168e11962769bbf62b6ecc41cebeb20",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564443448894,
+            "stop" : 1564443448895,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3168e11962769bbf62b6ecc41cebeb20"
+      }, {
+        "name" : "Show information in Perfil Tab",
+        "children" : [ {
+          "name" : "showInformationPerfil01()",
+          "uid" : "4974afc7d7ccd4f7",
+          "parentUid" : "eeacfc6df73bb16f54ce9c70d09b191c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564443448927,
+            "stop" : 1564443448929,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eeacfc6df73bb16f54ce9c70d09b191c"
+      }, {
+        "name" : "Show all offers in all tabs of the shopping tab",
+        "children" : [ {
+          "name" : "showShoppingOffers01()",
+          "uid" : "12d30850f6a09883",
+          "parentUid" : "fb7b3465e18d3fe2fdd463ca9466b613",
+          "status" : "broken",
+          "time" : {
+            "start" : 1564443448965,
+            "stop" : 1564443448966,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fb7b3465e18d3fe2fdd463ca9466b613"
+      } ],
+      "uid" : "ef1deb3c3d35db665dfbb15c04d22ed7"
+    } ],
+    "uid" : "8dc66b0ff3e607224b6debb318dbc4ed"
+  } ]
+}

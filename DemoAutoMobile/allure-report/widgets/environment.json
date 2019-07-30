@@ -1,0 +1,13 @@
+[ {
+  "values" : [ "Tigo Shop El Salvador" ],
+  "name" : "App"
+}, {
+  "values" : [ "2.12.1" ],
+  "name" : "Allure Report"
+}, {
+  "values" : [ "Server v.1.14.0" ],
+  "name" : "Appium"
+}, {
+  "values" : [ "Android Virtual Devices of Android Studio" ],
+  "name" : "Android Emulator"
+} ]

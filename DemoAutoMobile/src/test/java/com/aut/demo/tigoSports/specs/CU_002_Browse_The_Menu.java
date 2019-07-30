@@ -1,7 +1,7 @@
 package com.aut.demo.tigoSports.specs;
 
 import com.aut.demo.tigoSports.steps.MenuSteps;
-import com.aut.demo.util.AllureReportCreation;
+import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Browse the entire menu")
 public class CU_002_Browse_The_Menu {
 
-    static AllureReportCreation allure = new AllureReportCreation();
+    static AllureReport allure = new AllureReport();
     MenuSteps menu = new MenuSteps();
     
     @BeforeAll
