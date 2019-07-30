@@ -2,64 +2,24 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Successful tests",
     "children" : [ {
-      "name" : "com/aut/demo/util/DriverFactory",
       "children" : [ {
-        "name" : "showBalances01()",
-        "uid" : "7a589628131c2298",
-        "parentUid" : "ace52b9fec630b084bf349c99eddab17",
-        "status" : "broken",
+        "name" : "showBalances03()",
+        "uid" : "d1977842bd4fa4c5",
+        "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
+        "status" : "passed",
         "time" : {
-          "start" : 1564443448595,
-          "stop" : 1564443448624,
-          "duration" : 29
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "showBalances02()",
-        "uid" : "eec71839c96960e4",
-        "parentUid" : "ace52b9fec630b084bf349c99eddab17",
-        "status" : "broken",
-        "time" : {
-          "start" : 1564443448894,
-          "stop" : 1564443448895,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "showInformationPerfil01()",
-        "uid" : "4974afc7d7ccd4f7",
-        "parentUid" : "ace52b9fec630b084bf349c99eddab17",
-        "status" : "broken",
-        "time" : {
-          "start" : 1564443448927,
-          "stop" : 1564443448929,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "showShoppingOffers01()",
-        "uid" : "12d30850f6a09883",
-        "parentUid" : "ace52b9fec630b084bf349c99eddab17",
-        "status" : "broken",
-        "time" : {
-          "start" : 1564443448965,
-          "stop" : 1564443448966,
-          "duration" : 1
+          "start" : 1564502606460,
+          "stop" : 1564502732929,
+          "duration" : 126469
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ace52b9fec630b084bf349c99eddab17"
+      "uid" : "008d1cab635699c32c891b417d9dbe0d"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "4d58f2092a36f75e4e1b4b34167f1c50"
   } ]
 }

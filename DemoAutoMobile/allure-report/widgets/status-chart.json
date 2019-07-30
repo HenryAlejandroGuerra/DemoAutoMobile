@@ -1,41 +1,11 @@
 [ {
-  "uid" : "4974afc7d7ccd4f7",
-  "name" : "showInformationPerfil01()",
+  "uid" : "d1977842bd4fa4c5",
+  "name" : "showBalances03()",
   "time" : {
-    "start" : 1564443448927,
-    "stop" : 1564443448929,
-    "duration" : 2
+    "start" : 1564502606460,
+    "stop" : 1564502732929,
+    "duration" : 126469
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
-}, {
-  "uid" : "12d30850f6a09883",
-  "name" : "showShoppingOffers01()",
-  "time" : {
-    "start" : 1564443448965,
-    "stop" : 1564443448966,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "eec71839c96960e4",
-  "name" : "showBalances02()",
-  "time" : {
-    "start" : 1564443448894,
-    "stop" : 1564443448895,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7a589628131c2298",
-  "name" : "showBalances01()",
-  "time" : {
-    "start" : 1564443448595,
-    "stop" : 1564443448624,
-    "duration" : 29
-  },
-  "status" : "broken",
-  "severity" : "critical"
 } ]

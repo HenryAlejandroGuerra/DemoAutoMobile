@@ -37,4 +37,9 @@ public class BalancesSteps {
         home.shopPage().printBalance().backHome();
     }
     
+    @Step("Show connection error notification")
+    public void errorConnection(){
+        home.balancesPage().errorNotification();
+    }
+    
 }

@@ -1,81 +1,20 @@
 {
-  "a50f3e45cc90abf6cc36f2955dbc2d39" : {
+  "6cd8a7164bafc7600365fa27e3fba162" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4974afc7d7ccd4f7",
-      "status" : "broken",
-      "statusDetails" : "com/aut/demo/util/DriverFactory",
+      "uid" : "d1977842bd4fa4c5",
+      "status" : "passed",
       "time" : {
-        "start" : 1564443448927,
-        "stop" : 1564443448929,
-        "duration" : 2
-      }
-    } ]
-  },
-  "7607ff5ccdb14bb21195b31b01b0df60" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "12d30850f6a09883",
-      "status" : "broken",
-      "statusDetails" : "com/aut/demo/util/DriverFactory",
-      "time" : {
-        "start" : 1564443448965,
-        "stop" : 1564443448966,
-        "duration" : 1
-      }
-    } ]
-  },
-  "49666cdd5095fd6fa6c0ec544f8e848e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7a589628131c2298",
-      "status" : "broken",
-      "statusDetails" : "com/aut/demo/util/DriverFactory",
-      "time" : {
-        "start" : 1564443448595,
-        "stop" : 1564443448624,
-        "duration" : 29
-      }
-    } ]
-  },
-  "d018eb80def8ff7d66c112a5d3dbc159" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "eec71839c96960e4",
-      "status" : "broken",
-      "statusDetails" : "com/aut/demo/util/DriverFactory",
-      "time" : {
-        "start" : 1564443448894,
-        "stop" : 1564443448895,
-        "duration" : 1
+        "start" : 1564502606460,
+        "stop" : 1564502732929,
+        "duration" : 126469
       }
     } ]
   }

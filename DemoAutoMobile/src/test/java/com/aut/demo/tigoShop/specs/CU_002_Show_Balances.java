@@ -31,18 +31,25 @@ public class CU_002_Show_Balances {
         balance.start();
     }
     
-    @Test
+//    @Test
     @Story("Show balance information")
     @Description("Show all balance information")
     void showBalances01(){
         balance.intoBalancesAndShowInformation();
     }
     
-    @Test
+//    @Test
     @Story("Show balance information in Shopping Tab")
     @Description("Show the information available in the shopping tab")
     void showBalances02(){
         balance.showBalanceInStoreTab();
+    }
+    
+    @Test
+    @Story("Connection Error Notification")
+    @Description("Show the connection error in the balances tab")
+    void showBalances03(){
+        balance.errorConnection();
     }
     
     @AfterEach

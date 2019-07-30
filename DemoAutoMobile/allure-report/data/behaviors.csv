@@ -1,5 +1,2 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"All Tests","Show all test","Show information in Perfil Tab","0","1","0","0","0"
-"All Tests","Show all test","Show all offers in all tabs of the shopping tab","0","1","0","0","0"
-"All Tests","Show all test","Show balance information in Shopping Tab","0","1","0","0","0"
-"All Tests","Show all test","Show balance information","0","1","0","0","0"
+"CU 002 - Show Balances","Show customer balance information","Connection Error Notification","0","0","1","0","0"

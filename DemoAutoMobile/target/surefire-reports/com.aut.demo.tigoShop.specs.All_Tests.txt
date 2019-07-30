@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.aut.demo.tigoShop.specs.All_Tests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in com.aut.demo.tigoShop.specs.All_Tests
-com.aut.demo.tigoShop.specs.All_Tests  Time elapsed: 0.016 s  <<< ERROR!
-java.lang.NoClassDefFoundError: Lcom/aut/demo/tigoShop/steps/BalancesSteps;
-Caused by: java.lang.ClassNotFoundException: com.aut.demo.tigoShop.steps.BalancesSteps
-

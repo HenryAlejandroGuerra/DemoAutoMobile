@@ -1,0 +1,127 @@
+{
+  "uid" : "d1977842bd4fa4c5",
+  "name" : "showBalances03()",
+  "fullName" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances.showBalances03",
+  "historyId" : "6cd8a7164bafc7600365fa27e3fba162",
+  "time" : {
+    "start" : 1564502606460,
+    "stop" : 1564502732929,
+    "duration" : 126469
+  },
+  "description" : "Show the connection error in the balances tab",
+  "descriptionHtml" : "<p>Show the connection error in the balances tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Show the connection error in the balances tab",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login to Tigo Shop",
+      "time" : {
+        "start" : 1564502606556,
+        "stop" : 1564502627014,
+        "duration" : 20458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Show connection error notification",
+      "time" : {
+        "start" : 1564502627019,
+        "stop" : 1564502731839,
+        "duration" : 104820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Finished Tigo Shop",
+      "time" : {
+        "start" : 1564502731846,
+        "stop" : 1564502732910,
+        "duration" : 1064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Show customer balance information"
+  }, {
+    "name" : "epic",
+    "value" : "CU 002 - Show Balances"
+  }, {
+    "name" : "story",
+    "value" : "Connection Error Notification"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-K4LOO3N"
+  }, {
+    "name" : "thread",
+    "value" : "10876@DESKTOP-K4LOO3N.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
+  }, {
+    "name" : "testClass",
+    "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
+  }, {
+    "name" : "testMethod",
+    "value" : "showBalances03"
+  }, {
+    "name" : "suite",
+    "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Successful tests",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d1977842bd4fa4c5.json",
+  "parameterValues" : [ ]
+}

@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "8dc66b0ff3e607224b6debb318dbc4ed",
-    "name" : "All Tests",
+    "uid" : "8dfa3577057de8eabd597bdd1176bd04",
+    "name" : "CU 002 - Show Balances",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

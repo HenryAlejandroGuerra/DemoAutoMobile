@@ -8,7 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 
 public class ToolsPage extends BasePage {
     
@@ -114,6 +113,15 @@ public class ToolsPage extends BasePage {
     
     public void androidBack(){
         driver.navigate().back();
+    }
+    
+    public void deployNotificationBar(){
+        Dimension size = driver.manage().window().getSize();
+        int anchor = (int) (size.width / 2);
+        
+        TouchAction action = new TouchAction((PerformsTouchActions) driver);
+        action.longPress(point(anchor, 40)).moveTo(point(anchor, 700))
+                .release().perform();
     }
     
 }
