@@ -2,6 +2,7 @@ package com.aut.demo.tigoBrowser.specs;
 
 import com.aut.demo.tigoBrowser.steps.MenuSteps;
 import com.aut.demo.util.AllureReport;
+import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -10,6 +11,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Epic("CU 002 - Show Information")
@@ -32,6 +34,7 @@ public class CU_002_Show_Information {
     }
     
     @Test
+    @DisplayName(value = "01 - Show all information")
     @Story("Show all information")
     @Description("Show all information")
     void showInformation01(){
@@ -42,6 +45,7 @@ public class CU_002_Show_Information {
     @Story("Logout Tigo Web")
     @Description("Close Tigo Web app")
     void end(){
+        allure.saveFailureScreenShot(BasePage.driver);
         menu.end();
     }
     

@@ -32,9 +32,9 @@ public class HomeSteps {
         menu.inHome();
     }
     
-    @Step("Pay bills and enter mail")
-    public void payInvoice(){
-        menu.homeTab().payBillByEmail();
+    @Step("Pay bills and enter mail \"{email}\"")
+    public void payInvoice(String email){
+        menu.homeTab().payBillByEmail(email);
     }
     
 }

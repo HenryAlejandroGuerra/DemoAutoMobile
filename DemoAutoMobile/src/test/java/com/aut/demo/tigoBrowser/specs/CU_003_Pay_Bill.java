@@ -2,6 +2,7 @@ package com.aut.demo.tigoBrowser.specs;
 
 import com.aut.demo.tigoBrowser.steps.HomeSteps;
 import com.aut.demo.util.AllureReport;
+import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -10,6 +11,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Epic("CU 003 - Pay Bill")
@@ -32,16 +34,18 @@ public class CU_003_Pay_Bill {
     }
     
     @Test
+    @DisplayName(value = "01 - Pay the bills")
     @Story("Pay the bills")
     @Description("Pay bills and enter mail")
     void payBills01(){
-        home.payInvoice();
+        home.payInvoice("example@gmail.com");
     }
     
     @AfterEach
     @Story("Logout Tigo Web")
     @Description("Close Tigo Web app")
     void end(){
+        allure.saveFailureScreenShot(BasePage.driver);
         home.end();
     }
     

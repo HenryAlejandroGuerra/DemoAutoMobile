@@ -2,63 +2,29 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "CU 002 - Show Balances",
+    "name" : "CU 003 - Pay Bill",
     "children" : [ {
-      "name" : "Show customer balance information",
+      "name" : "Open the Tigo Web app and Pay the bills",
       "children" : [ {
-        "name" : "Show balance information",
+        "name" : "Pay the bills",
         "children" : [ {
-          "name" : "01 - Show balance information",
-          "uid" : "9c7e41e2dba42ffa",
-          "parentUid" : "45c9c79a4e326f9288d96dc876f6fc86",
-          "status" : "passed",
+          "name" : "01 - Pay the bills",
+          "uid" : "12ae9919de4912d7",
+          "parentUid" : "a9d39d8693605240f5095dc9322bd993",
+          "status" : "broken",
           "time" : {
-            "start" : 1564508743947,
-            "stop" : 1564508838810,
-            "duration" : 94863
+            "start" : 1564523477449,
+            "stop" : 1564523647859,
+            "duration" : 170410
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "45c9c79a4e326f9288d96dc876f6fc86"
-      }, {
-        "name" : "Show balance information in Shopping Tab",
-        "children" : [ {
-          "name" : "02 - Show balance information in Shopping Tab",
-          "uid" : "9d43d5f95193a012",
-          "parentUid" : "6003d9e4346e2900330ecd8ee23075ec",
-          "status" : "passed",
-          "time" : {
-            "start" : 1564508839155,
-            "stop" : 1564508906049,
-            "duration" : 66894
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "6003d9e4346e2900330ecd8ee23075ec"
-      }, {
-        "name" : "Connection Error Notification",
-        "children" : [ {
-          "name" : "03 - Connection Error Notification",
-          "uid" : "a268403f7183df6e",
-          "parentUid" : "a24ca63ca3b899e9631ab5b3dc089dcc",
-          "status" : "passed",
-          "time" : {
-            "start" : 1564508906073,
-            "stop" : 1564509018349,
-            "duration" : 112276
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "a24ca63ca3b899e9631ab5b3dc089dcc"
+        "uid" : "a9d39d8693605240f5095dc9322bd993"
       } ],
-      "uid" : "650e814a9de4e88b0b272ae7036d9db7"
+      "uid" : "af37489b1466a85e3d9b193fe175909d"
     } ],
-    "uid" : "8dfa3577057de8eabd597bdd1176bd04"
+    "uid" : "698486071cf088df8b8ed32612de659f"
   } ]
 }

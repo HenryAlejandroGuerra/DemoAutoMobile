@@ -1,31 +1,11 @@
 [ {
-  "uid" : "9c7e41e2dba42ffa",
-  "name" : "01 - Show balance information",
+  "uid" : "12ae9919de4912d7",
+  "name" : "01 - Pay the bills",
   "time" : {
-    "start" : 1564508743947,
-    "stop" : 1564508838810,
-    "duration" : 94863
+    "start" : 1564523477449,
+    "stop" : 1564523647859,
+    "duration" : 170410
   },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "a268403f7183df6e",
-  "name" : "03 - Connection Error Notification",
-  "time" : {
-    "start" : 1564508906073,
-    "stop" : 1564509018349,
-    "duration" : 112276
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9d43d5f95193a012",
-  "name" : "02 - Show balance information in Shopping Tab",
-  "time" : {
-    "start" : 1564508839155,
-    "stop" : 1564508906049,
-    "duration" : 66894
-  },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

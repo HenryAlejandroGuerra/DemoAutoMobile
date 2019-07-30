@@ -2,9 +2,11 @@ package com.aut.demo.tigoShop.specs;
 
 import com.aut.demo.tigoShop.steps.BalancesSteps;
 import com.aut.demo.util.AllureReport;
+import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Flaky;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -40,6 +42,7 @@ public class CU_002_Show_Balances {
     @Story("Show balance information")
     @Description("Show all balance information")
     @Severity(SeverityLevel.CRITICAL)
+    @Flaky
     void showBalances01(){
         balance.intoBalancesAndShowInformation();
     }
@@ -65,6 +68,7 @@ public class CU_002_Show_Balances {
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
     void end(){
+        allure.saveFailureScreenShot(BasePage.driver);
         balance.end();
     }
     

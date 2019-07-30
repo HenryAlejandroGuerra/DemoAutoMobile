@@ -4,48 +4,22 @@
   "children" : [ {
     "name" : "DESKTOP-K4LOO3N",
     "children" : [ {
-      "name" : "19868@DESKTOP-K4LOO3N.main(1)",
+      "name" : "6272@DESKTOP-K4LOO3N.main(1)",
       "children" : [ {
-        "name" : "02 - Show balance information in Shopping Tab",
-        "uid" : "9d43d5f95193a012",
-        "parentUid" : "330a50315a2356d4059431cb439864e4",
-        "status" : "passed",
+        "name" : "01 - Pay the bills",
+        "uid" : "12ae9919de4912d7",
+        "parentUid" : "0c41857a01ef00750911ab278bad6a81",
+        "status" : "broken",
         "time" : {
-          "start" : 1564508839155,
-          "stop" : 1564508906049,
-          "duration" : 66894
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "03 - Connection Error Notification",
-        "uid" : "a268403f7183df6e",
-        "parentUid" : "330a50315a2356d4059431cb439864e4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1564508906073,
-          "stop" : 1564509018349,
-          "duration" : 112276
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "01 - Show balance information",
-        "uid" : "9c7e41e2dba42ffa",
-        "parentUid" : "330a50315a2356d4059431cb439864e4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1564508743947,
-          "stop" : 1564508838810,
-          "duration" : 94863
+          "start" : 1564523477449,
+          "stop" : 1564523647859,
+          "duration" : 170410
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "330a50315a2356d4059431cb439864e4"
+      "uid" : "0c41857a01ef00750911ab278bad6a81"
     } ],
     "uid" : "2a20e0824447a93c48f1426f075c56da"
   } ]

@@ -1,5 +1,6 @@
 package com.aut.demo.util;
 
+import io.qameta.allure.Attachment;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -12,6 +13,9 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -105,6 +109,11 @@ public class AllureReport {
         valueEl.appendChild(document.createTextNode(val));
         parameter.appendChild(valueEl);
         return parameter;
+    }
+    
+    @Attachment(value = "Page screenshot", type = "image/png")
+    public byte[] saveFailureScreenShot(WebDriver driver) {
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 
 }

@@ -2,6 +2,7 @@ package com.aut.demo.tigoShop.specs;
 
 import com.aut.demo.tigoShop.steps.PerfilSteps;
 import com.aut.demo.util.AllureReport;
+import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -10,6 +11,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Epic("CU 004 - Show Information Perfil Tab")
@@ -32,6 +34,7 @@ public class CU_004_Show_Information_Perfil_Tab {
     }
 
     @Test
+    @DisplayName(value = "01 - Show information in Perfil Tab")
     @Story("Show information in Perfil Tab")
     @Description("Show the user information from the profile tab")
     void showInformationPerfil01(){
@@ -42,6 +45,7 @@ public class CU_004_Show_Information_Perfil_Tab {
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
     void end(){
+        allure.saveFailureScreenShot(BasePage.driver);
         perfil.end();
     }
     

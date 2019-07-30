@@ -8,9 +8,6 @@ public class BalancesPage extends ToolsPage {
     
     private static final By MY_NUMBER = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_msisdn");
     private static final By REFRESH = By.id("com.juvomobileinc.tigoshop.sv:id/main_balance_header_refresh_icon");
-    private static final By STORE_BTN = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[3]/android.widget.LinearLayout/android.widget.RelativeLayout");
-    private static final By PERFIL_BTN = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_profile_icon");
-    private static final By HELP_BTN = By.id("com.juvomobileinc.tigoshop.sv:id/tbar_help_icon");
     private static final By MAIN_BALANCE = By.id("com.juvomobileinc.tigoshop.sv:id/core_balance_internet_card_core_balance_text");
     private static final By INTERNET_AVAILABLE = By.id("com.juvomobileinc.tigoshop.sv:id/core_balance_internet_card_internet_amount_text");
     private static final String INTER_DETAILS = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout";
@@ -25,6 +22,10 @@ public class BalancesPage extends ToolsPage {
     }
     
     NotificationBar notiBar = new NotificationBar();
+    
+    public HomePage returnHome(){
+        return new HomePage();
+    }
     
     public BalancesPage showInformation(){
         String number = getText(MY_NUMBER);

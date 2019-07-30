@@ -2,47 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances",
+    "name" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill",
     "children" : [ {
-      "name" : "showBalances01",
-      "uid" : "9c7e41e2dba42ffa",
-      "parentUid" : "e43a90f990295a48d3951df665695d7a",
-      "status" : "passed",
+      "name" : "payBills01",
+      "uid" : "12ae9919de4912d7",
+      "parentUid" : "579d134b53770a4f9cb1ba86781029e4",
+      "status" : "broken",
       "time" : {
-        "start" : 1564508743947,
-        "stop" : 1564508838810,
-        "duration" : 94863
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "showBalances02",
-      "uid" : "9d43d5f95193a012",
-      "parentUid" : "e43a90f990295a48d3951df665695d7a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564508839155,
-        "stop" : 1564508906049,
-        "duration" : 66894
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "showBalances03",
-      "uid" : "a268403f7183df6e",
-      "parentUid" : "e43a90f990295a48d3951df665695d7a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1564508906073,
-        "stop" : 1564509018349,
-        "duration" : 112276
+        "start" : 1564523477449,
+        "stop" : 1564523647859,
+        "duration" : 170410
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
+    "uid" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill"
   } ]
 }

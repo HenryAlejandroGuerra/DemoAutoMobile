@@ -2,6 +2,7 @@ package com.aut.demo.tigoSports.specs;
 
 import com.aut.demo.tigoSports.steps.MenuSteps;
 import com.aut.demo.util.AllureReport;
+import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -10,6 +11,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Epic("CU 002 - Browse The Menu")
@@ -32,6 +34,7 @@ public class CU_002_Browse_The_Menu {
     }
     
     @Test
+    @DisplayName(value = "01 - Browse the menu")
     @Story("Browse the menu")
     @Description("Browse the entire menu")
     void browseMenu01(){
@@ -42,6 +45,7 @@ public class CU_002_Browse_The_Menu {
     @Story("Logout Tigo Sports")
     @Description("Close Tigo Sports app")
     void end(){
+        allure.saveFailureScreenShot(BasePage.driver);
         menu.end();
     }
     

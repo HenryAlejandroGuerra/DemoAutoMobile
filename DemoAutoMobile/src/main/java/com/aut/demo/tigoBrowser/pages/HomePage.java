@@ -16,7 +16,7 @@ public class HomePage extends ToolsPage {
         return new MenuPage();
     }
     
-    public HomePage payBillByEmail(){
+    public HomePage payBillByEmail(String email){
         timeWait(10);
         click(PAY_BILL_TAB);
         timeWait(8);
@@ -24,7 +24,7 @@ public class HomePage extends ToolsPage {
         timeWait(8);
         click(PAY_BILL_EMAIL);
         timeWait(3);
-        setText(PAY_BILL_EMAIL, "example@gmail.com");
+        setText(PAY_BILL_EMAIL, email);
         timeWait(5);
         androidBack();
         timeWait(5);
