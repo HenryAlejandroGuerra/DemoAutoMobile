@@ -51,7 +51,7 @@ public class HomePage extends ToolsPage {
         return new HelpPage();
     }
     
-    public void verifyError(){
+    private void verifyError(){
         if(exists(ERROR_NOTIFICATION)){
             String error = getText(ERROR_NOTIFICATION);
             System.out.println(error);

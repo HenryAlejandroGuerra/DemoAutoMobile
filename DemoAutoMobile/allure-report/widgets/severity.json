@@ -1,10 +1,30 @@
 [ {
-  "uid" : "d1977842bd4fa4c5",
-  "name" : "showBalances03()",
+  "uid" : "9c7e41e2dba42ffa",
+  "name" : "01 - Show balance information",
   "time" : {
-    "start" : 1564502606460,
-    "stop" : 1564502732929,
-    "duration" : 126469
+    "start" : 1564508743947,
+    "stop" : 1564508838810,
+    "duration" : 94863
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9d43d5f95193a012",
+  "name" : "02 - Show balance information in Shopping Tab",
+  "time" : {
+    "start" : 1564508839155,
+    "stop" : 1564508906049,
+    "duration" : 66894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a268403f7183df6e",
+  "name" : "03 - Connection Error Notification",
+  "time" : {
+    "start" : 1564508906073,
+    "stop" : 1564509018349,
+    "duration" : 112276
   },
   "status" : "passed",
   "severity" : "normal"

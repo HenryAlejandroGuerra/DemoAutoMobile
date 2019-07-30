@@ -19,7 +19,7 @@ public class MenuPage extends ToolsPage {
         return this;
     }
     
-    public void menuTab(String menuTab){
+    private void menuTab(String menuTab){
         click(MENU);
         timeWait(5);
         switch(menuTab){

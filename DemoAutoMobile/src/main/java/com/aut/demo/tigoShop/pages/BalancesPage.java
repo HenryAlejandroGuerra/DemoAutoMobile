@@ -40,7 +40,7 @@ public class BalancesPage extends ToolsPage {
         return this;
     }
     
-    public void printAllInternet(){
+    private void printAllInternet(){
         try {
             int cont = 1;
             while (exists(By.xpath(INTER_DETAILS+"["+cont+"]/android.widget.LinearLayout/android.widget.TextView"))) {
@@ -54,7 +54,7 @@ public class BalancesPage extends ToolsPage {
         }
     }
     
-    public void printAllCalls(){
+    private void printAllCalls(){
         try {
             int cont = 1;
             while (exists(By.xpath(CALLS_DETAILS_HOURS+"["+cont+"]/android.widget.LinearLayout"))) {

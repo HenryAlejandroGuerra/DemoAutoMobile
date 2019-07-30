@@ -65,7 +65,7 @@ public class AllureReport {
 
     }
     
-    public void setAllureEnvironment(String app) {
+    private void setAllureEnvironment(String app) {
         try {
             DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
@@ -94,7 +94,7 @@ public class AllureReport {
         }
     }
     
-    public Element agregateParameter(Document document, String key, String val){
+    private Element agregateParameter(Document document, String key, String val){
         Element parameter = document.createElement("parameter");
 
         Element keyEl = document.createElement("key");

@@ -5,6 +5,7 @@ import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Link;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -34,6 +35,7 @@ public class CU_003_Show_Shopping_Offers {
     @Test
     @Story("Show all offers in all tabs of the shopping tab")
     @Description("Show offers and promotions for calls, messages and internet")
+    @Link(name = "More Offers", url = "https://www.tigo.com.sv/shop")
     void showShoppingOffers01(){
         shop.showShoppingOffersInAllTab();
     }

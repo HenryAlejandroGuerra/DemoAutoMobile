@@ -112,7 +112,7 @@ public class DriverFactory {
         return driver;
     }
     
-    public void getProperties(){
+    private void getProperties(){
         try (InputStream input = new FileInputStream(pathProject+"/env/default/appium.properties")) {
             Properties prop = new Properties();
 

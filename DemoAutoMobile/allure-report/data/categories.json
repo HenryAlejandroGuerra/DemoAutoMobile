@@ -5,14 +5,40 @@
     "name" : "Successful tests",
     "children" : [ {
       "children" : [ {
-        "name" : "showBalances03()",
-        "uid" : "d1977842bd4fa4c5",
+        "name" : "01 - Show balance information",
+        "uid" : "9c7e41e2dba42ffa",
         "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
         "status" : "passed",
         "time" : {
-          "start" : 1564502606460,
-          "stop" : 1564502732929,
-          "duration" : 126469
+          "start" : 1564508743947,
+          "stop" : 1564508838810,
+          "duration" : 94863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "02 - Show balance information in Shopping Tab",
+        "uid" : "9d43d5f95193a012",
+        "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564508839155,
+          "stop" : 1564508906049,
+          "duration" : 66894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "03 - Connection Error Notification",
+        "uid" : "a268403f7183df6e",
+        "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564508906073,
+          "stop" : 1564509018349,
+          "duration" : 112276
         },
         "flaky" : false,
         "newFailed" : false,

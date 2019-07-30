@@ -16,7 +16,7 @@ public class MenuPage extends ToolsPage {
     public MenuPage() {
     }
     
-    public void menuTab(String menuTab){
+    private void menuTab(String menuTab){
         click(OPEN_MENU);
         timeWait(5);
         switch(menuTab){

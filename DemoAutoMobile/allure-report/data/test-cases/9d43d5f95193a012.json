@@ -1,91 +1,94 @@
 {
-  "uid" : "d1977842bd4fa4c5",
-  "name" : "showBalances03()",
-  "fullName" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances.showBalances03",
-  "historyId" : "6cd8a7164bafc7600365fa27e3fba162",
+  "uid" : "9d43d5f95193a012",
+  "name" : "02 - Show balance information in Shopping Tab",
+  "fullName" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances.showBalances02",
+  "historyId" : "34b6b6719dbee1e2544f05c2b6aa59bb",
   "time" : {
-    "start" : 1564502606460,
-    "stop" : 1564502732929,
-    "duration" : 126469
+    "start" : 1564508839155,
+    "stop" : 1564508906049,
+    "duration" : 66894
   },
-  "description" : "Show the connection error in the balances tab",
-  "descriptionHtml" : "<p>Show the connection error in the balances tab</p>\n",
+  "description" : "Show the information available in the shopping tab",
+  "descriptionHtml" : "<p>Show the information available in the shopping tab</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Show the connection error in the balances tab",
+    "description" : "Show the information available in the shopping tab",
     "status" : "passed",
     "steps" : [ {
       "name" : "Login to Tigo Shop",
       "time" : {
-        "start" : 1564502606556,
-        "stop" : 1564502627014,
-        "duration" : 20458
+        "start" : 1564508839156,
+        "stop" : 1564508850050,
+        "duration" : 10894
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Show connection error notification",
+      "name" : "Show the information available in the shopping tab",
       "time" : {
-        "start" : 1564502627019,
-        "stop" : 1564502731839,
-        "duration" : 104820
+        "start" : 1564508850051,
+        "stop" : 1564508905562,
+        "duration" : 55511
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Finished Tigo Shop",
       "time" : {
-        "start" : 1564502731846,
-        "stop" : 1564502732910,
-        "duration" : 1064
+        "start" : 1564508905562,
+        "stop" : 1564508906049,
+        "duration" : 487
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
     "hasContent" : true,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Show customer balance information"
-  }, {
     "name" : "epic",
     "value" : "CU 002 - Show Balances"
   }, {
+    "name" : "feature",
+    "value" : "Show customer balance information"
+  }, {
     "name" : "story",
-    "value" : "Connection Error Notification"
+    "value" : "Show balance information in Shopping Tab"
+  }, {
+    "name" : "owner",
+    "value" : "Juan Pérez"
   }, {
     "name" : "host",
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "10876@DESKTOP-K4LOO3N.main(1)"
+    "value" : "19868@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -100,7 +103,7 @@
     "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
   }, {
     "name" : "testMethod",
-    "value" : "showBalances03"
+    "value" : "showBalances02"
   }, {
     "name" : "suite",
     "value" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
@@ -114,6 +117,7 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
+    "owner" : "Juan Pérez",
     "retries" : [ ],
     "categories" : [ {
       "name" : "Successful tests",
@@ -122,6 +126,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "d1977842bd4fa4c5.json",
+  "source" : "9d43d5f95193a012.json",
   "parameterValues" : [ ]
 }

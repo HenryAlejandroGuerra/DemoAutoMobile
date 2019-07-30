@@ -20,10 +20,4 @@ public class PospagoPage extends ToolsPage {
         timeWait(5);
     }
     
-    public PospagoPage scrollTest(){
-        closeModal();
-        scrollWeb(1200);
-        return this;
-    }
-    
 }
