@@ -14,6 +14,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class DriverFactory {
     
@@ -96,10 +97,11 @@ public class DriverFactory {
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, automation_name);
         cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
         cap.setCapability("chromedriverExecutable", chromedriver);
+        cap.setCapability(MobileCapabilityType.TAKES_SCREENSHOT, true);
 //        cap.setCapability("chromedriverUseSystemExecutable", true);
         URL url = new URL(appium_host_url);
         
-        driver = new AndroidDriver<MobileElement>(url, cap);
+        driver = new RemoteWebDriver(url, cap);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
         driver.get(url_tigo);

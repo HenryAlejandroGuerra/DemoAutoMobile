@@ -7,7 +7,6 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Flaky;
-import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
@@ -51,7 +50,6 @@ public class CU_002_Show_Balances {
     @DisplayName(value = "02 - Show balance information in Shopping Tab")
     @Story("Show balance information in Shopping Tab")
     @Description("Show the information available in the shopping tab")
-    @Owner("Juan Pérez")
     void showBalances02(){
         balance.showBalanceInStoreTab();
     }

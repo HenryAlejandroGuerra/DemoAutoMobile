@@ -21,6 +21,7 @@ import javax.xml.transform.stream.StreamResult;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -121,11 +122,28 @@ public class AllureReport {
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
     
-    public void attachmentFile(String File) {
-        System.out.println("File: "+pathProject+File);
-        Path content = Paths.get(pathProject+File);
+    @Attachment(value = "Page screenshot web", type = "image/png")
+    public byte[] saveFailureScreenShotWeb(WebDriver driver) {
+        try {
+            return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+        } catch (WebDriverException e) {
+            System.out.println("Error saveFailureScreenShotWeb: "+e);
+            return null;
+        }
+    }
+    
+    public void attachmentFile(String name, String path, String file, String extension) {
+//        System.out.println("File: "+pathProject+path+file+extension);
+        Path content = Paths.get(pathProject+path+file+extension);
+        String type = "text/plain";
+        if(extension.equals("json") || extension.equals("csv") || extension.equals("xml")){
+            type = "application/"+extension;
+        } else if(extension.equals("png") || extension.equals("jpg")){
+            type = "image/"+extension;
+        }
+//        System.out.println("Type: "+type);
         try (InputStream is = Files.newInputStream(content)) {
-            Allure.addAttachment("JSON Information", is);
+            Allure.addAttachment(name, type, is, extension);
         } catch (IOException ex) {
             System.out.println("Error attachmentFile: "+ex);
         }

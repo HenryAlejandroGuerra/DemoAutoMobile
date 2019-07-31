@@ -1,12 +1,12 @@
 {
-  "uid" : "ae4de8beb51ee995",
+  "uid" : "b2a08518c47ddd93",
   "name" : "01 - Pay the bills",
   "fullName" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill.payBills01",
   "historyId" : "c54ae3f4ba1d702b78944073fef27016",
   "time" : {
-    "start" : 1564530760848,
-    "stop" : 1564530921446,
-    "duration" : 160598
+    "start" : 1564604049280,
+    "stop" : 1564604255782,
+    "duration" : 206502
   },
   "description" : "Pay bills and enter mail",
   "descriptionHtml" : "<p>Pay bills and enter mail</p>\n",
@@ -20,24 +20,24 @@
     "steps" : [ {
       "name" : "Login to Tigo Web",
       "time" : {
-        "start" : 1564530760877,
-        "stop" : 1564530811452,
-        "duration" : 50575
+        "start" : 1564604049314,
+        "stop" : 1564604086773,
+        "duration" : 37459
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Pay bills and enter mail \"example@gmail.com\"",
       "time" : {
-        "start" : 1564530811456,
-        "stop" : 1564530921001,
-        "duration" : 109545
+        "start" : 1564604086779,
+        "stop" : 1564604194978,
+        "duration" : 108199
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,46 +46,64 @@
         "name" : "email",
         "value" : "example@gmail.com"
       } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : true
     }, {
       "name" : "Finished Tigo Web",
       "time" : {
-        "start" : 1564530921016,
-        "stop" : 1564530921434,
-        "duration" : 418
+        "start" : 1564604255094,
+        "stop" : 1564604255769,
+        "duration" : 675
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "23670aca36857f00",
-      "name" : "JSON Information",
-      "source" : "23670aca36857f00.txt",
-      "type" : "text/plain",
+      "uid" : "fabb93e6fd6afeb7",
+      "name" : "JSON Attachment",
+      "source" : "fabb93e6fd6afeb7.json",
+      "type" : "application/json",
       "size" : 62
+    }, {
+      "uid" : "65e9c04418267474",
+      "name" : "XML Attachment",
+      "source" : "65e9c04418267474.xml",
+      "type" : "application/xml",
+      "size" : 118
+    }, {
+      "uid" : "ea7ad43d24b6ab63",
+      "name" : "App Logo",
+      "source" : "ea7ad43d24b6ab63.jpg",
+      "type" : "image/jpg",
+      "size" : 24875
+    }, {
+      "uid" : "771e65cfb2a4ab07",
+      "name" : "Page screenshot web",
+      "source" : "771e65cfb2a4ab07.txt",
+      "type" : "image/png",
+      "size" : 4
     } ],
     "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
     "stepsCount" : 3,
-    "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "CU 003 - Pay Bill"
-  }, {
     "name" : "feature",
     "value" : "Open the Tigo Web app and Pay the bills"
+  }, {
+    "name" : "epic",
+    "value" : "CU 003 - Pay Bill"
   }, {
     "name" : "story",
     "value" : "Pay the bills"
@@ -94,7 +112,7 @@
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "24824@DESKTOP-K4LOO3N.main(1)"
+    "value" : "9968@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -131,6 +149,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "ae4de8beb51ee995.json",
+  "source" : "b2a08518c47ddd93.json",
   "parameterValues" : [ ]
 }

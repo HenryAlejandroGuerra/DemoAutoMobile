@@ -2,6 +2,7 @@ package com.aut.demo.tigoBrowser.specs;
 
 import com.aut.demo.tigoBrowser.steps.HomeSteps;
 import com.aut.demo.util.AllureReport;
+import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -40,13 +41,16 @@ public class CU_003_Pay_Bill {
     @Flaky
     void payBills01(){
         home.payInvoice("example@gmail.com");
-        allure.attachmentFile("\\src\\test\\resources\\allure-json-file.json");
+        allure.attachmentFile("JSON Attachment", "\\src\\test\\resources\\", "allure-json-file.", "json");
+        allure.attachmentFile("XML Attachment", "\\src\\test\\resources\\", "allure-xml-file.", "xml");
+        allure.attachmentFile("App Logo", "\\src\\test\\resources\\", "tigo-logo.", "jpg");
     }
     
     @AfterEach
     @Story("Logout Tigo Web")
     @Description("Close Tigo Web app")
     void end(){
+        allure.saveFailureScreenShotWeb(BasePage.driver);
         home.end();
     }
     
