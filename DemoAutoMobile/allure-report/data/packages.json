@@ -5,13 +5,13 @@
     "name" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill",
     "children" : [ {
       "name" : "payBills01",
-      "uid" : "b2a08518c47ddd93",
+      "uid" : "ce9bfcb86a619ed9",
       "parentUid" : "579d134b53770a4f9cb1ba86781029e4",
       "status" : "passed",
       "time" : {
-        "start" : 1564604049280,
-        "stop" : 1564604255782,
-        "duration" : 206502
+        "start" : 1564613525213,
+        "stop" : 1564613661999,
+        "duration" : 136786
       },
       "flaky" : false,
       "newFailed" : false,

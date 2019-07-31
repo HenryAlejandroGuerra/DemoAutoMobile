@@ -1,12 +1,12 @@
 {
-  "uid" : "b2a08518c47ddd93",
+  "uid" : "ce9bfcb86a619ed9",
   "name" : "01 - Pay the bills",
   "fullName" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill.payBills01",
   "historyId" : "c54ae3f4ba1d702b78944073fef27016",
   "time" : {
-    "start" : 1564604049280,
-    "stop" : 1564604255782,
-    "duration" : 206502
+    "start" : 1564613525213,
+    "stop" : 1564613661999,
+    "duration" : 136786
   },
   "description" : "Pay bills and enter mail",
   "descriptionHtml" : "<p>Pay bills and enter mail</p>\n",
@@ -20,24 +20,24 @@
     "steps" : [ {
       "name" : "Login to Tigo Web",
       "time" : {
-        "start" : 1564604049314,
-        "stop" : 1564604086773,
-        "duration" : 37459
+        "start" : 1564613525421,
+        "stop" : 1564613549451,
+        "duration" : 24030
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Pay bills and enter mail \"example@gmail.com\"",
       "time" : {
-        "start" : 1564604086779,
-        "stop" : 1564604194978,
-        "duration" : 108199
+        "start" : 1564613549461,
+        "stop" : 1564613659778,
+        "duration" : 110317
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,56 +46,56 @@
         "name" : "email",
         "value" : "example@gmail.com"
       } ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "Finished Tigo Web",
       "time" : {
-        "start" : 1564604255094,
-        "stop" : 1564604255769,
-        "duration" : 675
+        "start" : 1564613661087,
+        "stop" : 1564613661984,
+        "duration" : 897
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "fabb93e6fd6afeb7",
+      "uid" : "9d2190a58d6cdcdc",
       "name" : "JSON Attachment",
-      "source" : "fabb93e6fd6afeb7.json",
+      "source" : "9d2190a58d6cdcdc.json",
       "type" : "application/json",
       "size" : 62
     }, {
-      "uid" : "65e9c04418267474",
+      "uid" : "32d9e06f794b83cb",
       "name" : "XML Attachment",
-      "source" : "65e9c04418267474.xml",
+      "source" : "32d9e06f794b83cb.xml",
       "type" : "application/xml",
       "size" : 118
     }, {
-      "uid" : "ea7ad43d24b6ab63",
+      "uid" : "edf16ed9f42a3d0f",
       "name" : "App Logo",
-      "source" : "ea7ad43d24b6ab63.jpg",
+      "source" : "edf16ed9f42a3d0f.jpg",
       "type" : "image/jpg",
       "size" : 24875
     }, {
-      "uid" : "771e65cfb2a4ab07",
-      "name" : "Page screenshot web",
-      "source" : "771e65cfb2a4ab07.txt",
+      "uid" : "332c7860675c94e3",
+      "name" : "Page screenshot",
+      "source" : "332c7860675c94e3.png",
       "type" : "image/png",
-      "size" : 4
+      "size" : 360065
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 4,
     "stepsCount" : 3,
-    "hasContent" : true
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -112,7 +112,7 @@
     "value" : "DESKTOP-K4LOO3N"
   }, {
     "name" : "thread",
-    "value" : "9968@DESKTOP-K4LOO3N.main(1)"
+    "value" : "29944@DESKTOP-K4LOO3N.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -149,6 +149,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "b2a08518c47ddd93.json",
+  "source" : "ce9bfcb86a619ed9.json",
   "parameterValues" : [ ]
 }

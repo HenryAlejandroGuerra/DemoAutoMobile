@@ -55,9 +55,9 @@ public class DriverFactory {
         
         factory.init();
         Set<String> contextNames = ((AppiumDriver<MobileElement>) driver).getContextHandles();
-        for (String contextName : contextNames) {
-           System.out.println(contextName);
-        }
+        contextNames.forEach((contextName) -> {
+            System.out.println(contextName);
+        });
         System.out.println("Successful session creation");
     }
     
@@ -81,9 +81,9 @@ public class DriverFactory {
         
         factory.init();
         Set<String> contextNames = ((AppiumDriver<MobileElement>) driver).getContextHandles();
-        for (String contextName : contextNames) {
-           System.out.println(contextName);
-        }
+        contextNames.forEach((contextName) -> {
+            System.out.println(contextName);
+        });
         System.out.println("Successful session creation");
     }
     
@@ -97,8 +97,7 @@ public class DriverFactory {
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, automation_name);
         cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
         cap.setCapability("chromedriverExecutable", chromedriver);
-        cap.setCapability(MobileCapabilityType.TAKES_SCREENSHOT, true);
-//        cap.setCapability("chromedriverUseSystemExecutable", true);
+        cap.setCapability("nativeWebScreenshot", true);
         URL url = new URL(appium_host_url);
         
         driver = new RemoteWebDriver(url, cap);

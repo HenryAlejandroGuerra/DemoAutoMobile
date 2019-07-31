@@ -1,12 +1,13 @@
 package com.aut.demo.util;
 
-import com.aut.demo.tigoShop.pages.HomePage;
 import org.openqa.selenium.WebDriver;
 
 public class PageFactory extends org.openqa.selenium.support.PageFactory {
     
     public static WebDriver driver;
-    public static HomePage homePage;
+    public static com.aut.demo.tigoShop.pages.HomePage homeTigoShop;
+    public static com.aut.demo.tigoSports.pages.HomePage homeTigoSport;
+    public static com.aut.demo.tigoBrowser.pages.HomePage homeTigoWeb;
     
     public PageFactory(){
     }
@@ -14,7 +15,9 @@ public class PageFactory extends org.openqa.selenium.support.PageFactory {
     public void init(){
         driver = DriverFactory.getDriver();
 
-        homePage = PageFactory.initElements(driver, HomePage.class);
+        homeTigoShop = PageFactory.initElements(driver, com.aut.demo.tigoShop.pages.HomePage.class);
+        homeTigoSport = PageFactory.initElements(driver, com.aut.demo.tigoSports.pages.HomePage.class);
+        homeTigoWeb = PageFactory.initElements(driver, com.aut.demo.tigoBrowser.pages.HomePage.class);
     }
     
 }

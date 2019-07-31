@@ -22,6 +22,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.remote.Augmenter;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -122,16 +123,6 @@ public class AllureReport {
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
     
-    @Attachment(value = "Page screenshot web", type = "image/png")
-    public byte[] saveFailureScreenShotWeb(WebDriver driver) {
-        try {
-            return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-        } catch (WebDriverException e) {
-            System.out.println("Error saveFailureScreenShotWeb: "+e);
-            return null;
-        }
-    }
-    
     public void attachmentFile(String name, String path, String file, String extension) {
 //        System.out.println("File: "+pathProject+path+file+extension);
         Path content = Paths.get(pathProject+path+file+extension);
@@ -144,6 +135,7 @@ public class AllureReport {
 //        System.out.println("Type: "+type);
         try (InputStream is = Files.newInputStream(content)) {
             Allure.addAttachment(name, type, is, extension);
+            System.out.println("Your File "+file+extension+ " has been successfully attached");
         } catch (IOException ex) {
             System.out.println("Error attachmentFile: "+ex);
         }
