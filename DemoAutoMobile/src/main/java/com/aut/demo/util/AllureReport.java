@@ -18,7 +18,6 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import org.junit.jupiter.api.extension.ExtensionContext;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -119,9 +118,8 @@ public class AllureReport {
     }
     
     @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveFailureScreenShot(WebDriver driver, ExtensionContext context) {
+    public byte[] saveFailureScreenShot(WebDriver driver) {
         try {
-            System.out.println("Exception: "+context.getExecutionException().isPresent());
             return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
         } catch (WebDriverException e) {
             System.out.println("Error saveFailureScreenShot: "+e);

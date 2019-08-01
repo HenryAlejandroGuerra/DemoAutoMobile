@@ -17,13 +17,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtensionContext;
 
 @Epic("CU 002 - Show Balances")
 @Feature("Show customer balance information")
 public class CU_002_Show_Balances {
     
-    static AllureReport allure;
+    static AllureReport allure = new AllureReport();
     BalancesSteps balance = new BalancesSteps();
     
     @BeforeAll
@@ -70,8 +69,8 @@ public class CU_002_Show_Balances {
     @AfterEach
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
-    void end(ExtensionContext context){
-        allure.saveFailureScreenShot(BasePage.driver, context);
+    void end(){
+        allure.saveFailureScreenShot(BasePage.driver);
         balance.end();
     }
     
