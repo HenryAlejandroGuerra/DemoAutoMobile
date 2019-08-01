@@ -18,10 +18,11 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import org.junit.jupiter.api.TestInfo;
+import org.junit.jupiter.api.extension.ExtensionContext;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -118,18 +119,21 @@ public class AllureReport {
     }
     
     @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveFailureScreenShot(WebDriver driver, TestInfo info) {
-        String name = info.getDisplayName();
-        boolean present = info.getTestMethod().isPresent();
-        System.out.println("Test Name: "+name+", Test Present: "+present);
-        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+    public byte[] saveFailureScreenShot(WebDriver driver, ExtensionContext context) {
+        try {
+            System.out.println("Exception: "+context.getExecutionException().isPresent());
+            return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+        } catch (WebDriverException e) {
+            System.out.println("Error saveFailureScreenShot: "+e);
+            return null;
+        }
     }
     
     public void attachmentFile(String name, String path, String file, String extension) {
 //        System.out.println("File: "+pathProject+path+file+extension);
         Path content = Paths.get(pathProject+path+file+extension);
         String type = "text/plain";
-        if(extension.equals("json") || extension.equals("csv") || extension.equals("xml")){
+        if(extension.equals("json") || extension.equals("csv") || extension.equals("xml") || extension.equals("html")){
             type = "application/"+extension;
         } else if(extension.equals("png") || extension.equals("jpg")){
             type = "image/"+extension;

@@ -9,13 +9,13 @@
         "name" : "Show balance information",
         "children" : [ {
           "name" : "01 - Show balance information",
-          "uid" : "bbff5ca562faf98b",
+          "uid" : "c6205973d476fc8",
           "parentUid" : "45c9c79a4e326f9288d96dc876f6fc86",
           "status" : "passed",
           "time" : {
-            "start" : 1564617447944,
-            "stop" : 1564617552831,
-            "duration" : 104887
+            "start" : 1564699342920,
+            "stop" : 1564699444068,
+            "duration" : 101148
           },
           "flaky" : false,
           "newFailed" : false,
@@ -23,16 +23,33 @@
         } ],
         "uid" : "45c9c79a4e326f9288d96dc876f6fc86"
       }, {
+        "name" : "Show balance information in Shopping Tab",
+        "children" : [ {
+          "name" : "02 - Show balance information in Shopping Tab",
+          "uid" : "8f761a605e623f92",
+          "parentUid" : "6003d9e4346e2900330ecd8ee23075ec",
+          "status" : "passed",
+          "time" : {
+            "start" : 1564699444525,
+            "stop" : 1564699511812,
+            "duration" : 67287
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6003d9e4346e2900330ecd8ee23075ec"
+      }, {
         "name" : "Connection Error Notification",
         "children" : [ {
           "name" : "03 - Connection Error Notification",
-          "uid" : "78fe18b65989b766",
+          "uid" : "863e4aba313cc014",
           "parentUid" : "a24ca63ca3b899e9631ab5b3dc089dcc",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1564617553261,
-            "stop" : 1564617631816,
-            "duration" : 78555
+            "start" : 1564699511844,
+            "stop" : 1564699587949,
+            "duration" : 76105
           },
           "flaky" : false,
           "newFailed" : false,

@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Browse the entire menu")
 public class CU_002_Browse_The_Menu {
 
-    static AllureReport allure = new AllureReport();
+    static AllureReport allure;
     MenuSteps menu = new MenuSteps();
     
     @BeforeAll

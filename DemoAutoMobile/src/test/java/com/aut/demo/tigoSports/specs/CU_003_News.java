@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Show all news")
 public class CU_003_News {
     
-    static AllureReport allure = new AllureReport();
+    static AllureReport allure;
     MenuSteps menu = new MenuSteps();
     
     @BeforeAll

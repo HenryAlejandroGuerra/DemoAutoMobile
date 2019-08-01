@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Show customer Perfil Information Tab")
 public class CU_004_Show_Information_Perfil_Tab {
 
-    static AllureReport allure = new AllureReport();
+    static AllureReport allure;
     PerfilSteps perfil = new PerfilSteps();
     
     @BeforeAll

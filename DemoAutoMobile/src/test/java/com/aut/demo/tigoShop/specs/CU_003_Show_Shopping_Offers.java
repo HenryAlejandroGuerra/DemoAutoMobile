@@ -19,7 +19,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Show customer Shopping Offers")
 public class CU_003_Show_Shopping_Offers {
 
-    static AllureReport allure = new AllureReport();
+    static AllureReport allure;
     ShopSteps shop = new ShopSteps();
     
     @BeforeAll

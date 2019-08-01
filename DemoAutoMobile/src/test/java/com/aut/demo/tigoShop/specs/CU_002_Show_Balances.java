@@ -15,14 +15,15 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInfo;
+import org.junit.jupiter.api.extension.ExtensionContext;
 
 @Epic("CU 002 - Show Balances")
 @Feature("Show customer balance information")
 public class CU_002_Show_Balances {
     
-    static AllureReport allure = new AllureReport();
+    static AllureReport allure;
     BalancesSteps balance = new BalancesSteps();
     
     @BeforeAll
@@ -38,6 +39,7 @@ public class CU_002_Show_Balances {
     }
     
     @Test
+    @Order(1)
     @DisplayName(value = "01 - Show balance information")
     @Story("Show balance information")
     @Description("Show all balance information")
@@ -48,6 +50,7 @@ public class CU_002_Show_Balances {
     }
     
 //    @Test
+    @Order(2)
     @DisplayName(value = "02 - Show balance information in Shopping Tab")
     @Story("Show balance information in Shopping Tab")
     @Description("Show the information available in the shopping tab")
@@ -56,6 +59,7 @@ public class CU_002_Show_Balances {
     }
     
     @Test
+    @Order(3)
     @DisplayName(value = "03 - Connection Error Notification")
     @Story("Connection Error Notification")
     @Description("Show the connection error in the balances tab")
@@ -66,8 +70,8 @@ public class CU_002_Show_Balances {
     @AfterEach
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
-    void end(TestInfo info){
-        allure.saveFailureScreenShot(BasePage.driver, info);
+    void end(ExtensionContext context){
+        allure.saveFailureScreenShot(BasePage.driver, context);
         balance.end();
     }
     

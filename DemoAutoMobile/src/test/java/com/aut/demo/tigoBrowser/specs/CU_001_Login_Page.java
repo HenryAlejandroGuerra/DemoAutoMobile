@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Just enter the app")
 public class CU_001_Login_Page {
 
-    static AllureReport allure = new AllureReport();
+    static AllureReport allure;
     HomeSteps step = new HomeSteps();
     
     @BeforeAll

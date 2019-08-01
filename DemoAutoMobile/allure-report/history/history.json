@@ -2,20 +2,19 @@
   "6cd8a7164bafc7600365fa27e3fba162" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "78fe18b65989b766",
-      "status" : "broken",
-      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:\\Users\\HTC\\Desktop\\GitKra..., appPackage: com.juvomobileinc.tigoshop.sv, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\\Users\\HTC\\Desktop\\GitKra..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: pixel, newCommandTimeout: 300, noReset: true, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 8cd194cb-82fc-4de7-8e32-73df307b7ddc\n*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc=\"Wi-Fi desactivada,Abrir configuración de Wi-Fi\"]}",
+      "uid" : "863e4aba313cc014",
+      "status" : "passed",
       "time" : {
-        "start" : 1564617553261,
-        "stop" : 1564617631816,
-        "duration" : 78555
+        "start" : 1564699511844,
+        "stop" : 1564699587949,
+        "duration" : 76105
       }
     } ]
   },
@@ -29,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bbff5ca562faf98b",
+      "uid" : "c6205973d476fc8",
       "status" : "passed",
       "time" : {
-        "start" : 1564617447944,
-        "stop" : 1564617552831,
-        "duration" : 104887
+        "start" : 1564699342920,
+        "stop" : 1564699444068,
+        "duration" : 101148
+      }
+    } ]
+  },
+  "34b6b6719dbee1e2544f05c2b6aa59bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f761a605e623f92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564699444525,
+        "stop" : 1564699511812,
+        "duration" : 67287
       }
     } ]
   }

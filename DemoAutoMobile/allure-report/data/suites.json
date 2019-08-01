@@ -5,26 +5,39 @@
     "name" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances",
     "children" : [ {
       "name" : "01 - Show balance information",
-      "uid" : "bbff5ca562faf98b",
+      "uid" : "c6205973d476fc8",
       "parentUid" : "2511a518579f94f60e7cf43e8e2bf0aa",
       "status" : "passed",
       "time" : {
-        "start" : 1564617447944,
-        "stop" : 1564617552831,
-        "duration" : 104887
+        "start" : 1564699342920,
+        "stop" : 1564699444068,
+        "duration" : 101148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "02 - Show balance information in Shopping Tab",
+      "uid" : "8f761a605e623f92",
+      "parentUid" : "2511a518579f94f60e7cf43e8e2bf0aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564699444525,
+        "stop" : 1564699511812,
+        "duration" : 67287
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "03 - Connection Error Notification",
-      "uid" : "78fe18b65989b766",
+      "uid" : "863e4aba313cc014",
       "parentUid" : "2511a518579f94f60e7cf43e8e2bf0aa",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1564617553261,
-        "stop" : 1564617631816,
-        "duration" : 78555
+        "start" : 1564699511844,
+        "stop" : 1564699587949,
+        "duration" : 76105
       },
       "flaky" : false,
       "newFailed" : false,

@@ -4,35 +4,48 @@
   "children" : [ {
     "name" : "DESKTOP-K4LOO3N",
     "children" : [ {
-      "name" : "10416@DESKTOP-K4LOO3N.main(1)",
+      "name" : "26204@DESKTOP-K4LOO3N.main(1)",
       "children" : [ {
-        "name" : "01 - Show balance information",
-        "uid" : "bbff5ca562faf98b",
-        "parentUid" : "7760a5b2a109330f896dc482b7158e40",
+        "name" : "02 - Show balance information in Shopping Tab",
+        "uid" : "8f761a605e623f92",
+        "parentUid" : "6a3774b0a92fe95e130b2b3db7addfd9",
         "status" : "passed",
         "time" : {
-          "start" : 1564617447944,
-          "stop" : 1564617552831,
-          "duration" : 104887
+          "start" : 1564699444525,
+          "stop" : 1564699511812,
+          "duration" : 67287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "01 - Show balance information",
+        "uid" : "c6205973d476fc8",
+        "parentUid" : "6a3774b0a92fe95e130b2b3db7addfd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564699342920,
+          "stop" : 1564699444068,
+          "duration" : 101148
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "03 - Connection Error Notification",
-        "uid" : "78fe18b65989b766",
-        "parentUid" : "7760a5b2a109330f896dc482b7158e40",
-        "status" : "broken",
+        "uid" : "863e4aba313cc014",
+        "parentUid" : "6a3774b0a92fe95e130b2b3db7addfd9",
+        "status" : "passed",
         "time" : {
-          "start" : 1564617553261,
-          "stop" : 1564617631816,
-          "duration" : 78555
+          "start" : 1564699511844,
+          "stop" : 1564699587949,
+          "duration" : 76105
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7760a5b2a109330f896dc482b7158e40"
+      "uid" : "6a3774b0a92fe95e130b2b3db7addfd9"
     } ],
     "uid" : "2a20e0824447a93c48f1426f075c56da"
   } ]

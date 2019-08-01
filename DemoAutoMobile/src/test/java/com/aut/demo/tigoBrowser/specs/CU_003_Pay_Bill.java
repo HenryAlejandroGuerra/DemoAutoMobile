@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Open the Tigo Web app and Pay the bills")
 public class CU_003_Pay_Bill {
 
-    static AllureReport allure = new AllureReport();
+    static AllureReport allure;
     HomeSteps home = new HomeSteps();
     
     @BeforeAll
