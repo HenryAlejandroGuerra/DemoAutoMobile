@@ -47,7 +47,7 @@ public class CU_003_Show_Shopping_Offers {
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
+//        allure.saveFailureScreenShot(BasePage.driver);
         shop.end();
     }
     

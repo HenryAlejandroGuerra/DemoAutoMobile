@@ -45,7 +45,7 @@ public class CU_002_Browse_The_Menu {
     @Story("Logout Tigo Sports")
     @Description("Close Tigo Sports app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
+//        allure.saveFailureScreenShot(BasePage.driver);
         menu.end();
     }
     

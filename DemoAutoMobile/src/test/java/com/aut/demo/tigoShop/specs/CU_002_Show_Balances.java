@@ -16,6 +16,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInfo;
 
 @Epic("CU 002 - Show Balances")
 @Feature("Show customer balance information")
@@ -46,7 +47,7 @@ public class CU_002_Show_Balances {
         balance.intoBalancesAndShowInformation();
     }
     
-    @Test
+//    @Test
     @DisplayName(value = "02 - Show balance information in Shopping Tab")
     @Story("Show balance information in Shopping Tab")
     @Description("Show the information available in the shopping tab")
@@ -65,8 +66,8 @@ public class CU_002_Show_Balances {
     @AfterEach
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
-    void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
+    void end(TestInfo info){
+        allure.saveFailureScreenShot(BasePage.driver, info);
         balance.end();
     }
     

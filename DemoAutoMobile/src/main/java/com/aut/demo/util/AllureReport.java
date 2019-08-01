@@ -18,11 +18,10 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import org.junit.jupiter.api.TestInfo;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.remote.Augmenter;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -119,7 +118,10 @@ public class AllureReport {
     }
     
     @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveFailureScreenShot(WebDriver driver) {
+    public byte[] saveFailureScreenShot(WebDriver driver, TestInfo info) {
+        String name = info.getDisplayName();
+        boolean present = info.getTestMethod().isPresent();
+        System.out.println("Test Name: "+name+", Test Present: "+present);
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
     

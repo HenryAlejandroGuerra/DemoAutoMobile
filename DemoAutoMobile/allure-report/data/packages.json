@@ -2,21 +2,34 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill",
+    "name" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances",
     "children" : [ {
-      "name" : "payBills01",
-      "uid" : "ce9bfcb86a619ed9",
-      "parentUid" : "579d134b53770a4f9cb1ba86781029e4",
+      "name" : "showBalances01",
+      "uid" : "bbff5ca562faf98b",
+      "parentUid" : "e43a90f990295a48d3951df665695d7a",
       "status" : "passed",
       "time" : {
-        "start" : 1564613525213,
-        "stop" : 1564613661999,
-        "duration" : 136786
+        "start" : 1564617447944,
+        "stop" : 1564617552831,
+        "duration" : 104887
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "showBalances03",
+      "uid" : "78fe18b65989b766",
+      "parentUid" : "e43a90f990295a48d3951df665695d7a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1564617553261,
+        "stop" : 1564617631816,
+        "duration" : 78555
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill"
+    "uid" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances"
   } ]
 }

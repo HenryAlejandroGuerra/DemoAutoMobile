@@ -53,7 +53,7 @@ public class CU_003_News {
     @Story("Logout Tigo Sports")
     @Description("Close Tigo Sports app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
+//        allure.saveFailureScreenShot(BasePage.driver);
         menu.end();
     }
     

@@ -45,7 +45,7 @@ public class CU_004_Show_Information_Perfil_Tab {
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
+//        allure.saveFailureScreenShot(BasePage.driver);
         perfil.end();
     }
     

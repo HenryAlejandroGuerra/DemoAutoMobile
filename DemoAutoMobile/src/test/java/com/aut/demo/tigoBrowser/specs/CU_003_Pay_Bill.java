@@ -48,7 +48,7 @@ public class CU_003_Pay_Bill {
     @Story("Logout Tigo Web")
     @Description("Close Tigo Web app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
+//        allure.saveFailureScreenShot(BasePage.driver);
         home.end();
     }
     

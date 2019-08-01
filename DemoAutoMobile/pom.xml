@@ -23,7 +23,7 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.api.version}</version>
-            <scope>test</scope>
+            <type>jar</type>
         </dependency>
         <!-- Test engine(s) -->
         <dependency>

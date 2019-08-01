@@ -91,7 +91,7 @@ public class BalancesPage extends ToolsPage {
     
     public BalancesPage errorNotification(){
         // Turn Off or Turn On
-        notiBar.wifi("Turn Off");
+        notiBar.wifi("Turn On");
         timeWait(3);
         notiBar.mobileData("Turn Off");
         click(REFRESH);

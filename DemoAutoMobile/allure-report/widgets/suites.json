@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "c98591d61ee3a6df1d2036c788876a78",
-    "name" : "com.aut.demo.tigoBrowser.specs.CU_003_Pay_Bill",
+    "uid" : "2511a518579f94f60e7cf43e8e2bf0aa",
+    "name" : "com.aut.demo.tigoShop.specs.CU_002_Show_Balances",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }
