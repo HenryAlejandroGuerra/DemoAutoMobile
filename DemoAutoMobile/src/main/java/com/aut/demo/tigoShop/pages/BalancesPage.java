@@ -99,6 +99,7 @@ public class BalancesPage extends ToolsPage {
         String error = getText(ERROR_NOTIFICATION);
         System.out.println(error);
         timeWait(5);
+        // Turn Off or Turn On
         notiBar.wifi("Turn On");
         timeWait(3);
         notiBar.mobileData("Turn On");

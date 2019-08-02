@@ -1,31 +1,21 @@
 [ {
-  "uid" : "8e615f113b5973d2",
-  "name" : "03 - Connection Error Notification",
+  "uid" : "a6622930868fc332",
+  "name" : "02 - Show a random news in the Home",
   "time" : {
-    "start" : 1564781343350,
-    "stop" : 1564781415923,
-    "duration" : 72573
+    "start" : 1564786963498,
+    "stop" : 1564787017601,
+    "duration" : 54103
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "513e7a89d1b2708a",
-  "name" : "02 - Show balance information in Shopping Tab",
+  "uid" : "f142d575abcd41eb",
+  "name" : "01 - Show a random news",
   "time" : {
-    "start" : 1564781278027,
-    "stop" : 1564781343335,
-    "duration" : 65308
+    "start" : 1564786896743,
+    "stop" : 1564786963186,
+    "duration" : 66443
   },
   "status" : "passed",
   "severity" : "normal"
-}, {
-  "uid" : "c2b94e202ab541c9",
-  "name" : "01 - Show balance information",
-  "time" : {
-    "start" : 1564781184317,
-    "stop" : 1564781277643,
-    "duration" : 93326
-  },
-  "status" : "passed",
-  "severity" : "critical"
 } ]

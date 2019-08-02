@@ -4,48 +4,35 @@
   "children" : [ {
     "name" : "DESKTOP-K4LOO3N",
     "children" : [ {
-      "name" : "27180@DESKTOP-K4LOO3N.main(1)",
+      "name" : "23232@DESKTOP-K4LOO3N.main(1)",
       "children" : [ {
-        "name" : "02 - Show balance information in Shopping Tab",
-        "uid" : "513e7a89d1b2708a",
-        "parentUid" : "2d2540c49471340550ff6e273a665df5",
+        "name" : "01 - Show a random news",
+        "uid" : "f142d575abcd41eb",
+        "parentUid" : "0c7c4306d3cb6d7629516e791d379306",
         "status" : "passed",
         "time" : {
-          "start" : 1564781278027,
-          "stop" : 1564781343335,
-          "duration" : 65308
+          "start" : 1564786896743,
+          "stop" : 1564786963186,
+          "duration" : 66443
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "03 - Connection Error Notification",
-        "uid" : "8e615f113b5973d2",
-        "parentUid" : "2d2540c49471340550ff6e273a665df5",
+        "name" : "02 - Show a random news in the Home",
+        "uid" : "a6622930868fc332",
+        "parentUid" : "0c7c4306d3cb6d7629516e791d379306",
         "status" : "broken",
         "time" : {
-          "start" : 1564781343350,
-          "stop" : 1564781415923,
-          "duration" : 72573
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "01 - Show balance information",
-        "uid" : "c2b94e202ab541c9",
-        "parentUid" : "2d2540c49471340550ff6e273a665df5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1564781184317,
-          "stop" : 1564781277643,
-          "duration" : 93326
+          "start" : 1564786963498,
+          "stop" : 1564787017601,
+          "duration" : 54103
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2d2540c49471340550ff6e273a665df5"
+      "uid" : "0c7c4306d3cb6d7629516e791d379306"
     } ],
     "uid" : "2a20e0824447a93c48f1426f075c56da"
   } ]

@@ -26,9 +26,9 @@ public class HomePage extends ToolsPage {
     public HomePage showRandomNews(){
         scrollLimited(1525);
         List<MobileElement> allNews = driver.findElements(NEWS_IMAGE);
-        System.out.println("News: "+allNews.size());
+//        System.out.println("News: "+allNews.size());
         int position = getRandomNumberInRange(0, allNews.size());
-        System.out.println("Position: "+position);
+//        System.out.println("Position: "+position);
         allNews.get(position).click();
         timeWait(5);
         scrollLimited(1200);

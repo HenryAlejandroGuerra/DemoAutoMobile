@@ -2,63 +2,46 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "CU 002 - Show Balances",
+    "name" : "CU 003 - News",
     "children" : [ {
-      "name" : "Show customer balance information",
+      "name" : "Show all news",
       "children" : [ {
-        "name" : "Show balance information",
+        "name" : "Show a random news",
         "children" : [ {
-          "name" : "01 - Show balance information",
-          "uid" : "c2b94e202ab541c9",
-          "parentUid" : "45c9c79a4e326f9288d96dc876f6fc86",
+          "name" : "01 - Show a random news",
+          "uid" : "f142d575abcd41eb",
+          "parentUid" : "cdc40962013f7e9de5abb06ba0ac8cff",
           "status" : "passed",
           "time" : {
-            "start" : 1564781184317,
-            "stop" : 1564781277643,
-            "duration" : 93326
+            "start" : 1564786896743,
+            "stop" : 1564786963186,
+            "duration" : 66443
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "45c9c79a4e326f9288d96dc876f6fc86"
+        "uid" : "cdc40962013f7e9de5abb06ba0ac8cff"
       }, {
-        "name" : "Show balance information in Shopping Tab",
+        "name" : "Show a random news in the Home",
         "children" : [ {
-          "name" : "02 - Show balance information in Shopping Tab",
-          "uid" : "513e7a89d1b2708a",
-          "parentUid" : "6003d9e4346e2900330ecd8ee23075ec",
-          "status" : "passed",
-          "time" : {
-            "start" : 1564781278027,
-            "stop" : 1564781343335,
-            "duration" : 65308
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "6003d9e4346e2900330ecd8ee23075ec"
-      }, {
-        "name" : "Connection Error Notification",
-        "children" : [ {
-          "name" : "03 - Connection Error Notification",
-          "uid" : "8e615f113b5973d2",
-          "parentUid" : "a24ca63ca3b899e9631ab5b3dc089dcc",
+          "name" : "02 - Show a random news in the Home",
+          "uid" : "a6622930868fc332",
+          "parentUid" : "5266c2af99b43deeee35e1a81fb50398",
           "status" : "broken",
           "time" : {
-            "start" : 1564781343350,
-            "stop" : 1564781415923,
-            "duration" : 72573
+            "start" : 1564786963498,
+            "stop" : 1564787017601,
+            "duration" : 54103
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "a24ca63ca3b899e9631ab5b3dc089dcc"
+        "uid" : "5266c2af99b43deeee35e1a81fb50398"
       } ],
-      "uid" : "650e814a9de4e88b0b272ae7036d9db7"
+      "uid" : "6f1718088727cb3f842986f545197c2b"
     } ],
-    "uid" : "8dfa3577057de8eabd597bdd1176bd04"
+    "uid" : "895e3af0f05c988b5396f2166d613ed6"
   } ]
 }

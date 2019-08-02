@@ -14,13 +14,16 @@ import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
 @Epic("CU 002 - Show Balances")
 @Feature("Show customer balance information")
+@TestMethodOrder(OrderAnnotation.class)
 public class CU_002_Show_Balances {
     
     BalancesSteps balance = new BalancesSteps();
