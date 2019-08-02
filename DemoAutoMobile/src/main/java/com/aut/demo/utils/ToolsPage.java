@@ -1,4 +1,4 @@
-package com.aut.demo.util;
+package com.aut.demo.utils;
 
 import io.appium.java_client.PerformsTouchActions;
 import io.appium.java_client.TouchAction;

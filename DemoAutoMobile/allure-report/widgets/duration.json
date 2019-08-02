@@ -1,31 +1,31 @@
 [ {
-  "uid" : "8f761a605e623f92",
+  "uid" : "8e615f113b5973d2",
+  "name" : "03 - Connection Error Notification",
+  "time" : {
+    "start" : 1564781343350,
+    "stop" : 1564781415923,
+    "duration" : 72573
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "513e7a89d1b2708a",
   "name" : "02 - Show balance information in Shopping Tab",
   "time" : {
-    "start" : 1564699444525,
-    "stop" : 1564699511812,
-    "duration" : 67287
+    "start" : 1564781278027,
+    "stop" : 1564781343335,
+    "duration" : 65308
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c6205973d476fc8",
+  "uid" : "c2b94e202ab541c9",
   "name" : "01 - Show balance information",
   "time" : {
-    "start" : 1564699342920,
-    "stop" : 1564699444068,
-    "duration" : 101148
+    "start" : 1564781184317,
+    "stop" : 1564781277643,
+    "duration" : 93326
   },
   "status" : "passed",
   "severity" : "critical"
-}, {
-  "uid" : "863e4aba313cc014",
-  "name" : "03 - Connection Error Notification",
-  "time" : {
-    "start" : 1564699511844,
-    "stop" : 1564699587949,
-    "duration" : 76105
-  },
-  "status" : "passed",
-  "severity" : "normal"
 } ]

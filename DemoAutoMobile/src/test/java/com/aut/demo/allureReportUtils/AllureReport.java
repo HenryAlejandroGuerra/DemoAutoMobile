@@ -1,4 +1,4 @@
-package com.aut.demo.util;
+package com.aut.demo.allureReportUtils;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;

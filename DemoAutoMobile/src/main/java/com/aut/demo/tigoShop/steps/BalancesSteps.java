@@ -1,7 +1,7 @@
 package com.aut.demo.tigoShop.steps;
 
 import com.aut.demo.tigoShop.pages.HomePage;
-import com.aut.demo.util.DriverFactory;
+import com.aut.demo.utils.DriverFactory;
 import java.net.MalformedURLException;
 import io.qameta.allure.Step;
 
@@ -37,7 +37,6 @@ public class BalancesSteps {
         home.shopPage().printBalance().backHome();
     }
     
-    // Show connection error notification
     @Step("Show connection error notification")
     public void errorConnection(){
         home.balancesPage().errorNotification();

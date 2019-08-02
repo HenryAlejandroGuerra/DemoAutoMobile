@@ -1,27 +1,23 @@
 package com.aut.demo.tigoSports.specs;
 
+import com.aut.demo.allureReportUtils.AfterTestAll;
+import com.aut.demo.allureReportUtils.AfterTestEach;
+import com.aut.demo.allureReportUtils.BeforeTestAll;
 import com.aut.demo.tigoSports.steps.HomeSteps;
-import com.aut.demo.util.AllureReport;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Flaky;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
+@ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
 @Epic("CU 001 - Login Page")
 @Feature("Just enter the app")
 public class CU_001_Login_Page {
 
-    static AllureReport allure;
     HomeSteps step = new HomeSteps();
-    
-    @BeforeAll
-    static void clean(){
-        allure.mvnClean();
-    }
     
     @Test
     @Story("Just enter the app")
@@ -31,11 +27,6 @@ public class CU_001_Login_Page {
         step.start();
         step.inHome();
         step.end();
-    }
-    
-    @AfterAll
-    static void generateReport(){
-        allure.mvnGenerateReport("Tigo Sports El Salvador");
     }
     
 }

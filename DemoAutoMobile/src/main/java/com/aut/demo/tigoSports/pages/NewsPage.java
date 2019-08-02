@@ -1,6 +1,6 @@
 package com.aut.demo.tigoSports.pages;
 
-import com.aut.demo.util.ToolsPage;
+import com.aut.demo.utils.ToolsPage;
 import io.appium.java_client.MobileElement;
 import java.util.List;
 import org.openqa.selenium.By;

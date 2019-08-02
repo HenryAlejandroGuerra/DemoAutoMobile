@@ -1,7 +1,7 @@
 package com.aut.demo.tigoBrowser.steps;
 
 import com.aut.demo.tigoBrowser.pages.MenuPage;
-import com.aut.demo.util.DriverFactory;
+import com.aut.demo.utils.DriverFactory;
 import io.qameta.allure.Step;
 import java.net.MalformedURLException;
 

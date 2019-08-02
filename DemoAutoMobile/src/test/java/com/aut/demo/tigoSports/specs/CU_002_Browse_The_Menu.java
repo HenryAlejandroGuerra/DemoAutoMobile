@@ -1,30 +1,25 @@
 package com.aut.demo.tigoSports.specs;
 
+import com.aut.demo.allureReportUtils.AfterTestAll;
+import com.aut.demo.allureReportUtils.AfterTestEach;
+import com.aut.demo.allureReportUtils.BeforeTestAll;
 import com.aut.demo.tigoSports.steps.MenuSteps;
-import com.aut.demo.util.AllureReport;
-import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
+@ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
 @Epic("CU 002 - Browse The Menu")
 @Feature("Browse the entire menu")
 public class CU_002_Browse_The_Menu {
 
-    static AllureReport allure;
     MenuSteps menu = new MenuSteps();
-    
-    @BeforeAll
-    static void clean(){
-        allure.mvnClean();
-    }
     
     @BeforeEach
     @Story("Login to Tigo Sports")
@@ -45,13 +40,7 @@ public class CU_002_Browse_The_Menu {
     @Story("Logout Tigo Sports")
     @Description("Close Tigo Sports app")
     void end(){
-//        allure.saveFailureScreenShot(BasePage.driver);
         menu.end();
-    }
-    
-    @AfterAll
-    static void generateReport(){
-        allure.mvnGenerateReport("Tigo Sports El Salvador");
     }
     
 }

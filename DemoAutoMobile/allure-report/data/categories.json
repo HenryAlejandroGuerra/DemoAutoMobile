@@ -6,39 +6,26 @@
     "children" : [ {
       "children" : [ {
         "name" : "01 - Show balance information",
-        "uid" : "c6205973d476fc8",
+        "uid" : "c2b94e202ab541c9",
         "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
         "status" : "passed",
         "time" : {
-          "start" : 1564699342920,
-          "stop" : 1564699444068,
-          "duration" : 101148
+          "start" : 1564781184317,
+          "stop" : 1564781277643,
+          "duration" : 93326
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "02 - Show balance information in Shopping Tab",
-        "uid" : "8f761a605e623f92",
+        "uid" : "513e7a89d1b2708a",
         "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
         "status" : "passed",
         "time" : {
-          "start" : 1564699444525,
-          "stop" : 1564699511812,
-          "duration" : 67287
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "03 - Connection Error Notification",
-        "uid" : "863e4aba313cc014",
-        "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1564699511844,
-          "stop" : 1564699587949,
-          "duration" : 76105
+          "start" : 1564781278027,
+          "stop" : 1564781343335,
+          "duration" : 65308
         },
         "flaky" : false,
         "newFailed" : false,
@@ -47,5 +34,26 @@
       "uid" : "008d1cab635699c32c891b417d9dbe0d"
     } ],
     "uid" : "4d58f2092a36f75e4e1b4b34167f1c50"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: C:\\Users\\HTC\\Desktop\\GitKra..., appPackage: com.juvomobileinc.tigoshop.sv, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\\Users\\HTC\\Desktop\\GitKra..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: pixel, newCommandTimeout: 300, noReset: true, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: b7069448-e137-481b-aa56-062ad7b7d2dc\n*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc=\"Wi-Fi desactivada,Abrir configuración de Wi-Fi\"]}",
+      "children" : [ {
+        "name" : "03 - Connection Error Notification",
+        "uid" : "8e615f113b5973d2",
+        "parentUid" : "80a225b6ace79d6123a195832094e892",
+        "status" : "broken",
+        "time" : {
+          "start" : 1564781343350,
+          "stop" : 1564781415923,
+          "duration" : 72573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80a225b6ace79d6123a195832094e892"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

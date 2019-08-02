@@ -1,6 +1,6 @@
 package com.aut.demo.tigoBrowser.pages;
 
-import com.aut.demo.util.ToolsPage;
+import com.aut.demo.utils.ToolsPage;
 import org.openqa.selenium.By;
 
 public class PospagoPage extends ToolsPage {

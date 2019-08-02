@@ -1,8 +1,9 @@
 package com.aut.demo.tigoShop.specs;
 
+import com.aut.demo.allureReportUtils.AfterTestAll;
+import com.aut.demo.allureReportUtils.AfterTestEach;
+import com.aut.demo.allureReportUtils.BeforeTestAll;
 import com.aut.demo.tigoShop.steps.BalancesSteps;
-import com.aut.demo.util.AllureReport;
-import com.aut.demo.util.BasePage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -10,26 +11,20 @@ import io.qameta.allure.Flaky;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
+@ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
 @Epic("CU 002 - Show Balances")
 @Feature("Show customer balance information")
 public class CU_002_Show_Balances {
     
-    static AllureReport allure = new AllureReport();
     BalancesSteps balance = new BalancesSteps();
-    
-    @BeforeAll
-    static void clean(){
-        allure.mvnClean();
-    }
-    
+
     @BeforeEach
     @Story("Login to Tigo Shop")
     @Description("Open the Tigo Shop app and start a test")
@@ -48,7 +43,7 @@ public class CU_002_Show_Balances {
         balance.intoBalancesAndShowInformation();
     }
     
-//    @Test
+    @Test
     @Order(2)
     @DisplayName(value = "02 - Show balance information in Shopping Tab")
     @Story("Show balance information in Shopping Tab")
@@ -70,13 +65,7 @@ public class CU_002_Show_Balances {
     @Story("Logout Tigo Shop")
     @Description("Close Tigo Shop app")
     void end(){
-        allure.saveFailureScreenShot(BasePage.driver);
         balance.end();
-    }
-    
-    @AfterAll
-    static void generateReport(){
-        allure.mvnGenerateReport("Tigo Shop El Salvador");
     }
     
 }

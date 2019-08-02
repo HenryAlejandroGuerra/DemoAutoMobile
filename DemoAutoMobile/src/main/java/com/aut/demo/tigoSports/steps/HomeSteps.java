@@ -1,7 +1,7 @@
 package com.aut.demo.tigoSports.steps;
 
 import com.aut.demo.tigoSports.pages.HomePage;
-import com.aut.demo.util.DriverFactory;
+import com.aut.demo.utils.DriverFactory;
 import io.qameta.allure.Step;
 import java.net.MalformedURLException;
 

@@ -1,7 +1,7 @@
 package com.aut.demo.tigoShop.pages;
 
-import com.aut.demo.util.NotificationBar;
-import com.aut.demo.util.ToolsPage;
+import com.aut.demo.utils.NotificationBar;
+import com.aut.demo.utils.ToolsPage;
 import org.openqa.selenium.By;
 
 public class BalancesPage extends ToolsPage { 
@@ -91,7 +91,7 @@ public class BalancesPage extends ToolsPage {
     
     public BalancesPage errorNotification(){
         // Turn Off or Turn On
-        notiBar.wifi("Turn On");
+        notiBar.wifi("Turn Off");
         timeWait(3);
         notiBar.mobileData("Turn Off");
         click(REFRESH);

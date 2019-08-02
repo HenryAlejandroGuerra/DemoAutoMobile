@@ -1,4 +1,4 @@
-package com.aut.demo.util;
+package com.aut.demo.utils;
 
 import org.openqa.selenium.By;
 

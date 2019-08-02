@@ -1,7 +1,7 @@
 package com.aut.demo.tigoSports.pages;
 
-import static com.aut.demo.util.BasePage.driver;
-import com.aut.demo.util.ToolsPage;
+import static com.aut.demo.utils.BasePage.driver;
+import com.aut.demo.utils.ToolsPage;
 import io.appium.java_client.MobileElement;
 import java.util.List;
 import org.openqa.selenium.By;
