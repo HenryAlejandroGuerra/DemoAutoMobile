@@ -1,6 +1,8 @@
 com\aut\demo\utils\NotificationBar.class
 com\aut\demo\tigoBrowser\pages\HomePage.class
 com\aut\demo\tigoBrowser\pages\PaquetigosPage.class
+com\aut\demo\tigoShop\pages\LoginPage.class
+com\aut\demo\allureReportUtils\BeforeTestAll.class
 com\aut\demo\utils\BasePage.class
 com\aut\demo\tigoShop\pages\HelpPage.class
 com\aut\demo\tigoSports\pages\VideosPage.class
@@ -8,12 +10,15 @@ com\aut\demo\tigoBrowser\pages\PospagoPage.class
 com\aut\demo\tigoShop\steps\PerfilSteps.class
 com\aut\demo\tigoSports\pages\MenuPage.class
 com\aut\demo\utils\DriverFactory.class
+com\aut\demo\allureReportUtils\AfterTestAll.class
 com\aut\demo\utils\ToolsPage.class
+com\aut\demo\allureReportUtils\AllureReport.class
 com\aut\demo\tigoShop\pages\PerfilPage.class
 com\aut\demo\tigoBrowser\steps\MenuSteps.class
 com\aut\demo\tigoBrowser\steps\HomeSteps.class
 com\aut\demo\tigoShop\pages\BalancesPage.class
 com\aut\demo\tigoSports\pages\HomePage.class
+com\aut\demo\allureReportUtils\AfterTestEach.class
 com\aut\demo\tigoBrowser\pages\PrepagoPage.class
 com\aut\demo\tigoSports\pages\NewsPage.class
 com\aut\demo\tigoBrowser\pages\MenuPage.class

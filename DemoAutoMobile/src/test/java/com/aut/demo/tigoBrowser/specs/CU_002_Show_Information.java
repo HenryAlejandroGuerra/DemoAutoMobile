@@ -15,6 +15,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
+@DisplayName(value = "Tigo Web")
 @Epic("CU 002 - Show Information")
 @Feature("Open the Tigo Web app and Show all information")
 public class CU_002_Show_Information {

@@ -21,6 +21,7 @@ import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
+@DisplayName(value = "Tigo Shop")
 @Epic("CU 002 - Show Balances")
 @Feature("Show customer balance information")
 @TestMethodOrder(OrderAnnotation.class)

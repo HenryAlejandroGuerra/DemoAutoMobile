@@ -1,3 +1,2 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"CU 003 - News","Show all news","Show a random news in the Home","0","1","0","0","0"
-"CU 003 - News","Show all news","Show a random news","0","0","1","0","0"
+"CU 003 - Pay Bill","Open the Tigo Web app and Pay the bills","Pay the bills","0","0","1","0","0"

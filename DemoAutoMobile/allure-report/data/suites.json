@@ -2,34 +2,21 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Tigo Shop",
+    "name" : "Tigo Web",
     "children" : [ {
-      "name" : "01 - Show a random news",
-      "uid" : "f142d575abcd41eb",
-      "parentUid" : "753c63e3e683159aca4c3026c9627955",
+      "name" : "01 - Pay the bills",
+      "uid" : "6c273aac4a1ddea5",
+      "parentUid" : "37a802d125825625a4cd0bd8ab7778a1",
       "status" : "passed",
       "time" : {
-        "start" : 1564786896743,
-        "stop" : 1564786963186,
-        "duration" : 66443
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "02 - Show a random news in the Home",
-      "uid" : "a6622930868fc332",
-      "parentUid" : "753c63e3e683159aca4c3026c9627955",
-      "status" : "broken",
-      "time" : {
-        "start" : 1564786963498,
-        "stop" : 1564787017601,
-        "duration" : 54103
+        "start" : 1565220989029,
+        "stop" : 1565221136099,
+        "duration" : 147070
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "753c63e3e683159aca4c3026c9627955"
+    "uid" : "37a802d125825625a4cd0bd8ab7778a1"
   } ]
 }

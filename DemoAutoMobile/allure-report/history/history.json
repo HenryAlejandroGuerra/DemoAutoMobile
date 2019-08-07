@@ -1,25 +1,5 @@
 {
-  "5a16e15302c157e5fb0290a6d56d5b05" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a6622930868fc332",
-      "status" : "broken",
-      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: Drag did not complete successfully\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.neulion.app.template.ui..., appPackage: sv.com.tigo.tigosports, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.neulion.app.template.ui..., appPackage: sv.com.tigo.tigosports, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: pixel, newCommandTimeout: 300, noReset: true, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 0a93f1bc-e214-4f27-956b-89bd932a7465",
-      "time" : {
-        "start" : 1564786963498,
-        "stop" : 1564787017601,
-        "duration" : 54103
-      }
-    } ]
-  },
-  "6c6f99a1cc5e88c1441b5718ae3bd2ec" : {
+  "c54ae3f4ba1d702b78944073fef27016" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -29,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f142d575abcd41eb",
+      "uid" : "6c273aac4a1ddea5",
       "status" : "passed",
       "time" : {
-        "start" : 1564786896743,
-        "stop" : 1564786963186,
-        "duration" : 66443
+        "start" : 1565220989029,
+        "stop" : 1565221136099,
+        "duration" : 147070
       }
     } ]
   }

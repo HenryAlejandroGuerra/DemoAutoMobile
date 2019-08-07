@@ -15,6 +15,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
+@DisplayName(value = "Tigo Shop")
 @Epic("CU 004 - Show Information Perfil Tab")
 @Feature("Show customer Perfil Information Tab")
 public class CU_004_Show_Information_Perfil_Tab {

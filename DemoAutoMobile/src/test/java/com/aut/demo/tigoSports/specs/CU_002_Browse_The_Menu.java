@@ -15,6 +15,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
+@DisplayName(value = "Tigo Sports")
 @Epic("CU 002 - Browse The Menu")
 @Feature("Browse the entire menu")
 public class CU_002_Browse_The_Menu {

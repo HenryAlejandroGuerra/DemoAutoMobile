@@ -1,16 +1,20 @@
 [
   {
-    "name": "Ignored tests", 
-    "matchedStatuses": ["skipped"] 
+    "name": "Ignored tests",
+    "matchedStatuses": ["skipped"],
+    "messageRegex": ".*ignored.*",
+    "flaky": true
   },
   {
     "name": "Infrastructure problems",
     "matchedStatuses": ["broken", "failed"],
-    "messageRegex": ".*bye-bye.*"
+    "messageRegex": ".*bye-bye.*",
+    "traceRegex": ".*RuntimeException.*"
   },
   {
     "name": "Outdated tests",
     "matchedStatuses": ["broken"],
+    "messageRegex": ".*FileNotFound.*",
     "traceRegex": ".*FileNotFoundException.*"
   },
   {

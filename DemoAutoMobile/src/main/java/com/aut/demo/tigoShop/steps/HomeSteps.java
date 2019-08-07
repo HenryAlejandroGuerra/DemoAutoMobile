@@ -32,4 +32,9 @@ public class HomeSteps {
         home.inHome();
     }
     
+    @Step("Login with the phone number \"{numberPhone}\"")
+    public void LoginWithThePhoneNumber(String numberPhone){
+        home.loginPage().LoginTigoShop(numberPhone);
+    }
+    
 }

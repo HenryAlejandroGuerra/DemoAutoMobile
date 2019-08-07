@@ -47,10 +47,13 @@ public class DriverFactory {
 	cap.setCapability(MobileCapabilityType.APP, app);
         cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, new_command_timeout);
         cap.setCapability(MobileCapabilityType.NO_RESET, true);
+        cap.setCapability(MobileCapabilityType.AUTO_WEBVIEW, true);
+        cap.setCapability("chromedriverExecutable", chromedriver);
+        cap.setCapability("nativeWebScreenshot", true);
         cap.setCapability("autoGrantPermissions", true);
         URL url = new URL(appium_host_url);
         
-        driver = new AndroidDriver<MobileElement>(url, cap);
+        driver = new AndroidDriver(url, cap);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
         factory.init();
@@ -76,7 +79,7 @@ public class DriverFactory {
         cap.setCapability("autoGrantPermissions", true);
         URL url = new URL(appium_host_url);
         
-        driver = new AndroidDriver<MobileElement>(url, cap);
+        driver = new AndroidDriver(url, cap);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         
         factory.init();

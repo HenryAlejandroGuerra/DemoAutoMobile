@@ -5,14 +5,14 @@
     "name" : "Successful tests",
     "children" : [ {
       "children" : [ {
-        "name" : "01 - Show a random news",
-        "uid" : "f142d575abcd41eb",
+        "name" : "01 - Pay the bills",
+        "uid" : "6c273aac4a1ddea5",
         "parentUid" : "008d1cab635699c32c891b417d9dbe0d",
         "status" : "passed",
         "time" : {
-          "start" : 1564786896743,
-          "stop" : 1564786963186,
-          "duration" : 66443
+          "start" : 1565220989029,
+          "stop" : 1565221136099,
+          "duration" : 147070
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,26 +21,5 @@
       "uid" : "008d1cab635699c32c891b417d9dbe0d"
     } ],
     "uid" : "4d58f2092a36f75e4e1b4b34167f1c50"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "An unknown server-side error occurred while processing the command. Original error: Drag did not complete successfully\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'DESKTOP-K4LOO3N', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.neulion.app.template.ui..., appPackage: sv.com.tigo.tigosports, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.neulion.app.template.ui..., appPackage: sv.com.tigo.tigosports, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: pixel, newCommandTimeout: 300, noReset: true, platformName: android, platformVersion: 7.1.1}, deviceApiLevel: 25, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 300, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.1.1, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 0a93f1bc-e214-4f27-956b-89bd932a7465",
-      "children" : [ {
-        "name" : "02 - Show a random news in the Home",
-        "uid" : "a6622930868fc332",
-        "parentUid" : "dd2b11d098c85f7a4cb1593345a2c906",
-        "status" : "broken",
-        "time" : {
-          "start" : 1564786963498,
-          "stop" : 1564787017601,
-          "duration" : 54103
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "dd2b11d098c85f7a4cb1593345a2c906"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
-@DisplayName(value = "Tigo Shop")
+@DisplayName(value = "Tigo Sports")
 @Epic("CU 003 - News")
 @Feature("Show all news")
 public class CU_003_News {

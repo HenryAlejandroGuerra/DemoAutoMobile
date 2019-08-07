@@ -2,46 +2,29 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "CU 003 - News",
+    "name" : "CU 003 - Pay Bill",
     "children" : [ {
-      "name" : "Show all news",
+      "name" : "Open the Tigo Web app and Pay the bills",
       "children" : [ {
-        "name" : "Show a random news",
+        "name" : "Pay the bills",
         "children" : [ {
-          "name" : "01 - Show a random news",
-          "uid" : "f142d575abcd41eb",
-          "parentUid" : "cdc40962013f7e9de5abb06ba0ac8cff",
+          "name" : "01 - Pay the bills",
+          "uid" : "6c273aac4a1ddea5",
+          "parentUid" : "a9d39d8693605240f5095dc9322bd993",
           "status" : "passed",
           "time" : {
-            "start" : 1564786896743,
-            "stop" : 1564786963186,
-            "duration" : 66443
+            "start" : 1565220989029,
+            "stop" : 1565221136099,
+            "duration" : 147070
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "cdc40962013f7e9de5abb06ba0ac8cff"
-      }, {
-        "name" : "Show a random news in the Home",
-        "children" : [ {
-          "name" : "02 - Show a random news in the Home",
-          "uid" : "a6622930868fc332",
-          "parentUid" : "5266c2af99b43deeee35e1a81fb50398",
-          "status" : "broken",
-          "time" : {
-            "start" : 1564786963498,
-            "stop" : 1564787017601,
-            "duration" : 54103
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "5266c2af99b43deeee35e1a81fb50398"
+        "uid" : "a9d39d8693605240f5095dc9322bd993"
       } ],
-      "uid" : "6f1718088727cb3f842986f545197c2b"
+      "uid" : "af37489b1466a85e3d9b193fe175909d"
     } ],
-    "uid" : "895e3af0f05c988b5396f2166d613ed6"
+    "uid" : "698486071cf088df8b8ed32612de659f"
   } ]
 }

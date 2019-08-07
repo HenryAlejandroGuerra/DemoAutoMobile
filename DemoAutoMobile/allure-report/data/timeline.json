@@ -2,38 +2,25 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "DESKTOP-K4LOO3N",
+    "name" : "DESKTOP-C2F8O7H",
     "children" : [ {
-      "name" : "23232@DESKTOP-K4LOO3N.main(1)",
+      "name" : "7412@DESKTOP-C2F8O7H.main(1)",
       "children" : [ {
-        "name" : "01 - Show a random news",
-        "uid" : "f142d575abcd41eb",
-        "parentUid" : "0c7c4306d3cb6d7629516e791d379306",
+        "name" : "01 - Pay the bills",
+        "uid" : "6c273aac4a1ddea5",
+        "parentUid" : "1e6acdb1b2667c2e85722775b938b508",
         "status" : "passed",
         "time" : {
-          "start" : 1564786896743,
-          "stop" : 1564786963186,
-          "duration" : 66443
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "02 - Show a random news in the Home",
-        "uid" : "a6622930868fc332",
-        "parentUid" : "0c7c4306d3cb6d7629516e791d379306",
-        "status" : "broken",
-        "time" : {
-          "start" : 1564786963498,
-          "stop" : 1564787017601,
-          "duration" : 54103
+          "start" : 1565220989029,
+          "stop" : 1565221136099,
+          "duration" : 147070
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0c7c4306d3cb6d7629516e791d379306"
+      "uid" : "1e6acdb1b2667c2e85722775b938b508"
     } ],
-    "uid" : "2a20e0824447a93c48f1426f075c56da"
+    "uid" : "cfb2d0733f6f41c24053a0ab3cad10d6"
   } ]
 }

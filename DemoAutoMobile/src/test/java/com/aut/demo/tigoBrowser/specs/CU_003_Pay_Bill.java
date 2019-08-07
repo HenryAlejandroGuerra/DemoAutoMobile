@@ -8,6 +8,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import javax.swing.JOptionPane;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -15,6 +16,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith({BeforeTestAll.class, AfterTestEach.class, AfterTestAll.class})
+@DisplayName(value = "Tigo Web")
 @Epic("CU 003 - Pay Bill")
 @Feature("Open the Tigo Web app and Pay the bills")
 public class CU_003_Pay_Bill {
@@ -33,10 +35,8 @@ public class CU_003_Pay_Bill {
     @Story("Pay the bills")
     @Description("Pay bills and enter mail")
     void payBills01(){
-        home.payInvoice("example@gmail.com");
-//        allure.attachmentFile("JSON Attachment", "\\src\\test\\resources\\", "allure-json-file.", "json");
-//        allure.attachmentFile("XML Attachment", "\\src\\test\\resources\\", "allure-xml-file.", "xml");
-//        allure.attachmentFile("App Logo", "\\src\\test\\resources\\", "tigo-logo.", "jpg");
+        String email = JOptionPane.showInputDialog("Enter the phone number");
+        home.payInvoice(email);
     }
     
     @AfterEach

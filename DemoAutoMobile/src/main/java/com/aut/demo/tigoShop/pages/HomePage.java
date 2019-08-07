@@ -16,9 +16,13 @@ public class HomePage extends ToolsPage {
     }
     
     public HomePage inHome(){
-        timeWait(15);
-        verifyError();
+        timeWait(10);
         return this;
+    }
+    
+    public LoginPage loginPage(){
+        timeWait(15);
+        return new LoginPage();
     }
     
     public BalancesPage balancesPage(){
@@ -59,11 +63,14 @@ public class HomePage extends ToolsPage {
             timeWait(15);
         }
     
-        if(getText(MAIN_BALANCE).equals("Actualiza para ver tu saldo principal")){
-            System.out.println(getText(MAIN_BALANCE));
-            click(REFRESH);
-            timeWait(15);
-        }            
+        if(exists(MAIN_BALANCE)){
+            if(getText(MAIN_BALANCE).equals("Actualiza para ver tu saldo principal")){
+                System.out.println(getText(MAIN_BALANCE));
+                click(REFRESH);
+                timeWait(15);
+            }
+        }
+                    
     }
     
 }

@@ -1,17 +1,6 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
-    "uid" : "bdbf199525818fae7a8651db9eafe741",
-    "name" : "Test defects",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "4d58f2092a36f75e4e1b4b34167f1c50",
     "name" : "Successful tests",
     "statistic" : {

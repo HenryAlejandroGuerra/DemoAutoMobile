@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "895e3af0f05c988b5396f2166d613ed6",
-    "name" : "CU 003 - News",
+    "uid" : "698486071cf088df8b8ed32612de659f",
+    "name" : "CU 003 - Pay Bill",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

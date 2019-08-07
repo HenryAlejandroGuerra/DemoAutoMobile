@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "753c63e3e683159aca4c3026c9627955",
-    "name" : "Tigo Shop",
+    "uid" : "37a802d125825625a4cd0bd8ab7778a1",
+    "name" : "Tigo Web",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     }
   } ]
 }

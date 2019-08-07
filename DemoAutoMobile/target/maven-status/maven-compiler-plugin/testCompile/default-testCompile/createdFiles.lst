@@ -1,14 +1,10 @@
 com\aut\demo\tigoBrowser\specs\CU_001_Login_Page.class
 com\aut\demo\tigoBrowser\specs\CU_003_Pay_Bill.class
-com\aut\demo\allureReportUtils\BeforeTestAll.class
 com\aut\demo\tigoSports\specs\CU_002_Browse_The_Menu.class
-com\aut\demo\allureReportUtils\AfterTestEach.class
 com\aut\demo\tigoShop\specs\CU_002_Show_Balances.class
 com\aut\demo\tigoShop\specs\CU_003_Show_Shopping_Offers.class
 com\aut\demo\tigoShop\specs\CU_001_Login_Page.class
 com\aut\demo\tigoSports\specs\CU_003_News.class
 com\aut\demo\tigoShop\specs\CU_004_Show_Information_Perfil_Tab.class
-com\aut\demo\allureReportUtils\AfterTestAll.class
-com\aut\demo\allureReportUtils\AllureReport.class
 com\aut\demo\tigoBrowser\specs\CU_002_Show_Information.class
 com\aut\demo\tigoSports\specs\CU_001_Login_Page.class

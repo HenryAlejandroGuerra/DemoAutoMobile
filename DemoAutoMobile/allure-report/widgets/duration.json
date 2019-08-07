@@ -1,20 +1,10 @@
 [ {
-  "uid" : "a6622930868fc332",
-  "name" : "02 - Show a random news in the Home",
+  "uid" : "6c273aac4a1ddea5",
+  "name" : "01 - Pay the bills",
   "time" : {
-    "start" : 1564786963498,
-    "stop" : 1564787017601,
-    "duration" : 54103
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "f142d575abcd41eb",
-  "name" : "01 - Show a random news",
-  "time" : {
-    "start" : 1564786896743,
-    "stop" : 1564786963186,
-    "duration" : 66443
+    "start" : 1565220989029,
+    "stop" : 1565221136099,
+    "duration" : 147070
   },
   "status" : "passed",
   "severity" : "normal"
